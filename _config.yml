@@ -1,0 +1,35 @@
+title: Manuale Enti GeoTecSUE
+description: Guida operativa per gli uffici degli Enti all'utilizzo del back office di GeoTecSUE
+
+url: "https://geotecsue-docs.github.io"
+baseurl: "/manuale-enti"
+
+remote_theme: pmarsceill/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+
+# Just the Docs settings
+color_scheme: dark
+search_enabled: true
+
+# Sidebar
+nav_sort: case_sensitive
+
+# Riquadri per le schermate ancora da inserire: {: .schermata }
+callouts:
+  note:
+    title: Nota
+    color: blue
+  warning:
+    title: Attenzione
+    color: red
+  schermata:
+    title: Schermata da inserire
+    color: purple
+
+# Footer
+footer_content: '© GeoTecSUE · <a href="/manuale-enti/changelog/">Changelog</a>'
+
+locale: it-IT
+timezone: Europe/Rome
