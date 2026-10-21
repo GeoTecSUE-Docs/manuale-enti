@@ -70,11 +70,11 @@ Le voci **Impostazioni** e **Gestione Pratiche** aprono un sottomenu; le altre a
 | Voce di menu | A cosa serve | Visibile | Pagina del manuale |
 |--------------|--------------|----------|--------------------|
 | **Pratiche e comunicazioni trasmesse** | Elenco delle pratiche e comunicazioni inviate dai professionisti | Sempre | [Pratiche trasmesse](pratiche-trasmesse.html) |
-| **Pratiche Importate** | Pratiche importate dal gestionale dell'Ente | Solo se l'Ente usa le pratiche importate | [Pratiche importate](pratiche-importate.html) |
+| **Pratiche Importate** | Pratiche importate dal gestionale dell'Ente | Solo se l'Ente ha attivato la possibilità di importare le pratiche pregresse | [Pratiche importate](pratiche-importate.html) |
 | **Pratiche In corso** | Pratiche ancora in compilazione da parte dei professionisti | Sempre | [Pratiche in corso](pratiche-in-corso.html) |
 | **Notifiche Preliminari** | Notifiche preliminari ricevute | Solo se l'Ente gestisce le notifiche preliminari | [Notifiche preliminari](notifiche-preliminari.html) |
-| **Gestione Protocollazione** | Protocollazione delle pratiche da parte dell'Ente | Solo se l'Ente protocolla le pratiche senza collegamento automatico al protocollo <!-- DA VERIFICARE: significato esatto dell'impostazione che fa comparire la voce (protocollazione "senza Egisto"). --> | [Gestione protocollazione](gestione-protocollazione.html) |
-| **Gestione Richieste Importazione** | Richieste dei professionisti di collegare pratiche del gestionale | Solo se nella [Scheda Ente](scheda-ente.html#opzioni) **Collegamento pratiche Sequoia su SUE** è **Attivo con conferma dell'Ente** | [Richieste di importazione](richieste-importazione.html) |
+| **Gestione Protocollazione** | Protocollazione delle pratiche da parte dell'Ente | Solo se l'Ente protocolla le pratiche senza collegamento automatico al protocollo (non ha il protocollo di **SISCOM**) | [Gestione protocollazione](gestione-protocollazione.html) |
+| **Gestione Richieste Importazione** |  Se l'Ente ha attivato la possibilità di importare le pratiche pregresse ma vuole dare conferma prima dell'importazione | Solo se nella [Scheda Ente](scheda-ente.html#opzioni) **Collegamento pratiche Sequoia su SUE** è **Attivo con conferma dell'Ente** | [Richieste di importazione](richieste-importazione.html) |
 | **Trasmissioni Regione Lombardia** | Trasmissioni dei dati alla Regione | Solo per gli Enti della Regione Lombardia | [Trasmissioni Regione Lombardia](trasmissioni-regione-lombardia.html) |
 
 {: .note }
@@ -82,7 +82,7 @@ Le voci **Impostazioni** e **Gestione Pratiche** aprono un sottomenu; le altre a
 
 ## Spinner di caricamento
 
-Quando una pagina si sta caricando o un'operazione è in corso, la pagina viene coperta da uno sfondo bianco con un **cerchio blu che gira** al centro.
+Quando una pagina si sta caricando o un'operazione è in corso, la pagina viene coperta da uno sfondo bianco con un **cerchio rosso che gira** al centro.
 
 Lo spinner compare quando:
 - apri una pagina dal menu;
@@ -173,7 +173,7 @@ Le pagine di dettaglio (pratica, pratica importata, notifica preliminare) hanno 
 - il badge colorato dello stato;
 - il pulsante **Ritorna** (freccia a sinistra), che riporta all'elenco da cui sei partito con i filtri che avevi impostato.
 
-Sotto l'intestazione può comparire una card gialla **Da fare su questa pratica** con le azioni che l'Ente deve compiere. Il resto delle informazioni è diviso in **schede** (es. **Pratica**, **Soggetti**, **Documenti**, **Ente**, **Comunicazioni**, **Ricevute**, **Pagamenti**, **Storico**): clicca sul nome di una scheda per aprirla. Il back office ricorda l'ultima scheda aperta per ciascuna pratica finché la scheda del browser resta aperta. I dettagli sono descritti in [Dettaglio della pratica](dettaglio-pratica.html).
+Il resto delle informazioni è diviso in **schede** (es. **Pratica**, **Soggetti**, **Documenti**, **Ente**, **Comunicazioni**, **Ricevute**, **Pagamenti**, **Storico**): clicca sul nome di una scheda per aprirla. Il back office ricorda l'ultima scheda aperta per ciascuna pratica finché la scheda del browser resta aperta. I dettagli sono descritti in [Dettaglio della pratica](dettaglio-pratica.html).
 
 {: .note }
 > Usa **Ritorna** invece del pulsante "Indietro" del browser: così l'elenco viene ricaricato con i filtri e i dati aggiornati.
@@ -184,7 +184,7 @@ Lo stato di pratiche e comunicazioni è mostrato con un **badge colorato**, ugua
 
 | Colore | Stati | Significato |
 |--------|-------|-------------|
-| **Arancione** | Inviata, Inviata SPRESALWEB | Arrivata all'Ente, da prendere in carico |
+| **Arancione** | Inviata, Inviata SPRESALWEB | Arrivata all'Ente, da prendere in carico sul gestionale **Sequoia** (non nel caso di SPRESALWEB) |
 | **Azzurro** | Protocollata | Protocollata, in lavorazione |
 | **Giallo** | Richiesta Integrazioni, Richiesta Archiviazione, Invio Integrazioni | In attesa di un'azione (del professionista o dell'Ente) |
 | **Verde** | Esecutiva, Verificata, Protocollata SPRESALWEB | Conclusa positivamente |
