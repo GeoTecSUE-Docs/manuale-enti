@@ -25,8 +25,7 @@ Dal menu in alto scegli **Impostazioni › News**.
 
 Si apre la pagina **Gestione News** con l'elenco delle news dell'Ente.
 
-{: .schermata }
-> `assets/images/news-elenco.png` — La pagina Gestione News con l'elenco delle news, i badge Priorità e Attiva e i pulsanti di modifica ed eliminazione.
+![La pagina Gestione News con il pulsante Nuova news, l'elenco delle news, i badge Priorità e Attiva e i pulsanti di modifica ed eliminazione](../assets/images/news-elenco.png)
 
 ## Elenco delle news
 
@@ -102,7 +101,7 @@ Il campo **Testo** è un editor di testo in formato Markdown. La barra degli str
 | Pulsante | Effetto |
 |----------|---------|
 | **Grassetto**, **Corsivo** | Formattazione del testo selezionato |
-| **Titolo** | Trasforma la riga in un titolo |
+| **Titolo** (H2) | Trasforma la riga in un titolo |
 | **Elenco puntato**, **Elenco numerato** | Crea un elenco |
 | **Citazione** | Rientra il testo come citazione |
 | **Link** | Chiede l'**Indirizzo del link:** e lo inserisce |
@@ -110,8 +109,7 @@ Il campo **Testo** è un editor di testo in formato Markdown. La barra degli str
 | **Anteprima** | Mostra il testo come apparirà formattato; clicca di nuovo per tornare alla scrittura |
 | **Annulla**, **Ripeti** | Annulla o ripete l'ultima modifica |
 
-{: .schermata }
-> `assets/images/news-finestra-modifica.png` — La finestra Modifica news con i campi principali, l'editor del testo con la barra degli strumenti e la sezione Allegati.
+![La finestra Modifica news con i campi principali, l'editor del testo con la barra degli strumenti e la sezione Allegati](../assets/images/news-finestra-modifica.png)
 
 ## Modificare una news
 
