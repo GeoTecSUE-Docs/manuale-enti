@@ -13,7 +13,7 @@ Fonte: Manuale Enti
 
 Questa sezione spiega come configurare la casella di Posta Elettronica Certificata (PEC) dell'Ente, cioè la casella da cui GeoTecSUE invia le notifiche via PEC ai professionisti.
 
-La casella configurata qui viene usata quando, nella [Scheda Ente](scheda-ente.html), il campo **Tipo notifica** è impostato su **PEC** oppure su **Entrambe**. In questi casi le notifiche ai professionisti (ad esempio la protocollazione di una pratica) partono, oltre o invece della mail normale, dalla casella PEC dell'Ente verso l'indirizzo PEC del professionista.
+La casella configurata qui viene usata quando, nella [Scheda Ente](scheda-ente.html), il campo **Tipo notifica** è impostato su **PEC** oppure su **Entrambe**. In questi casi le notifiche ai professionisti (ad esempio la protocollazione di una pratica) partono dalla casella PEC dell'Ente verso l'indirizzo PEC del professionista: al posto della mail normale con **PEC**, in aggiunta alla mail normale con **Entrambe**.
 
 {: .note }
 > Ogni Ente ha **una sola** casella PEC. La pagina mostra sempre la configurazione corrente: se non ne esiste ancora una, i campi sono vuoti e salvando la crei.
@@ -24,8 +24,7 @@ Dal menu in alto scegli **Impostazioni › Configurazioni PEC**.
 
 La pagina si intitola **Configurazione Posta Elettronica Certificata** e contiene un'unica scheda, **Casella PEC dell'ente**.
 
-{: .schermata }
-> `assets/images/configurazioni-pec-panoramica.png` — La scheda "Casella PEC dell'ente" compilata, con il badge "Configurata" e i pulsanti in basso.
+![La scheda "Casella PEC dell'ente" compilata, con il badge "Configurata" e i pulsanti in basso](../assets/images/configurazioni-pec-panoramica.png)
 
 ## Stato della configurazione
 
@@ -104,8 +103,7 @@ Quando la casella è configurata, in basso compare il pulsante **Invia messaggio
 {: .note }
 > Il messaggio di prova viene inviato a un indirizzo di verifica predefinito, mostrato accanto al pulsante, e non a una casella dell'Ente. Serve a verificare che i parametri di invio siano corretti.
 
-{: .schermata }
-> `assets/images/configurazioni-pec-prova.png` — La parte bassa della scheda con il pulsante "Invia messaggio di prova" e l'indirizzo del destinatario di prova.
+![La parte bassa della scheda con il pulsante "Invia messaggio di prova" e l'indirizzo del destinatario di prova](../assets/images/configurazioni-pec-prova.png)
 
 ## Eliminare la configurazione
 
