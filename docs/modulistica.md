@@ -50,8 +50,6 @@ Clicca sul badge nella colonna **Attivo**: il valore si inverte e compare la not
 
 Un modello attivo è **disponibile per il download**; uno disattivato resta nell'elenco ma non viene proposto.
 
-<!-- DA VERIFICARE: dal codice non si vede dove il professionista scarichi i modelli attivi (ad esempio accanto all'allegato collegato in fase di compilazione). -->
-
 ## Aggiungere un nuovo modello
 
 1. Clicca su **Nuovo modello**, in alto a destra nel riquadro **Modelli**.
