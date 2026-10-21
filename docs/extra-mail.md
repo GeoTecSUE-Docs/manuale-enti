@@ -26,8 +26,6 @@ Gli indirizzi di Extra Mail:
 - **non** ricevono le mail rivolte al professionista;
 - ricevono solo le mail delle pratiche del **Comune** a cui sono associati.
 
-<!-- DA VERIFICARE: nel codice esaminato la copia agli Extra Mail è visibile solo per l'evento "Invio IUV da portale a ente"; confermare quali altri eventi "All'ente" (es. Invio pratica) la prevedono -->
-
 {: .note }
 > Le mail agli indirizzi aggiuntivi sono mail normali, non PEC.
 
