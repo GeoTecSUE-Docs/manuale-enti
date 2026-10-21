@@ -35,7 +35,8 @@ Nella card **Comunicazione**:
 
 Sotto compare la card **Pratiche in cui è disponibile:** seguita dal nome della comunicazione.
 
-Il menu elenca, in ordine alfabetico, i tipi attivi per l'Ente con tipologia **Comunicazione** (vedi [Tipi pratiche](tipi-pratiche.html#tipologia)). <!-- DA VERIFICARE: il filtro sulla tipologia Comunicazione è dedotto dai parametri della lettura, non esplicito --> Se non ce ne sono compare il messaggio **Nessuna comunicazione attiva: le comunicazioni si attivano da Gestione Tipologie Pratiche.**
+Il menu elenca, in ordine alfabetico, i tipi attivi per l'Ente con tipologia **Comunicazione** (vedi [Tipi pratiche](tipi-pratiche.html#tipologia)). 
+Se non ce ne sono compare il messaggio **Nessuna comunicazione attiva: le comunicazioni si attivano da Gestione Tipologie Pratiche.**
 
 Per svuotare la scelta clicca sulla **x** nel menu: la card delle pratiche scompare.
 
@@ -52,7 +53,7 @@ La card mostra tutti i tipi di pratica attivi per l'Ente, in ordine alfabetico. 
 | **Attiva** | Badge **Sì** (verde): la comunicazione è disponibile in questa pratica. Badge **No** (grigio): non è disponibile |
 
 {: .note }
-> La Notifica Preliminare non compare in questo elenco.
+> La Notifica Preliminare (pratica esclusiva della Regione Piemonte) non compare in questo elenco.
 
 Se l'Ente non ha pratiche attive compare il messaggio **Nessuna pratica attiva.**
 
@@ -66,7 +67,7 @@ La modifica è salvata subito: compare la notifica **Comunicazione attivata** op
 {: .warning }
 > Le modifiche hanno effetto subito sul portale dei professionisti: togliendo una comunicazione da un tipo di pratica, i professionisti non potranno più avviarla da quelle pratiche.
 
-L'effetto della disattivazione sulle comunicazioni dello stesso tipo già in compilazione non è indicato in questa pagina. <!-- DA VERIFICARE: cosa succede alle comunicazioni già avviate dal professionista quando l'Ente disattiva il collegamento -->
+Nel caso in cui venga disattivata una comunicazione già in compilazione (come nel caso delle pratiche) non ha effetto (il professionista potrà trasmetterla).
 
 ## Ripristinare le impostazioni predefinite
 
