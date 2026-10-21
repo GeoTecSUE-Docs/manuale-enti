@@ -25,8 +25,7 @@ Si apre la pagina **Gestione Tipologie Pratiche**, divisa in due card: **Pratich
 
 Entrambe le tabelle hanno la casella **Cerca**, l'ordinamento per colonna e la paginazione descritti in [Interfaccia e convenzioni](interfaccia-e-convenzioni.html).
 
-{: .schermata }
-> `assets/images/tipi-pratiche-elenco.png` — La pagina Gestione Tipologie Pratiche con le card Pratiche attive e Pratiche disattive.
+![La pagina Gestione Tipologie Pratiche con le card Pratiche attive e Pratiche disattive](../assets/images/tipi-pratiche-elenco.png)
 
 ## Pratiche attive
 
@@ -35,13 +34,13 @@ Entrambe le tabelle hanno la casella **Cerca**, l'ordinamento per colonna e la p
 | **Tipo pratica** | Nome del tipo di pratica |
 | **Descrizione** | Descrizione estesa del tipo di pratica (normalmente comprende anche la Regione di appartenenza) |
 | **Acronimo** | Sigla della pratica (es. CILA, SCIA) |
-| **Tipologia** | Badge **Pratica** e/o **Comunicazione** (o entrambi) |
-| **Cittadino** | Icona verde se il cittadino può trasmettere la pratica; trattino se no |
-| **Bollo** | Importo del bollo, se la pratica è in bollo |
+| **Tipologia** | Badge **Pratica**, **Comunicazione** o entrambi |
+| **Cittadino** | Icona verde se la pratica può essere trasmessa anche da un cittadino; trattino se no |
+| **Bollo** | Importo del bollo se la pratica è in bollo; trattino se no |
 | *(pulsanti)* | Matita (**Impostazioni della pratica**) e cerchio barrato (**Disattiva la pratica**) |
 
 {: .note }
-> La riga evidenziata in giallo indica una pratica che è trasmissibile da un cittadino.
+> Le righe evidenziate in giallo sono le pratiche che possono essere trasmesse anche da un cittadino (icona verde nella colonna **Cittadino**).
 
 ### Disattivare una pratica
 
@@ -50,10 +49,11 @@ Entrambe le tabelle hanno la casella **Cerca**, l'ordinamento per colonna e la p
 3. Clicca su **Disattiva** per confermare, oppure su **Annulla**.
 
 La pagina si ricarica, compare la notifica **Pratica disattivata** e la pratica passa nella card **Pratiche disattive**.
-Se un professionista aveva in compilazione quella tipologia, può comunque ancora procedere con la trasmissione.
+
+Da quel momento i professionisti non possono più **creare** nuove pratiche di quel tipo. Le pratiche di quel tipo che stanno già compilando non vengono bloccate: possono completarle e trasmetterle.
 
 {: .warning }
-> Dopo la disattivazione la pratica non è più disponibile per i professionisti. Come indica la finestra di conferma, se la riattivi in seguito le impostazioni personalizzate (bollo, descrizione, tipi di intervento) potrebbero dover essere reimpostate.
+> Come indica la finestra di conferma, se in seguito riattivi la pratica le impostazioni personalizzate (bollo, descrizione, tipi di intervento) potrebbero dover essere reimpostate, e gli allegati e i modelli tornano a quelli della configurazione di base (vedi [Attivare una pratica](#attivare-una-pratica)).
 
 ## Pratiche disattive
 
@@ -74,7 +74,7 @@ Il badge **Non attivabile** (con il lucchetto) indica che manca un prerequisito.
 | Motivo | Cosa fare |
 |--------|-----------|
 | **Occorre prima impostare la zona UNESCO dell'ente.** | Imposta la zona UNESCO nella [Scheda Ente](scheda-ente.html) |
-| **Occorre prima attivare la trasmissione al MUDE.** | Attiva la trasmissione al MUDE per l'Ente (da definire con assistenza **SISCOM** |
+| **Occorre prima attivare la trasmissione al MUDE.** | Attiva la trasmissione al MUDE per l'Ente (da concordare con l'assistenza **SISCOM**) |
 
 ### Attivare una pratica
 
@@ -109,8 +109,7 @@ La pagina si ricarica e compare la notifica **Impostazioni salvate**. Con **Chiu
 {: .note }
 > Le modifiche ai **Tipi di intervento** vengono salvate subito, al clic sul badge. Tutte le altre impostazioni vengono salvate solo con **Salva**.
 
-{: .schermata }
-> `assets/images/tipi-pratiche-impostazioni.png` — La finestra delle impostazioni di una pratica con le sezioni Bollo, Tipologia, Trasmissione, Tipi di intervento e Descrizione.
+![La finestra delle impostazioni di una pratica con le sezioni Bollo, Tipologia, Trasmissione, Tipi di intervento e Descrizione](../assets/images/tipi-pratiche-impostazioni.png)
 
 ### Bollo
 
@@ -121,29 +120,31 @@ La pagina si ricarica e compare la notifica **Impostazioni salvate**. Con **Chiu
 
 Se l'interruttore è acceso l'importo deve essere maggiore di zero, altrimenti compare il messaggio **Indicare un valore del bollo valido (maggiore di zero).** Se spegni l'interruttore e salvi, il bollo viene tolto dalla pratica.
 
-Dal punto di vista del professionista, il bollo indica che la pratica è soggetta all'imposta di bollo per l'importo impostato.
+Dal punto di vista del professionista, una pratica in bollo richiede il pagamento dell'imposta di bollo per l'importo indicato qui.
 
 ### Tipologia
 
 | Interruttore | Significato |
 |--------------|-------------|
-| **Pratica** | Il tipo è utilizzabile come pratica autonoma |
-| **Comunicazione** | Il tipo è utilizzabile come comunicazione collegata a una pratica; compare nell'elenco della pagina [Comunicazioni](comunicazioni.html) |
+| **Pratica** | Il professionista può presentarlo come nuova pratica: compare nell'elenco delle *Nuove istanze* |
+| **Comunicazione** | Il professionista può presentarlo come comunicazione collegata a una pratica già esistente; compare nell'elenco della pagina [Comunicazioni](comunicazioni.html) |
+
+Se li accendi entrambi, il tipo compare sia nell'elenco delle *Nuove istanze* sia tra le comunicazioni delle pratiche a cui è collegato.
 
 Almeno uno dei due deve essere acceso, altrimenti compare il messaggio **Selezionare almeno una tipologia: Pratica e/o Comunicazione.**
-Se entrambi vengono selezionati la pratica comparirà sia nell'elenco delle *Nuove istanze* che nelle comunicazioni impostate.
 
 ### Trasmissione
 
-L'interruttore **Consenti la trasmissione della pratica al cittadino** indica che la pratica può essere trasmessa anche da un cittadino; nell'elenco delle pratiche attive la colonna **Cittadino** mostra l'icona verde.
-La trasmissione **del cittadino** significa che non richiede la firma digitale su allegati ed istanza.
+Se accendi l'interruttore **Consenti la trasmissione della pratica al cittadino**, la pratica può essere trasmessa anche direttamente da un cittadino, oltre che da un professionista. Quando la trasmette un cittadino, **non è richiesta la firma digitale** sull'istanza e sugli allegati.
+
+Nell'elenco delle pratiche attive queste pratiche hanno l'icona verde nella colonna **Cittadino** e la riga evidenziata in giallo.
 
 ### Tipi di intervento
 
-La tabella elenca tutti i tipi di intervento (ad esempio Manutenzione straordinaria, Ristrutturazione edilizia) con il badge **Attivo**:
+La tabella elenca tutti i tipi di intervento (ad esempio Manutenzione straordinaria, Ristrutturazione edilizia). Il badge nella colonna **Attivo** indica se il tipo di intervento è disponibile per questa pratica; cliccalo per cambiarlo:
 
-1. Clicca su **No** per rendere disponibile il tipo di intervento per questa pratica.
-2. Clicca su **Sì** per toglierlo.
+- da **No** a **Sì**: il tipo di intervento diventa disponibile;
+- da **Sì** a **No**: il tipo di intervento viene tolto.
 
 La modifica è salvata subito e compare la notifica **Tipo di intervento attivato** oppure **Tipo di intervento disattivato**.
 
@@ -158,16 +159,17 @@ Campo di testo libero con la descrizione della pratica per il tuo Ente. Alla pri
 
 ## Attivazioni per Comune
 
-Per gli Enti che comprendono più Comuni (ad esempio le Unioni), nella card **Pratiche attive** compare il pulsante **Attivazioni per comune**, che permette di disattivare una pratica solo per alcuni Comuni. 
+Per gli Enti che comprendono più Comuni (ad esempio le Unioni), nella card **Pratiche attive** compare il pulsante **Attivazioni per comune**, che permette di disattivare una pratica solo per alcuni Comuni.
 
 1. Clicca su **Attivazioni per comune**.
 2. Nella finestra **Attivazioni per comune** scegli il **Comune** dal menu (**--- Seleziona il comune ---**).
-3. Compare l'elenco delle pratiche attive dell'Ente con il badge **Attiva** per quel Comune.
-4. Clicca su **Sì** per disattivare la pratica in quel Comune, su **No** per riattivarla.
+3. Compare l'elenco delle pratiche attive dell'Ente. Il badge **Attiva** indica se ogni pratica è attiva in quel Comune.
+4. Clicca sul badge per cambiarlo: da **Sì** a **No** disattivi la pratica in quel Comune, da **No** a **Sì** la riattivi.
 
 Le modifiche vengono salvate subito; compare la notifica **Pratica disattivata per il comune** oppure **Pratica attivata per il comune**, con il nome della pratica e del Comune. Clicca su **Chiudi** quando hai finito.
 
-Dal punto di vista del professionista, una pratica disattivata per un Comune non è selezionabile per gli interventi in quel Comune. 
+Dal punto di vista del professionista, una pratica disattivata per un Comune non è selezionabile per gli interventi in quel Comune.
+
 ## Collegamenti utili
 
 - [Comunicazioni](comunicazioni.html): in quali pratiche è disponibile ogni comunicazione.
