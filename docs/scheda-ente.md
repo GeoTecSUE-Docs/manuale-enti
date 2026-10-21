@@ -31,8 +31,7 @@ La pagina ha il titolo **Impostazioni ente** ed è divisa in card:
 | **Stampa allegati** | Generazione e scaricamento dei PDF con la lista degli allegati |
 | **Versione e manuale** | Versione del sistema e manuale dell'Ente |
 
-{: .schermata }
-> `assets/images/scheda-ente-panoramica.png` — La Scheda Ente con le card Dati dell'ente e Opzioni e i pulsanti Annulla modifiche e Salva dati.
+![La Scheda Ente: il logo, la card Opzioni con i pulsanti Annulla modifiche e Salva dati e, sotto, le card Toponimi, Aggiornamento del sistema, Stampa allegati e Versione e manuale](../assets/images/scheda-ente-panoramica.png)
 
 {: .warning }
 > Le modifiche alle card **Dati dell'ente** e **Opzioni** si salvano insieme con il pulsante **Salva dati**, che si trova in fondo alla card **Opzioni**. Se cambi un dato e apri un'altra pagina senza salvare, la modifica va persa. Il logo, invece, si salva subito con **Carica logo**.
@@ -54,7 +53,7 @@ I campi con l'asterisco rosso **\*** sono obbligatori.
 | **Indirizzo informativa privacy** | Indirizzo web dell'informativa sul trattamento dei dati personali. |
 | **Responsabile del trattamento dei dati** | Nome del responsabile del trattamento. |
 | **Mail del responsabile del trattamento** | E-mail del responsabile del trattamento. |
-| **Dicitura firma ricevuta** | Testo che compare come firma nella ricevuta di registrazione rilasciate al professionista. |
+| **Dicitura firma ricevuta** | Testo che compare come firma nella ricevuta di registrazione rilasciata al professionista. |
 
 ### Sito pubblico
 
@@ -96,8 +95,7 @@ Il riquadro diventa verde e riporta *"PNRR – Autorizzazione all'accesso ai dat
 
 La card **Opzioni** contiene gli interruttori che regolano il comportamento del portale per i professionisti e per il collegamento con il gestionale Sequoia. Un interruttore spostato a destra (colorato) indica che l'opzione è attiva.
 
-{: .schermata }
-> `assets/images/scheda-ente-opzioni.png` — La card Opzioni con gli interruttori, le tendine Collegamento pratiche Sequoia su SUE, Tipo notifica, Zona UNESCO e il campo Limite dimensione file.
+![La card Opzioni con gli interruttori, le tendine Collegamento pratiche Sequoia su SUE, Tipo notifica e Zona UNESCO e il campo Limite dimensione file](../assets/images/scheda-ente-opzioni.png)
 
 ### Interruttori
 
@@ -114,7 +112,7 @@ La card **Opzioni** contiene gli interruttori che regolano il comportamento del 
 | **Associa su Sequoia la variante indicata dal professionista** | Quando il professionista indica che la pratica è una variante, il collegamento alla pratica originale viene riportato anche in Sequoia. |
 | **Proponi al professionista le pratiche da associare alla SCA (e acquisiscile su Sequoia)** | Nella Segnalazione Certificata di Agibilità il professionista può scegliere le pratiche a cui si riferisce; il collegamento viene acquisito in Sequoia. |
 | **Scarica la ricevuta di invio** | Tra i documenti che vengono allegati alla pratica in fase di scarico su Sequoia, viene inserita anche la ricevuta di invio della pratica stessa. |
-| **Inserisci la pagina di riepilogo sull'istanza** | Aggiunge una pagina di riepilogo al PDF dell'istanza. Non compare per gli Enti della Regione Lombardia (viene utilizzato il *Modulo Unico Titolare* |
+| **Inserisci la pagina di riepilogo sull'istanza** | Aggiunge una pagina di riepilogo al PDF dell'istanza. Non compare per gli Enti della Regione Lombardia (viene utilizzato il *Modulo Unico Titolare*). |
 | **Inserisci Responsabili su Ricevuta Registrazione** | Riporta i responsabili (es. del procedimento) sulla ricevuta di registrazione inviata al professionista. |
 | **Attiva consultazione Online** | Attiva la consultazione online delle pratiche (vedi [Consultazione](consultazione.html)). È modificabile solo se per l'Ente è configurato il collegamento web con Sequoia; altrimenti è spenta e grigia. |
 
@@ -167,9 +165,27 @@ Ricevi la notifica *"Toponimi di … cancellati"* e il conteggio nella tendina s
 
 La card indica la data dell'**Ultimo aggiornamento**, oppure *In aggiornamento* se un aggiornamento è in corso.
 
-Il pulsante **Aggiorna sistema** aggiorna la configurazione del tuo Ente con il sistema base (allegati base) predisposto centralmente.
+Il pulsante **Aggiorna sistema** riporta la configurazione degli **allegati** e della **modulistica** del tuo Ente a quella del sistema base, predisposta centralmente.
 
-Per avviare l'aggiornamento:
+{: .warning }
+> **L'aggiornamento cancella tutte le modifiche fatte manualmente dall'Ente sugli allegati e sulla modulistica.**
+>
+> La configurazione viene sostituita con quella base: tutto ciò che l'Ente ha aggiunto o cambiato a mano nelle pagine [Allegati](allegati.html), [Allegati in pratica](allegati-in-pratica.html) e [Modulistica](modulistica.html) **va perso e non si può recuperare**. Ad esempio:
+>
+> - l'**obbligatorietà** di un allegato modificata rispetto a quella base (un allegato reso obbligatorio o facoltativo);
+> - le **nuove associazioni** di un allegato a un tipo di pratica;
+> - i **nuovi allegati** creati dall'Ente;
+> - i **nuovi moduli** caricati nella modulistica.
+>
+> Dopo l'aggiornamento queste modifiche vanno **rifatte a mano**.
+
+### Prima di aggiornare
+
+1. Avvia l'aggiornamento solo se serve davvero, ad esempio su indicazione dell'assistenza.
+2. Annota le modifiche fatte dal tuo Ente su allegati e modulistica. Per gli allegati puoi generare e scaricare i PDF della card [Stampa allegati](#stampa-allegati): fotografano la configurazione attuale e ti servono come promemoria per rifare le modifiche.
+3. Scegli un momento di scarso utilizzo del portale: durante e subito dopo l'aggiornamento i professionisti trovano la configurazione base.
+
+### Avviare l'aggiornamento
 
 1. Clicca su **Aggiorna sistema**.
 2. Nella finestra **Aggiornamento del sistema** leggi la domanda *"Procedere con l'aggiornamento del sistema con gli allegati base?"*.
@@ -179,9 +195,9 @@ Ricevi la notifica *"Aggiornamento avviato"* e la card mostra *In aggiornamento*
 
 Se un aggiornamento è già in corso compare il messaggio *"Sistema attualmente in aggiornamento: attendere il completamento"*.
 
-{: .warning }
-> Avvia l'aggiornamento solo se sei sicuro di volerlo fare (ad esempio su indicazione dell'assistenza): modifica la configurazione usata dal portale dei professionisti.
-> L'aggiornamento del sistema **cancella tutte le modifiche effettuate manualmente sugli allegati**: ad esempio, se era stato aggiunto manualmente un allegato a una certa pratica, se era stata modificata l'obbligatorietà dell'allegato, ecc...
+### Dopo l'aggiornamento
+
+Quando la card mostra la nuova data di **Ultimo aggiornamento**, controlla le pagine [Allegati](allegati.html), [Allegati in pratica](allegati-in-pratica.html) e [Modulistica](modulistica.html) e rifai le modifiche annotate.
 
 ## Stampa allegati
 
