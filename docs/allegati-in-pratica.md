@@ -82,8 +82,6 @@ Clicca sul badge nella colonna **Firma digitale**: il valore si inverte e compar
 
 4. Clicca su **Salva**: compare la notifica **Allegato salvato**.
 
-<!-- DA VERIFICARE: dal codice la condizione di obbligatorietà è solo un testo descrittivo; non risulta un controllo automatico. Verificare come e dove viene mostrata al professionista. -->
-
 ### Disattivare un allegato per la pratica
 
 1. Clicca sul pulsante rosso (cerchio barrato) nella riga dell'allegato.
@@ -121,12 +119,8 @@ Il secondo riquadro elenca gli allegati del catalogo che **non** sono richiesti 
 
 L'allegato passa tra gli **Allegati attivi** come **facoltativo** e **senza firma digitale**, con un tipo di file predefinito. Compare la notifica "Allegato attivato – Ora puoi impostare obbligatorietà, firma e tipo di file.": completa quindi le impostazioni come descritto sopra.
 
-<!-- DA VERIFICARE: il tipo di file assegnato di default all'attivazione è un valore fisso dell'elenco tipi di file; verificare quale (es. PDF). -->
-
 {: .warning }
-> Le modifiche di questa pagina cambiano subito gli allegati richiesti ai professionisti per quel tipo di pratica.
-
-<!-- DA VERIFICARE: non è chiaro dal codice se le modifiche abbiano effetto anche sulle istanze già in compilazione o solo su quelle create dopo. -->
+> Le modifiche di questa pagina cambiano subito gli allegati richiesti ai professionisti per quel tipo di pratica, ma per una pratica in compilazione vale la regola di sempre: le impostazioni con cui è partito NON vengono modificate
 
 ## Pagine collegate
 
