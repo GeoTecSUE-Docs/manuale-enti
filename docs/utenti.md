@@ -14,7 +14,7 @@ Fonte: Manuale Enti
 Questa sezione spiega come gestire gli **utenti in consultazione** dell'Ente: le credenziali (username e password) con cui una persona può accedere alla consultazione delle pratiche, limitata eventualmente a un solo Comune.
 
 {: .note }
-> Gli utenti in consultazione non sono operatori del back office: servono solo per accedere alla consultazione. Le impostazioni di cosa è visibile si trovano nella pagina [Consultazione](consultazione.html). <!-- DA VERIFICARE: a quale applicazione di consultazione accedono questi utenti (consultazione web o altra) -->
+> Gli utenti in consultazione non sono operatori del back office: servono solo per accedere alla consultazione. Le impostazioni di cosa è visibile si trovano nella pagina [Consultazione](consultazione.html).
 
 ## Accedere alla pagina
 
@@ -54,8 +54,6 @@ Il pulsante con l'occhio accanto alla password mostra o nasconde entrambe le pas
 
 {: .note }
 > La password non viene mai mostrata dopo il salvataggio. Comunicala all'utente in modo sicuro al momento della creazione.
-
-<!-- DA VERIFICARE: "Tutti i comuni" memorizza l'elenco dei Comuni presenti al momento del salvataggio; se in seguito un Comune entra nell'Unione, potrebbe essere necessario salvare di nuovo l'utente -->
 
 ## Modificare un utente o cambiarne la password
 
