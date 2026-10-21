@@ -17,8 +17,11 @@ La pagina si presenta in due modi diversi, a seconda della configurazione dell'E
 
 | Modalità | Quando compare | Cosa permette |
 |----------|----------------|---------------|
-| **Nuova gestione** | Nella [Scheda Ente](scheda-ente.html) è attivo **Attiva consultazione Online** | Attivare la consultazione web, copiarne il link e impostare le restrizioni per ciascuna gestione Sequoia (dati dell'immobile e tipi pratica visibili). Vengono presentate le pratiche presenti su gestionale Sequoia |
-| **Vecchia gestione** | **Attiva consultazione Online** non è attivo | Scegliere, per ciascun tipo di pratica, quali stati della pratica sono visibili nella consultazione. Vengono mostrate **SOLO** le pratiche presentate su GeoTecSUE |
+| **Nuova gestione** | Nella [Scheda Ente](scheda-ente.html) è attivo **Attiva consultazione Online** | Attivare la consultazione web, copiarne il link e impostare le restrizioni per ciascuna gestione Sequoia (dati dell'immobile e tipi pratica visibili). Mostra **tutte** le pratiche presenti nel gestionale Sequoia. |
+| **Vecchia gestione** (in dismissione) | **Attiva consultazione Online** non è attivo | Scegliere, per ciascun tipo di pratica, quali stati della pratica sono visibili nella consultazione. Mostra **solo** le pratiche presentate tramite GeoTecSUE. |
+
+{: .warning }
+> La **vecchia gestione è in fase di dismissione**, perché non copre tutte le pratiche del gestionale Sequoia ma solo quelle presentate tramite il portale GeoTecSUE. Se il tuo Ente la usa ancora, passa alla nuova gestione attivando **Attiva consultazione Online** nella [Scheda Ente](scheda-ente.html#interruttori).
 
 {: .note }
 > Nella Scheda Ente l'opzione **Attiva consultazione Online** è selezionabile solo se per l'Ente è configurata almeno una gestione Sequoia (il gestionale delle pratiche collegato a GeoTecSUE). Se non la vedi attivabile, rivolgiti all'assistenza.
@@ -31,8 +34,7 @@ Dal menu in alto scegli **Impostazioni › Consultazione**. La pagina si intitol
 
 La nuova gestione è composta da due schede: **Consultazione web** e **Cosa mostrare nella consultazione**.
 
-{: .schermata }
-> `assets/images/consultazione-nuova-gestione.png` — La pagina con la scheda "Consultazione web" attiva (link visibile) e, sotto, la tabella dei tipi pratica con i badge Sì/No.
+![La pagina con la scheda "Consultazione web" ancora da configurare e, sotto, la scheda "Cosa mostrare nella consultazione" con gli interruttori dei dati dell'immobile e la tabella dei tipi pratica](../assets/images/consultazione-nuova-gestione.png)
 
 ### Consultazione web
 
@@ -41,7 +43,7 @@ Questa scheda contiene i dati dell'Ente usati dalla pagina pubblica di consultaz
 | Badge | Significato |
 |-------|-------------|
 | **Attivo** (verde) | La consultazione web è attiva e il link funziona. |
-| **Non configurato** (grigio) | La consultazione web non è ancora stata attivata. |
+| **Non configurato** (viola) | La consultazione web non è ancora stata attivata. |
 
 #### Link alla consultazione
 
@@ -50,7 +52,7 @@ Quando la consultazione è attiva, in cima alla scheda compare il campo **Link a
 - **Copia** (icona appunti): copia il link negli appunti; l'icona diventa verde per un istante a conferma.
 - **Apri** (icona freccia): apre il link in una nuova scheda del browser.
 
-Il link termina con il **Codice ente** e puoi pubblicarlo, ad esempio, sul sito istituzionale e può essere utilizzato per la consultazione delle pratiche (anticamera dell'accesso agli atti).
+Il link termina con il **Codice ente**. Puoi pubblicarlo, ad esempio, sul sito istituzionale: chi lo apre può consultare le pratiche, come primo passo prima di un'eventuale richiesta di accesso agli atti.
 
 #### Campi
 
@@ -147,8 +149,10 @@ Se il collegamento con il gestionale non riesce, compare la finestra **Attenzion
 
 Se l'opzione **Attiva consultazione Online** non è attiva, la pagina mostra solo la scheda **Stati delle pratiche visibili nella consultazione**.
 
-{: .schermata }
-> `assets/images/consultazione-vecchia-gestione.png` — La scheda "Stati delle pratiche visibili nella consultazione" con un tipo di pratica selezionato e la colonna "Visibile".
+{: .warning }
+> Questa modalità è **in fase di dismissione**: mostra solo le pratiche presentate tramite GeoTecSUE, non tutte quelle presenti nel gestionale Sequoia. Quando possibile usa la [nuova gestione](#nuova-gestione).
+
+![La scheda "Stati delle pratiche visibili nella consultazione" con un tipo di pratica selezionato e la colonna "Visibile"](../assets/images/consultazione-vecchia-gestione.png)
 
 1. Nel campo **Tipo di pratica** scegli uno dei tipi di pratica attivi per l'Ente (in ordine alfabetico).
 2. Compare l'elenco degli stati della pratica, con due colonne:
