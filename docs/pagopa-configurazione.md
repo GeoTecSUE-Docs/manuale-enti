@@ -50,8 +50,7 @@ Se non ci sono servizi compare il messaggio **Nessun servizio PagoPA configurato
 
 La tabella ha la casella **Cerca**, l'ordinamento per colonna e la paginazione descritti in [Interfaccia e convenzioni](interfaccia-e-convenzioni.html).
 
-{: .schermata }
-> `assets/images/pagopa-configurazione-servizi.png` — La card Servizi PagoPA dell'ente con l'elenco dei servizi e il pulsante Associazioni.
+![La card Servizi PagoPA dell'ente con l'elenco dei servizi e il pulsante Associazioni](../assets/images/pagopa-configurazione-servizi.png)
 
 ## Associazioni di un servizio
 
@@ -71,8 +70,7 @@ Se il servizio non ha ancora associazioni compare il messaggio **Nessuna associa
 | **Obbl. sanatoria** | Badge **Sì** / **No** cliccabile: obbligatorio per le pratiche in sanatoria |
 | *(pulsanti)* | Matita (**Modifica l'associazione**) e cestino (**Elimina l'associazione**) |
 
-{: .schermata }
-> `assets/images/pagopa-configurazione-associazioni.png` — La card Associazioni del servizio con le colonne Importo, Attiva, Obbligatorio e Obbl. sanatoria.
+![La card Associazioni del servizio con le colonne Importo, Attiva, Obbligatorio e Obbl. sanatoria](../assets/images/pagopa-configurazione-associazioni.png)
 
 ### Cambiare rapidamente attivazione e obbligatorietà
 
@@ -156,8 +154,7 @@ Compare la notifica **Associazione salvata**.
 {: .note }
 > In modifica, scegliere **--- Nessun comune ---** non toglie il Comune già associato. Per togliere il Comune, elimina l'associazione e creala di nuovo.
 
-{: .schermata }
-> `assets/images/pagopa-configurazione-finestra-associazione.png` — La finestra Modifica associazione con importo 0 e la sezione Valori ammessi attiva.
+![La finestra Modifica associazione con importo 0 e la sezione Valori ammessi attiva](../assets/images/pagopa-configurazione-finestra-associazione.png)
 
 ### Gestire i valori ammessi
 
