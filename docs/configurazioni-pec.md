@@ -58,7 +58,7 @@ Questi dati sono forniti dal gestore della casella PEC (ad esempio nelle istruzi
 | **Server SMTP** | Sì | Indirizzo del server di posta in uscita del gestore PEC (es. `smtps.pec.aruba.it`). |
 | **Porta** | Sì | Porta del server SMTP: un numero da 1 a 65535 (comunemente 465 o 587, secondo le indicazioni del gestore). |
 | **Crittografia** | No | **SSL/TLS** (predefinito) oppure **TLS 1.2**. Scegli **TLS 1.2** se il gestore richiede esplicitamente questo protocollo. |
-| **SSL** | No | Interruttore che indica l'uso di una connessione protetta SSL. <!-- DA VERIFICARE: l'interruttore SSL viene salvato ma l'invio delle PEC sembra basarsi solo su "SSL implicito" e "Crittografia" --> |
+| **SSL** | No | Interruttore che indica l'uso di una connessione protetta SSL. |
 | **SSL implicito** | No | Accendilo se il server richiede una connessione cifrata fin dall'inizio (tipico della porta 465). Spento, la connessione viene cifrata dopo l'apertura (tipico della porta 587). |
 
 ### Credenziali
