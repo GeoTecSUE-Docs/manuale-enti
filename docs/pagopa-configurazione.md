@@ -25,7 +25,7 @@ Dal punto di vista del professionista, le associazioni attive determinano i paga
 
 - un pagamento **obbligatorio** deve essere completato prima di poter validare l'istanza; uno **facoltativo** può essere ignorato;
 - con un **importo** maggiore di zero, l'importo è già compilato quando il professionista crea lo IUV su GeoTecSUE;
-- con importo **0** l'importo è "da valorizzare": il professionista lo indica lui stesso oppure, se hai definito un elenco di valori ammessi, lo sceglie tra quelli. <!-- DA VERIFICARE: il manuale professionisti descrive solo l'importo "da valorizzare"; il modo in cui il professionista sceglie tra i valori ammessi non risulta né dal codice di questa pagina né dal manuale -->
+- con importo **0** l'importo è "da valorizzare": il professionista lo indica lui stesso oppure, se hai definito un elenco di valori ammessi, lo sceglie tra quelli. 
 
 ## Accedere alla pagina
 
@@ -35,7 +35,8 @@ Si apre la pagina **Gestione PagoPA**.
 
 ## Servizi PagoPA dell'Ente
 
-Nella prima card, **Servizi PagoPA dell'ente**, trovi i servizi PagoPA configurati per il tuo Ente. Da questa pagina non puoi aggiungere né modificare i servizi: puoi solo gestirne le associazioni. <!-- DA VERIFICARE: chi configura i servizi PagoPA dell'Ente (assistenza, attivazione iniziale) non risulta dal codice -->
+Nella prima card, **Servizi PagoPA dell'ente**, trovi i servizi PagoPA configurati per il tuo Ente. Da questa pagina non puoi aggiungere né modificare i servizi: puoi solo gestirne le associazioni. 
+Se un pagamento è mancante, contatta la nostra assistenza per avere indicazioni su come aggiungere il tipo di pagamento.
 
 Se non ci sono servizi compare il messaggio **Nessun servizio PagoPA configurato per l'ente.**
 
@@ -84,7 +85,7 @@ Clicca su un badge per invertirne il valore; la modifica viene salvata subito. L
 | **Obbl. sanatoria** | **Obbligatorio per le pratiche in sanatoria** / **Facoltativo per le pratiche in sanatoria** |
 
 {: .warning }
-> Le modifiche hanno effetto sulle pratiche che i professionisti stanno compilando: rendere obbligatorio un pagamento può impedire la validazione delle istanze finché il professionista non lo completa.
+> Le modifiche hanno effetto sulle pratiche che i professionisti andranno a compilare. Una pratica nata in precedenza ad una modifica non cambierà lo stato del pagamento.
 
 ## Creare un'associazione
 
@@ -109,7 +110,7 @@ Compare la notifica **Associazione creata** e l'associazione si aggiunge all'ele
 
 Il campo **Importo** si formatta da solo quando esci dal campo (ad esempio `12` diventa `12,00`). Sotto il campo è ricordato che con importo **0** il professionista indica liberamente l'importo, oppure lo sceglie da un elenco di valori ammessi.
 
-Se indichi una **Qualificazione intervento** o un **Comune**, il pagamento viene presumibilmente richiesto solo per le pratiche con quella qualificazione dell'intervento o relative a quel Comune. <!-- DA VERIFICARE: comportamento lato portale professionisti dei filtri Qualificazione intervento e Comune -->
+Se indichi una **Qualificazione intervento** o un **Comune**, il pagamento viene richiesto solo per le pratiche con quella qualificazione dell'intervento o relative a quel Comune.
 
 Possibili messaggi di errore (finestra **Attenzione**; alla chiusura si torna alla finestra dell'associazione):
 
