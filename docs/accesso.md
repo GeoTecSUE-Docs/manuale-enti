@@ -21,7 +21,7 @@ Puoi arrivare alla pagina di accesso in tre modi:
 |-------------|--------------|
 | Con il **collegamento personale dell'Ente** (l'indirizzo del back office che contiene il codice del tuo Ente) | Si apre direttamente la pagina di accesso con il nome del tuo Ente già indicato. |
 | Con l'**indirizzo del back office senza altre indicazioni** (solo l'indirizzo del sito) | Si apre la pagina **Scegli l'ente a cui accedere**, dove selezioni il tuo Ente. |
-| Dal **portale GeoTecSUE**, con il collegamento al back office | Entri direttamente nella [Scheda Ente](scheda-ente.html), senza inserire la password (vedi [Accesso diretto dal portale](#accesso-diretto-dal-portale)). |
+| Dal **portale GeoTecSUE**, con il collegamento al back office (click su *Pannello di Amministrazione* in basso a destra). |
 
 {: .note }
 > Conserva tra i preferiti del browser il collegamento personale del tuo Ente: così trovi già l'Ente selezionato e devi inserire solo la password.
@@ -105,14 +105,6 @@ Gli errori compaiono in un riquadro rosso sopra i campi.
 {: .note }
 > Dopo una password errata la risposta arriva con un breve ritardo: è normale. Attendi il messaggio prima di riprovare.
 
-## Accesso diretto dal portale
-
-Se apri il back office dal portale GeoTecSUE con l'apposito collegamento, entri direttamente nella [Scheda Ente](scheda-ente.html) del tuo Ente, senza passare dalla pagina di accesso.
-<!-- DA VERIFICARE: da quale pagina/area del portale si genera il collegamento con accesso diretto, e se vale una sola volta. -->
-
-Se il collegamento non è più valido, la Scheda Ente può aprirsi senza dati oppure puoi essere riportato alla pagina di accesso: in questo caso accedi con la password come descritto sopra.
-<!-- DA VERIFICARE: con collegamento non valido la pagina resta aperta senza caricare i dati invece di riportare all'accesso. -->
-
 ## Uscire dal back office
 
 Per uscire clicca su **Log Out**, il pulsante a forma di pillola in alto a destra nel menu.
@@ -127,7 +119,6 @@ Il back office chiude la sessione di lavoro e riapre la pagina di accesso **dell
 Dopo un periodo di inattività la sessione di lavoro scade.
 
 Mentre una pagina del back office è aperta, il browser invia al server una richiesta automatica ogni 5 minuti per mantenere attiva la sessione. In questo modo, in genere, puoi lasciare una pagina aperta mentre consulti documenti senza dover rientrare.
-<!-- DA VERIFICARE: il gestore che riceve la richiesta periodica non usa la sessione, quindi potrebbe non prolungarla davvero. -->
 
 Se la sessione è comunque scaduta, alla prima operazione (clic su un pulsante, apertura di una pagina dal menu, scaricamento di un PDF):
 
@@ -146,6 +137,6 @@ Si riapre la [Scheda Ente](scheda-ente.html): torna alla pagina su cui stavi lav
 |----------|-----------|
 | Il campo **Utente** non si può modificare | È normale: il nome utente è quello dell'Ente indicato nel riquadro **Ente**. Se l'Ente è sbagliato usa **Cambia ente**. |
 | Si apre sempre la scelta dell'Ente | Il collegamento che usi non contiene il codice dell'Ente, oppure la sessione è scaduta. Dopo aver scelto l'Ente salva tra i preferiti l'indirizzo della pagina di accesso. |
-| Password dimenticata | Contatta l'assistenza. <!-- DA VERIFICARE: procedura di recupero o cambio della password dell'Ente non presente nella pagina di accesso. --> |
+| Password dimenticata | Contatta l'assistenza. |
 
 Per conoscere il resto dell'interfaccia continua con [Interfaccia e convenzioni](interfaccia-e-convenzioni.html).
