@@ -1,5 +1,5 @@
 ---
-title: Pagamenti (diritti di segreteria)
+title: Pagamenti
 nav_order: 20
 parent: "Impostazioni dell'Ente"
 description: Come gestire le schede informative sui pagamenti e sui diritti di segreteria dell'Ente, con testo in formato Markdown, allegati, priorità e attivazione.
@@ -9,7 +9,7 @@ IDTipoPratica: 9999
 Fonte: Manuale Enti
 ---
 
-# Pagamenti (diritti di segreteria)
+# Pagamenti
 
 Questa sezione spiega come gestire le schede informative sui pagamenti dell'Ente (ad esempio i diritti di segreteria): crearle, scriverne il testo, allegare documenti, attivarle o disattivarle ed eliminarle.
 
@@ -20,7 +20,7 @@ In questa pagina l'Ente pubblica **informazioni testuali** sui pagamenti: ogni s
 {: .note }
 > Questa pagina **non** configura gli importi né i pagamenti PagoPA richiesti nelle pratiche. Per stabilire quali pagamenti il professionista deve effettuare, e con quale importo, usa [Configurazione PagoPA](pagopa-configurazione.html).
 
-Dal punto di vista del professionista, le schede **attive** sono consultabili sul portale dei professionisti come informazioni sui pagamenti dovuti all'Ente; quelle con **Priorità** attiva sono messe in evidenza. <!-- DA VERIFICARE: il back office salva solo i dati; dove e come il portale professionisti mostra queste schede non risulta dal codice né dal manuale professionisti -->
+Dal punto di vista del professionista, le schede **attive** sono consultabili sul portale dei professionisti come informazioni sui pagamenti dovuti all'Ente; quelle con **Priorità** attiva sono messe in evidenza.
 
 ## Accedere alla pagina
 
