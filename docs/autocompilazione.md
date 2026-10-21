@@ -26,8 +26,7 @@ L'elenco delle auto compilazioni disponibili è predefinito dal sistema: qui non
 
 Dal menu in alto scegli **Impostazioni › Auto Compilazione**. Si apre la pagina **Auto Compilazione**.
 
-{: .schermata }
-> `assets/images/autocompilazione-elenchi.png` — La pagina Auto Compilazione con i riquadri Auto compilazioni attive e Auto compilazioni disattive.
+![La pagina Auto Compilazione con i riquadri Auto compilazioni attive e Auto compilazioni disattive](../assets/images/autocompilazione-elenchi.png)
 
 ## Come è fatta la pagina
 
@@ -36,7 +35,7 @@ La pagina ha due riquadri, ciascuno con il numero di voci accanto al titolo e l'
 | Riquadro | Contenuto | Pulsante in ogni riga |
 |----------|-----------|------------------------|
 | **Auto compilazioni attive** (numero verde) | Le auto compilazioni disponibili per i professionisti del tuo Ente | **Disattiva** (rosso) |
-| **Auto compilazioni disattive** (numero grigio) | Le altre auto compilazioni previste dal sistema | **Attiva** (verde) |
+| **Auto compilazioni disattive** (numero viola) | Le altre auto compilazioni previste dal sistema | **Attiva** (verde) |
 
 Ogni riga mostra solo la **Descrizione** dell'auto compilazione. Se un riquadro è vuoto vedi la scritta "Nessuna auto compilazione attiva." oppure "Nessuna auto compilazione disattiva."
 
