@@ -17,7 +17,7 @@ Questa sezione spiega come gestire le news dell'Ente: crearle, scriverne il test
 
 Le news sono brevi comunicazioni dell'Ente (avvisi, novità sul procedimento, chiusure dell'ufficio, nuova modulistica) composte da un titolo, un testo formattato ed eventuali allegati.
 
-Dal punto di vista del professionista, le news **attive** sono pubblicate sul portale dei professionisti; quelle con **Priorità** attiva sono messe in evidenza rispetto alle altre e quelle con una **Data di fine validità** smettono di essere mostrate dopo quella data. <!-- DA VERIFICARE: il back office salva solo i dati; dove e come il portale professionisti mostra le news (pagina, ordinamento, evidenza della priorità, uso della data di fine validità) non risulta dal codice né dal manuale professionisti -->
+Dal punto di vista del professionista, le news **attive** sono pubblicate sul portale dei professionisti; quelle con **Priorità** attiva sono messe in evidenza rispetto alle altre e quelle con una **Data di fine validità** smettono di essere mostrate dopo quella data.
 
 ## Accedere alla pagina
 
