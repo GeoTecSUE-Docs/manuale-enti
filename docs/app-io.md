@@ -38,8 +38,7 @@ Il riquadro **Servizi App IO attivi** mostra i servizi configurati; il numero ac
 | **Chiave** | La chiave del servizio, nascosta tranne le ultime 4 cifre |
 | (pulsanti) | Matita per modificare, cestino per eliminare |
 
-{: .schermata }
-> `assets/images/app-io-elenco.png` — La pagina Configurazione Servizi App IO con il riquadro informativo sulla chiave e la tabella dei servizi.
+![La pagina Configurazione Servizi App IO con il riquadro informativo sulla chiave e la tabella dei servizi](../assets/images/app-io-elenco.png)
 
 ## Aggiungere un servizio
 
@@ -47,7 +46,7 @@ Il riquadro **Servizi App IO attivi** mostra i servizi configurati; il numero ac
 2. Nella finestra **Nuovo servizio App IO** scegli il **Servizio App IO** dal menu. Il sistema propone subito un oggetto e un testo predefiniti per quel servizio.
 3. Solo per gli Enti con più comuni: scegli il **Comune**.
 4. Incolla la **Chiave del servizio**.
-5. Controlla o personalizza l'**Oggetto del messaggio** e il **Testo del messaggio** (vedi sotto).
+5. Controlla l'**Oggetto del messaggio** e il **Testo del messaggio** proposti: si consiglia di **lasciarli come sono** (vedi [Scrivere oggetto e testo](#scrivere-oggetto-e-testo)).
 6. In **Invia la notifica a** accendi **Richiedente**, **Professionista** o entrambi (per default è acceso solo **Richiedente**).
 7. Clicca su **Salva**: compare la notifica **Servizio aggiunto**.
 
@@ -56,10 +55,16 @@ Il riquadro **Servizi App IO attivi** mostra i servizi configurati; il numero ac
 
 Tutti i campi sono obbligatori. Se manca qualcosa compare la finestra **Attenzione** (ad esempio "Inserire la chiave del servizio." oppure "Scegliere a chi inviare la notifica: richiedente e/o professionista."); chiudendola torni alla finestra del servizio con i dati inseriti.
 
-{: .schermata }
-> `assets/images/app-io-modifica.png` — La finestra del servizio con chiave, oggetto, editor del testo con la barra degli strumenti, interruttori dei destinatari e, a destra, l'elenco delle variabili.
+![La finestra del servizio con chiave, oggetto, editor del testo con la barra degli strumenti e, a destra, l'elenco delle variabili](../assets/images/app-io-modifica.png)
 
 ## Scrivere oggetto e testo
+
+{: .warning }
+> **Si consiglia vivamente di NON modificare l'oggetto e il testo dei messaggi proposti dal sistema.**
+>
+> I testi predefiniti hanno il formato richiesto da App IO: le variabili tra `%` (ad esempio `%titolare%`), i simboli di formattazione e le sequenze `\n` che indicano l'andata a capo. Anche una piccola modifica può causare **errori di formato in fase di trasmissione** a App IO.
+>
+> Se una modifica è proprio necessaria, cambia solo le parole e lascia invariati variabili, simboli e sequenze `\n`; in caso di dubbi contatta l'assistenza.
 
 ### Contatori di caratteri
 
@@ -101,7 +106,7 @@ Nel riquadro **Variabili**, a destra, trovi i segnaposto che al momento dell'inv
 ## Modificare un servizio
 
 1. Clicca sulla **matita** nella riga del servizio.
-2. Nella finestra **Modifica servizio App IO** puoi cambiare chiave, oggetto, testo e destinatari. Il servizio e il comune non si possono cambiare (i menu sono bloccati): per cambiarli elimina il servizio e creane uno nuovo.
+2. Nella finestra **Modifica servizio App IO** puoi cambiare chiave, oggetto, testo e destinatari (per oggetto e testo vedi l'avviso in [Scrivere oggetto e testo](#scrivere-oggetto-e-testo)). Il servizio e il comune non si possono cambiare (i menu sono bloccati): per cambiarli elimina il servizio e creane uno nuovo.
 3. Clicca su **Salva**: compare la notifica **Servizio salvato**.
 
 ## Eliminare un servizio
