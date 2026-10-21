@@ -21,7 +21,7 @@ Puoi arrivare alla pagina di accesso in tre modi:
 |-------------|--------------|
 | Con il **collegamento personale dell'Ente** (l'indirizzo del back office che contiene il codice del tuo Ente) | Si apre direttamente la pagina di accesso con il nome del tuo Ente già indicato. |
 | Con l'**indirizzo del back office senza altre indicazioni** (solo l'indirizzo del sito) | Si apre la pagina **Scegli l'ente a cui accedere**, dove selezioni il tuo Ente. |
-| Dal **portale GeoTecSUE**, con il collegamento al back office (click su *Pannello di Amministrazione* in basso a destra). |
+| Dal **portale GeoTecSUE**, con il collegamento al back office (click su *Pannello di Amministrazione* in basso a destra). | Si apre direttamente la pagina di accesso con il nome del tuo Ente già indicato. |
 
 {: .note }
 > Conserva tra i preferiti del browser il collegamento personale del tuo Ente: così trovi già l'Ente selezionato e devi inserire solo la password.
