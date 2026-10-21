@@ -31,8 +31,7 @@ In pratica: prima crei (o verifichi) l'allegato qui, poi lo attivi nelle pratich
 {: .note }
 > Puoi stampare l'elenco degli allegati in PDF dalla [Scheda Ente](scheda-ente.html), riquadro **Stampa allegati**.
 
-{: .schermata }
-> `assets/images/allegati-elenco.png` — La pagina Gestione Allegati con il riquadro Ricerca in alto e la tabella degli allegati con il contatore e il pulsante Nuovo allegato.
+![La pagina Gestione Allegati con il riquadro Ricerca in alto e la tabella degli allegati con il contatore e il pulsante Nuovo allegato](../assets/images/allegati-elenco.png)
 
 ## Cercare un allegato
 
@@ -60,7 +59,7 @@ La tabella mostra 25 allegati per pagina, ordinati per titolo.
 | **Titolo** | Il nome dell'allegato, come lo vede il professionista |
 | **Descrizione** | Il testo descrittivo; se è lungo ne vedi due righe, il testo completo compare passando il mouse sopra |
 | **Categoria** | La categoria, in un'etichetta grigia |
-| **Pratiche** | In quanti tipi di pratica l'allegato è attivo: un numero blu se è usato, "0" grigio se non è usato in nessuna pratica |
+| **Pratiche** | In quanti tipi di pratica l'allegato è attivo: un badge rosso con il numero se è usato, "0" grigio se non è usato in nessuna pratica |
 | (pulsanti) | Matita per modificare, cestino per eliminare |
 
 ## Creare un nuovo allegato
@@ -81,14 +80,13 @@ Se manca un dato compare la finestra **Attenzione** con il messaggio "Inserire i
 {: .note }
 > Il nuovo allegato non è ancora richiesto in nessuna pratica (colonna **Pratiche** a 0). Per farlo comparire al professionista attivalo nelle pratiche desiderate da [Allegati in pratica](allegati-in-pratica.html).
 
-{: .schermata }
-> `assets/images/allegati-modifica.png` — La finestra Nuovo allegato con i campi Titolo, Categoria e Descrizione e i pulsanti Chiudi e Salva.
-
 ## Modificare un allegato
 
 1. Clicca sulla **matita** nella riga dell'allegato.
 2. Nella finestra **Modifica allegato** cambia **Titolo**, **Categoria** o **Descrizione**.
 3. Clicca su **Salva**: compare la notifica **Allegato salvato**.
+
+![La finestra Modifica allegato con i campi Titolo, Categoria e Descrizione e i pulsanti Chiudi e Salva](../assets/images/allegati-modifica.png)
 
 {: .warning }
 > Titolo, descrizione e categoria sono comuni a tutte le pratiche in cui l'allegato è attivo: la modifica vale per tutte, e quindi per quello che vedono i professionisti.
