@@ -27,8 +27,7 @@ In basso a destra trovi un pulsante con la **freccia in su**: cliccalo per torna
 
 Su schermi stretti (tablet, finestra ridotta) le voci del menu si raccolgono sotto il pulsante con le **tre linee** in alto a destra: cliccalo per aprire il menu.
 
-{: .schermata }
-> `assets/images/interfaccia-menu.png` — La barra in alto con il nome dell'Ente, il menu Impostazioni aperto e il pulsante Log Out.
+![La barra in alto con il nome dell'Ente, il menu Impostazioni aperto e il pulsante Log Out](../assets/images/interfaccia-menu.png)
 
 ## Il menu
 
@@ -74,7 +73,7 @@ Le voci **Impostazioni** e **Gestione Pratiche** aprono un sottomenu; le altre a
 | **Pratiche In corso** | Pratiche ancora in compilazione da parte dei professionisti | Sempre | [Pratiche in corso](pratiche-in-corso.html) |
 | **Notifiche Preliminari** | Notifiche preliminari ricevute | Solo se l'Ente gestisce le notifiche preliminari | [Notifiche preliminari](notifiche-preliminari.html) |
 | **Gestione Protocollazione** | Protocollazione delle pratiche da parte dell'Ente | Solo se l'Ente protocolla le pratiche senza collegamento automatico al protocollo (non ha il protocollo di **SISCOM**) | [Gestione protocollazione](gestione-protocollazione.html) |
-| **Gestione Richieste Importazione** |  Se l'Ente ha attivato la possibilità di importare le pratiche pregresse ma vuole dare conferma prima dell'importazione | Solo se nella [Scheda Ente](scheda-ente.html#opzioni) **Collegamento pratiche Sequoia su SUE** è **Attivo con conferma dell'Ente** | [Richieste di importazione](richieste-importazione.html) |
+| **Gestione Richieste Importazione** | Se l'Ente ha attivato la possibilità di importare le pratiche pregresse ma vuole dare conferma prima dell'importazione | Solo se nella [Scheda Ente](scheda-ente.html#opzioni) **Collegamento pratiche Sequoia su SUE** è **Attivo con conferma dell'Ente** | [Richieste di importazione](richieste-importazione.html) |
 | **Trasmissioni Regione Lombardia** | Trasmissioni dei dati alla Regione | Solo per gli Enti della Regione Lombardia | [Trasmissioni Regione Lombardia](trasmissioni-regione-lombardia.html) |
 
 {: .note }
@@ -85,6 +84,7 @@ Le voci **Impostazioni** e **Gestione Pratiche** aprono un sottomenu; le altre a
 Quando una pagina si sta caricando o un'operazione è in corso, la pagina viene coperta da uno sfondo bianco con un **cerchio rosso che gira** al centro.
 
 Lo spinner compare quando:
+
 - apri una pagina dal menu;
 - clicchi un pulsante che salva, filtra o cerca;
 - cambi il valore di alcune tendine che aggiornano subito la pagina;
@@ -130,13 +130,12 @@ Le operazioni importanti (eliminazioni, disattivazioni, protocollazioni, aggiorn
 
 Gli elenchi (pratiche, allegati, utenti, pagamenti…) sono tabelle con funzioni comuni.
 
-{: .schermata }
-> `assets/images/interfaccia-tabella.png` — Una tabella con la casella Cerca, la scelta delle righe per pagina, le intestazioni ordinabili e i pulsanti di paginazione.
+![Un elenco di pratiche con la card dei filtri, la scelta delle righe per pagina, la casella Cerca e le intestazioni ordinabili](../assets/images/interfaccia-tabella.png)
 
 | Funzione | Come si usa |
 |----------|-------------|
 | **Cerca** | Scrivi nella casella **Cerca:** sopra la tabella: restano visibili solo le righe che contengono il testo in una qualsiasi colonna. La ricerca lavora sulle righe già caricate (non sostituisce i filtri). |
-| **Righe per pagina** | Con la tendina **Visualizza … ** scegli quante righe mostrare (di solito 25). |
+| **Righe per pagina** | Con la tendina **Visualizza …** scegli quante righe mostrare (di solito 25). |
 | **Ordinamento** | Clicca sull'intestazione di una colonna per ordinare; clicca di nuovo per invertire l'ordine. Le date si ordinano correttamente per data, non per testo. |
 | **Paginazione** | Sotto la tabella trovi **Inizio**, **Precedente**, i numeri di pagina, **Successivo**, **Fine**. A sinistra il riepilogo, es. *Da 1 a 25 di 130 pratiche*. |
 | **Valori mancanti** | Una cella vuota è mostrata con un trattino **—**. |
@@ -156,6 +155,7 @@ Gli elenchi delle pratiche hanno in alto una card con i **filtri** (riquadro gri
 2. Clicca su **Filtra** (icona a imbuto) oppure premi Invio in un campo.
 
 Dopo il filtro:
+
 - nell'intestazione della card compare un badge **giallo** con il numero di filtri attivi (es. **2 filtri**);
 - accanto al titolo, il badge **grigio** indica quante righe sono state trovate;
 - compare il pulsante **Rimuovi filtri** (icona con la X), che svuota tutti i campi e ricarica l'elenco completo.
@@ -238,7 +238,7 @@ Nelle pagine [News](news.html), [Pagamenti](pagamenti.html) e [Servizi App IO](a
 |----------|---------|
 | **B** (Grassetto) | Mette in grassetto il testo selezionato |
 | *I* (Corsivo) | Mette in corsivo |
-| **H** (Titolo) | Trasforma la riga in un titolo |
+| **H2** (Titolo) | Trasforma la riga in un titolo |
 | Elenco puntato / Elenco numerato | Crea un elenco |
 | Citazione | Crea un blocco citato (solo News e Pagamenti) |
 | Link | Inserisce un collegamento; ti chiede l'*Indirizzo del link* |
@@ -246,8 +246,7 @@ Nelle pagine [News](news.html), [Pagamenti](pagamenti.html) e [Servizi App IO](a
 | Occhio (Anteprima) | Mostra il testo come apparirà; clicca di nuovo per tornare alla scrittura |
 | Annulla / Ripeti | Annulla o ripete l'ultima modifica |
 
-{: .schermata }
-> `assets/images/interfaccia-editor-markdown.png` — L'editor di testo con la barra dei pulsanti e un testo con grassetto ed elenco puntato.
+![L'editor di testo con la barra dei pulsanti e un testo con grassetto, elenco puntato e link](../assets/images/interfaccia-editor-markdown.png)
 
 ## Date
 
