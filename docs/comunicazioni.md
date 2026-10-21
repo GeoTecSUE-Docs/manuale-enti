@@ -17,7 +17,7 @@ Questa sezione spiega come scegliere, per ogni tipo di comunicazione, in quali t
 
 Le comunicazioni (ad esempio Inizio Lavori, Fine Lavori, Segnalazione Certificata di Agibilità) vengono presentate dal professionista a partire dal dettaglio di una pratica, con il pulsante **Nuova Comunicazione**.
 
-Dal punto di vista del professionista, il menu **Seleziona il tipo di Comunicazione** di una pratica propone solo le comunicazioni che in questa pagina sono attive per quel tipo di pratica. Se una comunicazione manca, il manuale dei professionisti li invita a contattare l'Ente, che può abilitarla da qui.
+Dal punto di vista del professionista, il menu **Seleziona il tipo di Comunicazione** di una pratica propone solo le comunicazioni che in questa pagina sono attive per quel tipo di pratica. Se una comunicazione manca, il manuale dei professionisti invita a contattare l'Ente, che può abilitarla da questa pagina.
 
 ## Accedere alla pagina
 
@@ -35,13 +35,12 @@ Nella card **Comunicazione**:
 
 Sotto compare la card **Pratiche in cui è disponibile:** seguita dal nome della comunicazione.
 
-Il menu elenca, in ordine alfabetico, i tipi attivi per l'Ente con tipologia **Comunicazione** (vedi [Tipi pratiche](tipi-pratiche.html#tipologia)). 
+Il menu elenca, in ordine alfabetico, i tipi attivi per l'Ente con tipologia **Comunicazione** (vedi [Tipi pratiche](tipi-pratiche.html#tipologia)).
 Se non ce ne sono compare il messaggio **Nessuna comunicazione attiva: le comunicazioni si attivano da Gestione Tipologie Pratiche.**
 
 Per svuotare la scelta clicca sulla **x** nel menu: la card delle pratiche scompare.
 
-{: .schermata }
-> `assets/images/comunicazioni-pratiche-collegate.png` — La pagina Gestione Comunicazioni con una comunicazione selezionata e l'elenco delle pratiche con i badge Attiva.
+![La pagina Gestione Comunicazioni con la comunicazione Fine Lavori selezionata e l'elenco delle pratiche con i badge Attiva](../assets/images/comunicazioni-pratiche-collegate.png)
 
 ## Pratiche in cui è disponibile la comunicazione
 
@@ -59,15 +58,17 @@ Se l'Ente non ha pratiche attive compare il messaggio **Nessuna pratica attiva.*
 
 ### Attivare o disattivare la comunicazione in una pratica
 
-1. Clicca sul badge **No** per rendere disponibile la comunicazione in quel tipo di pratica.
-2. Clicca sul badge **Sì** per toglierla.
+Il badge nella colonna **Attiva** indica se la comunicazione è disponibile in quel tipo di pratica; cliccalo per cambiarlo:
+
+- da **No** a **Sì**: la comunicazione diventa disponibile;
+- da **Sì** a **No**: la comunicazione viene tolta.
 
 La modifica è salvata subito: compare la notifica **Comunicazione attivata** oppure **Comunicazione disattivata** con il nome della pratica, e il conteggio nel badge si aggiorna.
 
 {: .warning }
-> Le modifiche hanno effetto subito sul portale dei professionisti: togliendo una comunicazione da un tipo di pratica, i professionisti non potranno più avviarla da quelle pratiche.
-
-Nel caso in cui venga disattivata una comunicazione già in compilazione (come nel caso delle pratiche) non ha effetto (il professionista potrà trasmetterla).
+> Le modifiche hanno effetto subito sul portale dei professionisti: se togli una comunicazione da un tipo di pratica, i professionisti non possono più **avviarla** dalle pratiche di quel tipo.
+>
+> Le comunicazioni che un professionista ha **già iniziato a compilare** non vengono bloccate: può completarle e trasmetterle normalmente. È lo stesso comportamento previsto quando si disattiva un tipo di pratica (vedi [Tipi pratiche](tipi-pratiche.html#disattivare-una-pratica)).
 
 ## Ripristinare le impostazioni predefinite
 
