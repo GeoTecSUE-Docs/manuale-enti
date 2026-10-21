@@ -72,8 +72,6 @@ Sotto **Oggetto del messaggio** e **Testo del messaggio** un contatore indica i 
 
 Se sei fuori dai limiti il contatore diventa rosso con un'icona di avviso. Il contatore è solo un'indicazione e non blocca il salvataggio: la lunghezza finale dipende anche dal valore delle variabili.
 
-<!-- DA VERIFICARE: non è chiaro cosa succeda all'invio se il messaggio finale supera i limiti di App IO. -->
-
 ### Editor del testo
 
 Il **Testo del messaggio** si scrive in formato Markdown, con una barra di strumenti: **Grassetto**, **Corsivo**, **Titolo**, **Elenco puntato**, **Elenco numerato**, **Link**, **Anteprima** (per vedere il testo formattato), **Annulla** e **Ripeti**.
@@ -99,8 +97,6 @@ Nel riquadro **Variabili**, a destra, trovi i segnaposto che al momento dell'inv
 | `%datarilascioprovv%` | Data di rilascio del provvedimento |
 | `%numeroprovv%` | Numero del provvedimento rilasciato |
 | `%link%` | Link di accesso al GeoTecSUE dell'Ente |
-
-<!-- DA VERIFICARE: la sostituzione delle variabili e il momento di invio dei messaggi (a quale evento della pratica corrisponde ciascun servizio) avvengono fuori da questa pagina. -->
 
 ## Modificare un servizio
 
