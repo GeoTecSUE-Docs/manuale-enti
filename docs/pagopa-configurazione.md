@@ -195,4 +195,4 @@ Compare la notifica **Associazione eliminata**.
 
 - [Tipi pratiche](tipi-pratiche.html): i tipi di pratica attivi per l'Ente.
 - [Gestione PagoPA](gestione-pagopa.html): la pagina del menu **Gestione PagoPA**, dedicata ai pagamenti delle pratiche.
-- [Pagamenti (diritti di segreteria)](pagamenti.html): le schede informative sui pagamenti.
+- [Pagamenti](pagamenti.html): le schede informative sui pagamenti.
