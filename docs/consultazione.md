@@ -17,8 +17,8 @@ La pagina si presenta in due modi diversi, a seconda della configurazione dell'E
 
 | Modalità | Quando compare | Cosa permette |
 |----------|----------------|---------------|
-| **Nuova gestione** | Nella [Scheda Ente](scheda-ente.html) è attivo **Attiva consultazione Online** | Attivare la consultazione web, copiarne il link e impostare le restrizioni per ciascuna gestione Sequoia (dati dell'immobile e tipi pratica visibili). |
-| **Vecchia gestione** | **Attiva consultazione Online** non è attivo | Scegliere, per ciascun tipo di pratica, quali stati della pratica sono visibili nella consultazione. |
+| **Nuova gestione** | Nella [Scheda Ente](scheda-ente.html) è attivo **Attiva consultazione Online** | Attivare la consultazione web, copiarne il link e impostare le restrizioni per ciascuna gestione Sequoia (dati dell'immobile e tipi pratica visibili). Vengono presentate le pratiche presenti su gestionale Sequoia |
+| **Vecchia gestione** | **Attiva consultazione Online** non è attivo | Scegliere, per ciascun tipo di pratica, quali stati della pratica sono visibili nella consultazione. Vengono mostrate **SOLO** le pratiche presentate su GeoTecSUE |
 
 {: .note }
 > Nella Scheda Ente l'opzione **Attiva consultazione Online** è selezionabile solo se per l'Ente è configurata almeno una gestione Sequoia (il gestionale delle pratiche collegato a GeoTecSUE). Se non la vedi attivabile, rivolgiti all'assistenza.
@@ -50,7 +50,7 @@ Quando la consultazione è attiva, in cima alla scheda compare il campo **Link a
 - **Copia** (icona appunti): copia il link negli appunti; l'icona diventa verde per un istante a conferma.
 - **Apri** (icona freccia): apre il link in una nuova scheda del browser.
 
-Il link termina con il **Codice ente** e puoi pubblicarlo, ad esempio, sul sito istituzionale. <!-- DA VERIFICARE: chi può accedere alla pagina di consultazione (pubblico o solo utenti registrati in Gestione utenti) -->
+Il link termina con il **Codice ente** e puoi pubblicarlo, ad esempio, sul sito istituzionale e può essere utilizzato per la consultazione delle pratiche (anticamera dell'accesso agli atti).
 
 #### Campi
 
