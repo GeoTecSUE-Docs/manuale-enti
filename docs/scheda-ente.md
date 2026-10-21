@@ -47,14 +47,14 @@ I campi con l'asterisco rosso **\*** sono obbligatori.
 | **Codice ente** | Codice dell'Ente nel portale (usato nel collegamento di accesso). Non modificabile. |
 | **Username** | Nome utente con cui si accede al back office. Non modificabile. |
 | **E-mail** \* | Indirizzo e-mail dell'Ente. |
-| **Mail per comunicazioni** \* | Indirizzo e-mail usato per le comunicazioni del portale. <!-- DA VERIFICARE: differenza d'uso tra "E-mail" e "Mail per comunicazioni" (mittente/destinatario delle notifiche). --> |
+| **Mail per comunicazioni** \* | Indirizzo e-mail usato per le comunicazioni del portale. |
 | **PEC** \* | Indirizzo PEC dell'Ente. |
 | **Indirizzo** \*, **Città** \*, **Provincia** \* | Sede dell'Ente. |
 | **Telefono** \* | Numero di telefono dell'Ente. |
 | **Indirizzo informativa privacy** | Indirizzo web dell'informativa sul trattamento dei dati personali. |
 | **Responsabile del trattamento dei dati** | Nome del responsabile del trattamento. |
 | **Mail del responsabile del trattamento** | E-mail del responsabile del trattamento. |
-| **Dicitura firma ricevuta** | Testo che compare come firma nelle ricevute rilasciate al professionista. <!-- DA VERIFICARE: su quali ricevute compare la dicitura. --> |
+| **Dicitura firma ricevuta** | Testo che compare come firma nella ricevuta di registrazione rilasciate al professionista. |
 
 ### Sito pubblico
 
@@ -104,17 +104,17 @@ La card **Opzioni** contiene gli interruttori che regolano il comportamento del 
 | Opzione | Effetto quando è attiva |
 |---------|-------------------------|
 | **Richiedi il p7m in fase di invio pratica** | Al momento dell'invio della pratica il professionista deve caricare l'istanza firmata digitalmente (file .p7m). |
-| **Sincronizza Toponimi** | Mantiene allineato l'elenco dei toponimi (vie e piazze) del portale con quello del gestionale. <!-- DA VERIFICARE: direzione e momento della sincronizzazione dei toponimi. --> |
-| **Blocca le comunicazioni in fase di richiesta ed invio integrazioni** | Mentre una pratica è in richiesta di integrazioni, il professionista non può inviare altre comunicazioni su quella pratica. <!-- DA VERIFICARE: quali comunicazioni restano comunque consentite. --> |
+| **Sincronizza Toponimi** | Mantiene allineato l'elenco dei toponimi (vie e piazze) del portale con quello del gestionale. |
+| **Blocca le comunicazioni in fase di richiesta ed invio integrazioni** | Mentre una pratica è in richiesta di integrazioni, il professionista non può inviare altre comunicazioni su quella pratica. |
 | **Su Sequoia, acquisisci i dati in MAIUSCOLO** | I dati delle pratiche vengono acquisiti nel gestionale Sequoia in lettere maiuscole. |
 | **Consenti al professionista l'invio libero di documentazione** | Il professionista può inviare documentazione volontaria sulle proprie pratiche. |
-| **Consenti al professionista l'invio libero di documentazione in fase di richiesta integrazioni** | Come sopra, ma anche quando la pratica è in richiesta di integrazioni. |
+| **Consenti al professionista l'invio libero di documentazione in fase di richiesta integrazioni** | In fase di richiesta integrazioni, consente l'invio anche di ulteriore documentazione non contemplata dalla richiesta di integrazioni. |
 | **Richiedi firma digitale su integrazioni** | Le integrazioni inviate dal professionista devono essere firmate digitalmente. |
 | **Consenti inserimento toponimi per il professionista** | Il professionista può scrivere un toponimo che non è presente nell'elenco. |
 | **Associa su Sequoia la variante indicata dal professionista** | Quando il professionista indica che la pratica è una variante, il collegamento alla pratica originale viene riportato anche in Sequoia. |
 | **Proponi al professionista le pratiche da associare alla SCA (e acquisiscile su Sequoia)** | Nella Segnalazione Certificata di Agibilità il professionista può scegliere le pratiche a cui si riferisce; il collegamento viene acquisito in Sequoia. |
-| **Scarica la ricevuta di invio** | Riguarda la ricevuta di invio della pratica. <!-- DA VERIFICARE: effetto preciso (scaricamento automatico della ricevuta per il professionista o per l'Ente). --> |
-| **Inserisci la pagina di riepilogo sull'istanza** | Aggiunge una pagina di riepilogo al PDF dell'istanza. Non compare per gli Enti della Regione Lombardia. |
+| **Scarica la ricevuta di invio** | Tra i documenti che vengono allegati alla pratica in fase di scarico su Sequoia, viene inserita anche la ricevuta di invio della pratica stessa. |
+| **Inserisci la pagina di riepilogo sull'istanza** | Aggiunge una pagina di riepilogo al PDF dell'istanza. Non compare per gli Enti della Regione Lombardia (viene utilizzato il *Modulo Unico Titolare* |
 | **Inserisci Responsabili su Ricevuta Registrazione** | Riporta i responsabili (es. del procedimento) sulla ricevuta di registrazione inviata al professionista. |
 | **Attiva consultazione Online** | Attiva la consultazione online delle pratiche (vedi [Consultazione](consultazione.html)). È modificabile solo se per l'Ente è configurato il collegamento web con Sequoia; altrimenti è spenta e grigia. |
 
@@ -122,10 +122,10 @@ La card **Opzioni** contiene gli interruttori che regolano il comportamento del 
 
 | Campo | Valori | Descrizione |
 |-------|--------|-------------|
-| **Collegamento pratiche Sequoia su SUE** | **Disattivo**, **Attivo**, **Attivo con conferma dell'Ente** | Regola la possibilità di collegare al portale le pratiche già presenti nel gestionale Sequoia (pratiche importate). Con **Attivo con conferma dell'Ente** le richieste dei professionisti devono essere confermate dall'Ente nella pagina [Richieste di importazione](richieste-importazione.html), e nel menu compare la voce **Gestione Richieste Importazione**. <!-- DA VERIFICARE: differenza operativa tra "Attivo" e "Attivo con conferma dell'Ente" lato professionista. --> |
+| **Collegamento pratiche Sequoia su SUE** | **Disattivo**, **Attivo**, **Attivo con conferma dell'Ente** | Regola la possibilità di collegare al portale le pratiche già presenti nel gestionale Sequoia (pratiche importate). Con **Attivo con conferma dell'Ente** le richieste dei professionisti devono essere confermate dall'Ente nella pagina [Richieste di importazione](richieste-importazione.html), e nel menu compare la voce **Gestione Richieste Importazione**. |
 | **Limite dimensione file** \* | Da 10 a 100 (MB) | Dimensione massima di ogni file che il professionista può caricare. Se il valore non è mai stato impostato viene proposto 25. |
 | **Tipo notifica** | **Mail normale**, **PEC**, **Entrambe** | Canale con cui il portale invia le notifiche. Per scegliere **PEC** o **Entrambe** devi prima configurare la casella in [Configurazioni PEC](configurazioni-pec.html). |
-| **Zona UNESCO** | Elenco delle zone | Zona UNESCO dell'Ente. Puoi svuotare la scelta con la **X**. <!-- DA VERIFICARE: l'elenco viene caricato solo se all'Ente è già associata una zona; altrimenti la tendina resta vuota. --> |
+| **Zona UNESCO** | Elenco delle zone | Zona UNESCO dell'Ente. Puoi svuotare la scelta con la **X**. |
 
 Per le pratiche importate vedi anche [Pratiche importate](pratiche-importate.html).
 
@@ -151,7 +151,7 @@ In caso di errore nessuna modifica viene salvata: correggi e clicca di nuovo **S
 
 ## Toponimi
 
-La card **Toponimi** mostra nella tendina **Comune** i comuni del tuo Ente (tutti i comuni, se l'Ente ne gestisce più di uno), ciascuno con il numero di toponimi presenti, ad esempio *CERVERE (61 Toponimi)*.
+La card **Toponimi** mostra nella tendina **Comune** i comuni del tuo Ente (tutti i comuni, se l'Ente ne gestisce più di uno), ciascuno con il numero di toponimi presenti, ad esempio *COMUNE (61 Toponimi)*.
 
 Per cancellare i toponimi di un comune:
 
@@ -161,14 +161,13 @@ Per cancellare i toponimi di un comune:
 Ricevi la notifica *"Toponimi di … cancellati"* e il conteggio nella tendina si aggiorna.
 
 {: .warning }
-> **Cancella toponimi** elimina subito tutti i toponimi del comune selezionato, **senza chiedere conferma**, e l'operazione non si può annullare. I professionisti non troveranno più le vie di quel comune finché i toponimi non vengono caricati di nuovo. <!-- DA VERIFICARE: come vengono ricaricati i toponimi (sincronizzazione o intervento dell'assistenza). -->
+> **Cancella toponimi** elimina subito tutti i toponimi del comune selezionato, **senza chiedere conferma**, e l'operazione non si può annullare. I professionisti non troveranno più le vie di quel comune finché i toponimi non vengono caricati di nuovo. Il caricamento dei toponimi deve essere rifatto a mezzo Sequoia.
 
 ## Aggiornamento del sistema con gli allegati base
 
 La card indica la data dell'**Ultimo aggiornamento**, oppure *In aggiornamento* se un aggiornamento è in corso.
 
 Il pulsante **Aggiorna sistema** aggiorna la configurazione del tuo Ente con il sistema base (allegati base) predisposto centralmente.
-<!-- DA VERIFICARE: cosa viene aggiornato esattamente e se le personalizzazioni dell'Ente su allegati e tipi di pratica vengono mantenute. -->
 
 Per avviare l'aggiornamento:
 
@@ -182,6 +181,7 @@ Se un aggiornamento è già in corso compare il messaggio *"Sistema attualmente 
 
 {: .warning }
 > Avvia l'aggiornamento solo se sei sicuro di volerlo fare (ad esempio su indicazione dell'assistenza): modifica la configurazione usata dal portale dei professionisti.
+> L'aggiornamento del sistema **cancella tutte le modifiche effettuate manualmente sugli allegati**: ad esempio, se era stato aggiunto manualmente un allegato a una certa pratica, se era stata modificata l'obbligatorietà dell'allegato, ecc...
 
 ## Stampa allegati
 
