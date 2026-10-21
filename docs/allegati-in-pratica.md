@@ -31,8 +31,7 @@ Lo stesso allegato può quindi essere obbligatorio e firmato in una pratica e fa
 
 L'elenco contiene i tipi di pratica attivati per il tuo Ente (vedi [Tipi pratiche](tipi-pratiche.html)). Quando cambi pratica, i filtri e le ricerche delle tabelle vengono azzerati.
 
-{: .schermata }
-> `assets/images/allegati-in-pratica-tabelle.png` — La pagina con una pratica selezionata: tabella Allegati attivi con i badge Sì/No di Obbligatorio e Firma digitale e, sotto, la tabella degli allegati non attivi.
+![La pagina con una pratica selezionata e la tabella Allegati attivi, con i filtri, i pulsanti Tutti in PDF e Tutti firmati digitalmente e i badge Sì/No di Obbligatorio e Firma digitale](../assets/images/allegati-in-pratica-tabelle.png)
 
 ## Allegati attivi
 
@@ -119,8 +118,12 @@ Il secondo riquadro elenca gli allegati del catalogo che **non** sono richiesti 
 
 L'allegato passa tra gli **Allegati attivi** come **facoltativo** e **senza firma digitale**, con un tipo di file predefinito. Compare la notifica "Allegato attivato – Ora puoi impostare obbligatorietà, firma e tipo di file.": completa quindi le impostazioni come descritto sopra.
 
+## Effetto delle modifiche sulle pratiche già create
+
 {: .warning }
-> Le modifiche di questa pagina cambiano subito gli allegati richiesti ai professionisti per quel tipo di pratica, ma per una pratica in compilazione vale la regola di sempre: le impostazioni con cui è partito NON vengono modificate
+> Le modifiche fatte in questa pagina valgono subito, ma solo per le pratiche che i professionisti **creano dopo** la modifica. Le pratiche già create, anche se ancora in compilazione, mantengono gli allegati e le impostazioni (obbligatorietà, firma digitale, tipo di file) che c'erano quando sono state create.
+>
+> Ad esempio, se rendi **obbligatorio** un allegato, il professionista che aveva già creato la pratica quando era facoltativo può trasmetterla anche senza caricarlo.
 
 ## Pagine collegate
 
