@@ -24,13 +24,12 @@ Dal menu in alto scegli **Impostazioni › Gestione Utenti**. La pagina si intit
 
 La scheda **Utenti in consultazione** mostra gli utenti dell'Ente; il badge accanto al titolo ne riporta il numero.
 
-{: .schermata }
-> `assets/images/utenti-elenco.png` — La scheda "Utenti in consultazione" con alcuni utenti, la colonna "Comune consultabile" e i pulsanti di modifica ed eliminazione.
+![La scheda "Utenti in consultazione" con alcuni utenti, la colonna "Comune consultabile" e i pulsanti di modifica ed eliminazione](../assets/images/utenti-elenco.png)
 
 | Colonna | Contenuto |
 |---------|-----------|
 | **Username** | Nome utente con cui si accede alla consultazione. |
-| **Comune consultabile** | Comune di cui l'utente può consultare le pratiche, oppure il badge blu **Tutti i comuni**. Visibile solo se l'Ente gestisce più Comuni (ad esempio un'Unione). |
+| **Comune consultabile** | Comune di cui l'utente può consultare le pratiche, oppure il badge rosa **Tutti i comuni**. Visibile solo se l'Ente gestisce più Comuni (ad esempio un'Unione). |
 | (pulsanti) | **Modifica** (matita): modifica l'utente o cambia la password. **Elimina** (cestino): elimina l'utente. |
 
 L'elenco è ordinato per username e ha **Cerca**, ordinamento e paginazione da 25 righe: vedi [Interfaccia e convenzioni](interfaccia-e-convenzioni.html). Se non ci sono utenti compare *"Nessun utente in consultazione: usa Nuovo utente per aggiungerne uno."*
