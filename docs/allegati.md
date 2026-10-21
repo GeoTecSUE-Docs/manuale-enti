@@ -63,8 +63,6 @@ La tabella mostra 25 allegati per pagina, ordinati per titolo.
 | **Pratiche** | In quanti tipi di pratica l'allegato è attivo: un numero blu se è usato, "0" grigio se non è usato in nessuna pratica |
 | (pulsanti) | Matita per modificare, cestino per eliminare |
 
-<!-- DA VERIFICARE: non è chiaro dal codice se l'elenco comprenda, oltre agli allegati creati dall'Ente, anche gli allegati "base" forniti dal sistema (vedi "Aggiornamento del sistema con gli allegati base" nella Scheda Ente). -->
-
 ## Creare un nuovo allegato
 
 1. Clicca su **Nuovo allegato**, in alto a destra nel riquadro **Allegati**.
