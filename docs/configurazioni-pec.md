@@ -102,7 +102,7 @@ Quando la casella è configurata, in basso compare il pulsante **Invia messaggio
 4. Se l'invio non riesce compare la finestra **Attenzione** con il testo *"Invio di prova non riuscito:"* seguito dal messaggio restituito dal server di posta. Il messaggio aiuta a capire il problema (server, porta, credenziali o crittografia errati).
 
 {: .note }
-> Il messaggio di prova viene inviato a un indirizzo di verifica predefinito, mostrato accanto al pulsante, e non a una casella dell'Ente. Serve a verificare che i parametri di invio siano corretti. <!-- DA VERIFICARE: il destinatario della prova è un indirizzo fisso del fornitore; chiarire chi controlla la ricezione -->
+> Il messaggio di prova viene inviato a un indirizzo di verifica predefinito, mostrato accanto al pulsante, e non a una casella dell'Ente. Serve a verificare che i parametri di invio siano corretti.
 
 {: .schermata }
 > `assets/images/configurazioni-pec-prova.png` — La parte bassa della scheda con il pulsante "Invia messaggio di prova" e l'indirizzo del destinatario di prova.
