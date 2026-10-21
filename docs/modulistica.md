@@ -13,25 +13,33 @@ Fonte: Manuale Enti
 
 Questa sezione spiega come gestire i **modelli** dell'Ente: i file (moduli, fac-simile, dichiarazioni) che metti a disposizione per il download e che puoi collegare ai tipi di allegato.
 
+## I modelli dell'istanza NON sono in questa pagina
+
+{: .warning }
+> **In questa pagina non ci sono, e non devono esserci, i modelli dell'istanza** (ad esempio il modulo della SCIA, della CILA o del Permesso di costruire).
+>
+> L'istanza si compila **esclusivamente online** sul portale GeoTecSUE: il professionista inserisce i dati nella pratica e il portale genera il documento dell'istanza. Non esiste un modello dell'istanza da scaricare, compilare a mano e caricare.
+>
+> La modulistica serve solo per i **modelli dei documenti da allegare** alla pratica (dichiarazioni, asseverazioni, fac-simile, schede…), collegati ai tipi di allegato. Non caricare qui i moduli dell'istanza: i professionisti potrebbero pensare di poterli usare al posto della compilazione online.
+
 ## Accedere alla pagina
 
 Dal menu in alto scegli **Impostazioni › Modulistica**. Si apre la pagina **Gestione Modelli**.
 
 ## L'elenco dei modelli
 
-Il riquadro **Modelli** mostra tutti i modelli del tuo Ente; il numero grigio accanto al titolo ne indica il totale. La tabella è ordinata per nome, mostra 25 righe per pagina e ricorda ricerca e pagina dopo ogni operazione (vedi [Interfaccia e convenzioni](interfaccia-e-convenzioni.html)).
+Il riquadro **Modelli** mostra tutti i modelli del tuo Ente; il badge accanto al titolo ne indica il totale. La tabella è ordinata per nome, mostra 25 righe per pagina e ricorda ricerca e pagina dopo ogni operazione (vedi [Interfaccia e convenzioni](interfaccia-e-convenzioni.html)).
 
 | Colonna | Contenuto |
 |---------|-----------|
 | **Nome modello** | Il nome con cui il modello viene presentato |
-| **File** | Nome del file caricato, con un'icona che ne indica il tipo (PDF rosso, Word blu, Excel verde…) |
+| **File** | Nome del file caricato, con un'icona che ne indica il tipo (PDF, Word, Excel…) |
 | **Caricato il** | Data dell'ultimo caricamento del file |
 | **Attivo** | Badge **Sì** (verde) o **No** (grigio), cliccabile |
-| **Allegati** | Numero di tipi di allegato collegati al modello, cliccabile |
+| **Allegati** | Numero di tipi di allegato collegati al modello, in un badge rosso cliccabile |
 | (pulsanti) | Scarica, allegati collegati, modifica, elimina |
 
-{: .schermata }
-> `assets/images/modulistica-elenco.png` — La pagina Gestione Modelli con la tabella dei modelli, i badge Attivo e Allegati e i pulsanti di riga.
+![La pagina Gestione Modelli con la tabella dei modelli, i badge Attivo e Allegati e i pulsanti di riga](../assets/images/modulistica-elenco.png)
 
 ### Pulsanti di riga
 
@@ -65,9 +73,6 @@ Un modello attivo è **disponibile per il download**; uno disattivato resta nell
 
 Il file viene caricato solo al salvataggio. Se manca il nome o il file compare la finestra **Attenzione** ("Inserire il nome del modello." oppure "Scegliere il file del modello."); chiudendola torni alla finestra del modello. A salvataggio riuscito compare la notifica **Modello creato**.
 
-{: .schermata }
-> `assets/images/modulistica-modifica.png` — La finestra Modifica modello con il nome, il riquadro File attuale, il campo Sostituisci il file (facoltativo) e l'interruttore Modello attivo.
-
 ## Modificare un modello
 
 1. Clicca sulla **matita** nella riga del modello.
@@ -77,6 +82,8 @@ Il file viene caricato solo al salvataggio. Se manca il nome o il file compare l
    - caricare un nuovo file in **Sostituisci il file (facoltativo)**;
    - accendere o spegnere **Modello attivo (disponibile per il download)**.
 3. Clicca su **Salva**: compare la notifica **Modello salvato**.
+
+![La finestra Modifica modello con il nome, il file attuale, il campo Sostituisci il file (facoltativo) e l'interruttore Modello attivo](../assets/images/modulistica-modifica.png)
 
 Se carichi un nuovo file, la data **Caricato il** si aggiorna e il file precedente viene sostituito.
 
@@ -96,8 +103,7 @@ Un modello può essere collegato a uno o più tipi di allegato del [catalogo all
 
 Le modifiche vengono salvate subito; il numero nella colonna **Allegati** dell'elenco si aggiorna. Scollegare un allegato elimina solo il collegamento: l'allegato e il modello restano.
 
-{: .schermata }
-> `assets/images/modulistica-allegati.png` — La finestra Allegati collegati al modello con le tabelle Collegati e Da collegare.
+![La finestra Allegati collegati al modello con le tabelle Collegati e Da collegare](../assets/images/modulistica-allegati.png)
 
 ## Eliminare un modello
 
