@@ -27,7 +27,7 @@ Gli indirizzi di Extra Mail:
 - ricevono solo le mail delle pratiche del **Comune** a cui sono associati.
 
 {: .note }
-> Le mail agli indirizzi aggiuntivi sono mail normali, non PEC.
+> Le mail agli indirizzi aggiuntivi sono mail normali, non PEC. Anche per loro vale quanto spiegato in [Le mail sono un servizio di cortesia](mail.html#le-mail-sono-un-servizio-di-cortesia): il sistema invia la mail ma non sa se viene consegnata.
 
 ## Accedere alla pagina
 
@@ -37,8 +37,7 @@ Dal menu in alto scegli **Impostazioni › Extra Mail**. La pagina si intitola *
 
 La scheda **Destinatari abilitati** mostra gli indirizzi configurati; il badge accanto al titolo ne riporta il numero.
 
-{: .schermata }
-> `assets/images/extra-mail-elenco.png` — La scheda "Destinatari abilitati" con alcuni indirizzi, la colonna Comune e i pulsanti di modifica ed eliminazione.
+![La scheda "Destinatari abilitati" di un Ente con un solo Comune, con il pulsante Nuovo destinatario, un indirizzo e i pulsanti di modifica ed eliminazione](../assets/images/extra-mail-elenco.png)
 
 | Colonna | Contenuto |
 |---------|-----------|
