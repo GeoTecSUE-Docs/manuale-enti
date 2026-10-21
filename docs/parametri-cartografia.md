@@ -44,8 +44,6 @@ Il riquadro **Funzionalità della cartografia** riporta nell'intestazione il nom
 | **Ricerca pratiche edilizie** | Ricerca delle pratiche edilizie dalla cartografia |
 | **Vista con Piano Regolatore** | Visualizzazione della cartografia con il Piano Regolatore (PRGC) |
 
-<!-- DA VERIFICARE: le descrizioni delle tre funzionalità sono dedotte dalle sole etichette; il comportamento lato cartografia non è visibile nel codice di questa pagina. -->
-
 Se una funzionalità non è disponibile per il tuo Ente, sotto il suo nome compare l'etichetta **Non disponibile per l'ente** e l'interruttore è bloccato: al salvataggio quella funzionalità mantiene il valore già impostato.
 
 ## Combinazioni consentite
@@ -67,9 +65,6 @@ Compare la notifica verde **Impostazioni salvate** con il nome del comune. Se la
 
 {: .warning }
 > Le impostazioni cambiano le funzionalità della cartografia disponibili per il comune scelto.
-
-<!-- DA VERIFICARE: non è chiaro dal codice chi utilizzi la cartografia (professionisti, cittadini, uffici) e da quando le modifiche hanno effetto. -->
-
 ## Pagine collegate
 
 - [Scheda Ente](scheda-ente.html): i dati generali dell'Ente.
