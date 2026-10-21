@@ -85,7 +85,14 @@ Clicca su un badge per invertirne il valore; la modifica viene salvata subito. L
 | **Obbl. sanatoria** | **Obbligatorio per le pratiche in sanatoria** / **Facoltativo per le pratiche in sanatoria** |
 
 {: .warning }
-> Le modifiche hanno effetto sulle pratiche che i professionisti andranno a compilare. Una pratica nata in precedenza ad una modifica non cambierà lo stato del pagamento.
+> Le modifiche a un'associazione, fatte con i badge o dalla finestra di modifica, valgono solo per le pratiche che i professionisti **creano dopo** la modifica. Le pratiche già create mantengono le impostazioni del pagamento che c'erano quando sono state create.
+>
+> Ad esempio, se una pratica è stata creata quando il pagamento era **facoltativo** e in seguito lo rendi **obbligatorio**, per quella pratica il pagamento resta facoltativo.
+
+{: .note }
+> In questa pagina **non** puoi rendere facoltativo il pagamento di una **singola pratica**: le associazioni valgono per tutte le nuove pratiche di quel tipo.
+>
+> Per intervenire su una pratica specifica usa la pagina [Gestione PagoPA](gestione-pagopa.html#rendere-un-pagamento-obbligatorio-o-facoltativo). È il caso, ad esempio, di un professionista che ha già pagato con bonifico e chiede di "sbloccare" un pagamento obbligatorio per poter inviare la pratica.
 
 ## Creare un'associazione
 
