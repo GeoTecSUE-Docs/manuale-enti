@@ -31,8 +31,7 @@ La pagina si aggiorna e mostra le impostazioni del comune scelto. Per un Ente co
 
 Se il comune non risulta configurato per la cartografia compare la finestra **Attenzione** con il messaggio "Il comune non risulta configurato per la cartografia."
 
-{: .schermata }
-> `assets/images/parametri-cartografia.png` — I riquadri Funzionalità della cartografia, con i tre interruttori e il pulsante Salva, e Combinazioni consentite con la riga scelta evidenziata in verde.
+![I riquadri Funzionalità della cartografia, con i tre interruttori e il pulsante Salva, e Combinazioni consentite con la riga scelta evidenziata in verde](../assets/images/parametri-cartografia.png)
 
 ## Funzionalità della cartografia
 
@@ -48,7 +47,7 @@ Se una funzionalità non è disponibile per il tuo Ente, sotto il suo nome compa
 
 ## Combinazioni consentite
 
-Non tutte le combinazioni dei tre interruttori sono ammesse. Il riquadro **Combinazioni consentite** elenca quelle permesse, una per riga, con le colonne **AI**, **Pratiche edilizie** e **PRGC** (spunta verde = attiva, cerchio grigio = non attiva).
+Non tutte le combinazioni dei tre interruttori sono ammesse. Il riquadro **Combinazioni consentite** elenca quelle permesse, una per riga, con le colonne **AI**, **Pratiche edilizie** e **PRGC** (spunta verde = attiva, cerchio con la X = non attiva).
 
 Mentre sposti gli interruttori:
 
@@ -65,6 +64,7 @@ Compare la notifica verde **Impostazioni salvate** con il nome del comune. Se la
 
 {: .warning }
 > Le impostazioni cambiano le funzionalità della cartografia disponibili per il comune scelto.
+
 ## Pagine collegate
 
 - [Scheda Ente](scheda-ente.html): i dati generali dell'Ente.
