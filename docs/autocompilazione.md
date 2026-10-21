@@ -19,8 +19,6 @@ Nel portale dei professionisti esiste la funzione **Autocompilazione modelli**: 
 
 L'elenco delle auto compilazioni disponibili è predefinito dal sistema: qui non puoi crearne di nuove né modificarne il contenuto, ma solo attivarle o disattivarle.
 
-<!-- DA VERIFICARE: si presume che solo le auto compilazioni attive compaiano nel menu "Seleziona il modello" del professionista; il collegamento non è visibile nel codice di questa pagina. -->
-
 {: .note }
 > I modelli di documento caricati dall'Ente come file si gestiscono invece nella pagina [Modulistica](modulistica.html).
 
