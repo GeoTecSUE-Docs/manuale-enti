@@ -37,6 +37,21 @@ Il mittente delle mail normali è l'indirizzo dell'Ente oppure, in base alla con
 {: .note }
 > Questa pagina decide solo **se** la mail parte per un certo evento. Il testo dei messaggi è predefinito e non si modifica qui. Le notifiche che il professionista vede nel portale non dipendono da queste impostazioni. <!-- DA VERIFICARE: conferma che le notifiche interne al portale vengono registrate comunque -->
 
+## Le mail sono un servizio di cortesia
+
+{: .warning }
+> Le mail automatiche, come le notifiche sul portale, sono un **servizio di cortesia**: **non sono necessarie perché un'azione sulla pratica sia valida**. Una protocollazione, una richiesta di integrazioni o il rilascio di un provvedimento sono validi e visibili sul portale anche se la mail non arriva.
+
+GeoTecSUE invia la mail, ma **non può sapere se verrà consegnata**. Se il professionista ha indicato un indirizzo sbagliato, oppure ha la casella piena, il messaggio non viene consegnato e il sistema **non riceve alcun avviso di errore**.
+
+Se un professionista segnala di non aver ricevuto una mail:
+
+- invitalo a controllare la pratica sul portale, dove trova comunque lo stato aggiornato;
+- chiedigli di verificare che l'indirizzo email indicato sia corretto, che la casella non sia piena e che la mail non sia finita nella posta indesiderata.
+
+{: .note }
+> Non è utile chiedere all'assistenza se il sistema delle mail funziona o se una mail è arrivata: si può solo confermare che la mail è **partita**, non se è stata **consegnata**.
+
 ## La tabella degli eventi
 
 La scheda **Mail automatiche** contiene una tabella con un evento per riga. Accanto al titolo un badge verde indica quanti invii sono attivi rispetto a quelli possibili (es. "12 su 31": in totale gli invii possibili sono 31).
@@ -49,8 +64,7 @@ La scheda **Mail automatiche** contiene una tabella con un evento per riga. Acca
 
 Se in una cella compare un trattino (**—**) la mail per quel destinatario non è prevista per quell'evento e non si può attivare.
 
-{: .schermata }
-> `assets/images/mail-tabella-eventi.png` — La tabella "Mail automatiche" con alcuni interruttori accesi, alcuni spenti e alcune celle con il trattino.
+![La tabella "Mail automatiche" con il badge del conteggio, gli interruttori accesi e le celle con il trattino per le mail non previste](../assets/images/mail-tabella-eventi.png)
 
 ### Attivare o disattivare un invio
 
