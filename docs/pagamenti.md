@@ -28,8 +28,7 @@ Dal menu in alto scegli **Impostazioni › Pagamenti**.
 
 Si apre la pagina **Gestione Pagamenti** con l'elenco delle schede dell'Ente.
 
-{: .schermata }
-> `assets/images/pagamenti-elenco.png` — La pagina Gestione Pagamenti con l'elenco delle schede, i badge Priorità e Attiva e i pulsanti di modifica ed eliminazione.
+![La pagina Gestione Pagamenti con l'elenco delle schede, i badge Priorità e Attiva e i pulsanti di modifica ed eliminazione](../assets/images/pagamenti-elenco.png)
 
 ## Elenco dei pagamenti
 
@@ -99,8 +98,7 @@ Se un controllo non è superato, compare la finestra **Attenzione** con uno di q
 
 L'editor del campo **Testo** è lo stesso delle news: barra con **Grassetto**, **Corsivo**, **Titolo**, **Elenco puntato**, **Elenco numerato**, **Citazione**, **Link**, **Linea orizzontale**, **Anteprima**, **Annulla** e **Ripeti**. Per i dettagli vedi [Scrivere il testo](news.html#scrivere-il-testo).
 
-{: .schermata }
-> `assets/images/pagamenti-finestra-modifica.png` — La finestra Modifica pagamento con titolo, data, priorità, attivazione, editor del testo e sezione Allegati.
+![La finestra Modifica pagamento con titolo, data, priorità, attivazione, editor del testo e sezione Allegati](../assets/images/pagamenti-finestra-modifica.png)
 
 ## Modificare una scheda
 
