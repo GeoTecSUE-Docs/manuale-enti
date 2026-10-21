@@ -40,7 +40,7 @@ Puoi:
 
 ### Impostazioni dell'Ente
 - [News](docs/news.html)
-- [Pagamenti (diritti di segreteria)](docs/pagamenti.html)
+- [Pagamenti](docs/pagamenti.html)
 - [Configurazione PagoPA](docs/pagopa-configurazione.html)
 - [Tipi pratiche](docs/tipi-pratiche.html)
 - [Comunicazioni](docs/comunicazioni.html)
