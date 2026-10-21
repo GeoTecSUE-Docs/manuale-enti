@@ -30,8 +30,7 @@ Puoi arrivare alla pagina di accesso in tre modi:
 
 La pagina **Scegli l'ente a cui accedere** compare quando il collegamento usato non indica l'Ente oppure quando la sessione è scaduta. Il messaggio sotto il titolo lo ricorda: *"Il collegamento usato non indica l'ente, oppure la sessione è scaduta."*
 
-{: .schermata }
-> `assets/images/accesso-scelta-ente.png` — La pagina "Scegli l'ente a cui accedere" con la tendina degli enti aperta e la ricerca per nome.
+![La pagina "Scegli l'ente a cui accedere" con il campo Ente e il pulsante Continua](../assets/images/accesso-scelta-ente.png)
 
 Per scegliere l'Ente:
 
@@ -63,8 +62,7 @@ La pagina di accesso mostra, dall'alto verso il basso:
 - il pulsante **Accedi**;
 - il collegamento **Non è il tuo ente? Cambia ente**.
 
-{: .schermata }
-> `assets/images/accesso-login.png` — La pagina di accesso con il nome dell'Ente, il campo Utente già compilato, il campo Password e il pulsante Accedi.
+![La pagina di accesso con il riquadro Ente, il campo Utente già compilato, il campo Password e il pulsante Accedi](../assets/images/accesso-login.png)
 
 ### Entrare nel back office
 
