@@ -13,7 +13,7 @@ Fonte: Manuale Enti
 
 Questa sezione spiega come consultare le trasmissioni delle pratiche del tuo Ente verso Regione Lombardia, filtrarle e aprirne il riepilogo o il dettaglio della pratica.
 
-La pagina è di sola consultazione: da qui non si avviano né si ripetono trasmissioni: eventuali trasmissioni non andate a buon fine vengono rielaborate dal sistema in modalità automatica. 
+La pagina è di sola consultazione: da qui non si avviano né si ripetono trasmissioni. Le trasmissioni non andate a buon fine vengono rielaborate automaticamente dal sistema.
 
 ## Accedere alla pagina
 
@@ -24,8 +24,7 @@ Dal menu in alto scegli **Gestione Pratiche › Trasmissioni Regione Lombardia**
 
 La pagina si intitola **Trasmissioni a Regione Lombardia**.
 
-{: .schermata }
-> `assets/images/trasmissioni-regione-lombardia-elenco.png` — La card "Ultime trasmissioni" con i filtri, la tabella con i badge di fase colorati e i pulsanti riepilogo e dettaglio.
+![La card "Trasmissioni trovate" con due filtri attivi, la tabella con i badge di fase colorati e i pulsanti riepilogo e dettaglio](../assets/images/trasmissioni-regione-lombardia-elenco.png)
 
 ## Ultime trasmissioni e ricerca
 
@@ -60,7 +59,7 @@ La tabella è ordinata per data di trasmissione, dalla più recente, e ha ricerc
 |---------|-----------|
 | **Trasmessa il** | Data e ora della trasmissione |
 | **Ente** | Compare solo se nell'elenco ci sono trasmissioni di più Enti |
-| **Fase** | Badge della fase di aggiornamento |
+| **Fase** | Badge della fase di aggiornamento, seguita dalla sigla della pratica e dal numero (es. "Primo Aggiornamento PdC …") |
 | **# Pratica** | Numero della pratica (link al dettaglio) e, sotto, il tipo di pratica |
 | **Codice pratica R.L.** | Codice regionale della pratica |
 | **ID R.L.** | Identificativo regionale; per la fase **Integrazioni** è l'identificativo dell'integrazione |
@@ -75,7 +74,7 @@ La tabella è ordinata per data di trasmissione, dalla più recente, e ha ricerc
 
 ## Riepilogo di una trasmissione
 
-1. Clicca sul pulsante grigio (scheda) a destra della riga.
+1. Clicca sul pulsante viola con l'icona del riepilogo, a destra della riga (accanto alla lente).
 2. Si apre la finestra con titolo Ente e fase, divisa in tre parti:
    - **Trasmissione**: **Trasmessa il**, **Procedimento R.L.**, **ID pratica R.L.**, **ID integrazione R.L.**, **Codice pratica R.L.**;
    - **Pratica**: **Numero pratica**, **Stato**, **Inviata il**, **Tipo pratica**, **Protocollo**, **Registrazione**;
