@@ -23,11 +23,10 @@ Dal lato del professionista l'importazione è descritta nel manuale dei professi
 Dal menu in alto scegli **Gestione Pratiche › Pratiche Importate**.
 
 La voce di menu compare solo se per il tuo Ente è attiva l'importazione delle pratiche dal gestionale (nella [Scheda Ente](scheda-ente.html), campo **Collegamento pratiche Sequoia su SUE** impostato su **Attivo** oppure **Attivo con conferma dell'Ente**). Se non la vedi, la funzione non è attiva.
-<!-- DA VERIFICARE: la visibilità della voce dipende da un controllo lato server sull'attivazione; si presume che corrisponda ai valori "Attivo" e "Attivo con conferma dell'Ente" del campo della Scheda Ente. -->
 
 La pagina si intitola **Pratiche importate** e contiene un'unica scheda, **Pratiche importate dal gestionale dell'Ente**. Accanto al titolo della scheda trovi:
 
-- un badge grigio con il **numero di pratiche** trovate con i filtri correnti;
+- un badge blu con il **numero di pratiche** trovate con i filtri correnti;
 - un badge giallo con il numero di **filtri attivi** (es. "2 filtri"), visibile solo quando almeno un filtro è impostato.
 
 {: .schermata }
