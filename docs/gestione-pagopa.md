@@ -29,7 +29,7 @@ Nella pagina compaiono **solo** i pagamenti delle pratiche che il professionista
 I pagamenti delle pratiche già trasmesse non sono qui: li trovi nel [dettaglio della pratica](dettaglio-pratica.html) (o nel [dettaglio della pratica importata](dettaglio-importata.html)).
 
 Accanto al titolo del riquadro trovi:
-- un badge grigio con il **numero di pagamenti** trovati;
+- un badge viola con il **numero di pagamenti** trovati;
 - un badge giallo con il numero di **filtri attivi** (es. "1 filtro", "3 filtri"), visibile solo se hai impostato almeno un filtro.
 
 Sotto il titolo, un riquadro informativo azzurro ricorda che con il pulsante nella colonna **Pagamento** rendi un pagamento obbligatorio o facoltativo.
@@ -60,8 +60,6 @@ Per applicare i filtri:
 L'elenco si ricarica con i soli pagamenti che rispettano **tutti** i filtri impostati.
 
 Per tornare all'elenco completo clicca su **Rimuovi filtri**. Il pulsante compare solo quando almeno un filtro è attivo.
-
-<!-- DA VERIFICARE: il filtro "Senza IUV" invia al server il valore 0, mentre i pagamenti senza IUV sembrano non avere alcuno stato registrato; dal codice della pagina non si capisce se il server li distingua davvero o se il filtro si comporti come "Tutti" (limite segnalato). -->
 
 ## L'elenco dei pagamenti
 
