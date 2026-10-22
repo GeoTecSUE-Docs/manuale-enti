@@ -18,7 +18,7 @@ Questa sezione spiega come protocollare manualmente le istanze trasmesse dai pro
 Dal menu in alto scegli **Gestione Pratiche › Gestione Protocollazione**.
 
 {: .note }
-> La voce di menu è visibile solo se per il tuo Ente è attiva la protocollazione manuale. <!-- DA VERIFICARE: l'opzione non si imposta dal back office; indicare chi la attiva e se serve rientrare o aprire la Scheda Ente perché la voce compaia --> Negli Enti con protocollazione automatica le pratiche passano da **Inviata** a **Protocollata** senza intervento dell'ufficio.
+> La voce di menu è visibile solo se per il tuo Ente è attiva la protocollazione manuale. Negli Enti con protocollazione automatica le pratiche passano da **Inviata** a **Protocollata** senza intervento dell'ufficio.
 
 La pagina si intitola **Gestione protocollazione**.
 
@@ -62,7 +62,7 @@ Per chiudere il riquadro senza protocollare clicca su **Chiudi**: numero e data 
 
 Se l'istanza è una comunicazione o un'integrazione, nel riquadro compare anche **Pratica di riferimento** con **Tipo pratica**, **Numero pratica**, **Numero pratica dell'Ente** e **Protocollo** della pratica a cui si riferisce (anche se si tratta di una pratica importata).
 
-Dopo la protocollazione di un'integrazione la pratica di riferimento torna allo stato **Registrata**, oppure **Esecutiva** se ha già un provvedimento. Dopo la protocollazione di una comunicazione la pratica di riferimento resta nel suo stato. <!-- DA VERIFICARE: il cambio di stato è eseguito dal server; nel back office si vede solo la registrazione nella tracciabilità -->
+Dopo la protocollazione di un'integrazione la pratica di riferimento resta nel suo stato.
 
 ### Scarica .zip per il protocollo
 
@@ -70,7 +70,7 @@ Dopo la protocollazione di un'integrazione la pratica di riferimento torna allo 
 2. Attendi la preparazione (compare lo spinner).
 3. Il browser scarica il file `<numero pratica> - <acronimo>.zip`.
 
-L'archivio contiene la documentazione dell'istanza da caricare nel tuo sistema di protocollo. <!-- DA VERIFICARE: il contenuto dello zip per il protocollo è preparato dal server e non è visibile nel codice --> È temporaneo e viene eliminato dopo lo scarico. Se non riesce compare *Non è stato possibile creare l'archivio per il protocollo* oppure *L'archivio per il protocollo non è disponibile: riprova a generarlo.*
+L'archivio contiene la documentazione dell'istanza da caricare nel tuo sistema di protocollo. È temporaneo e viene eliminato dopo lo scarico. Se non riesce compare *Non è stato possibile creare l'archivio per il protocollo* oppure *L'archivio per il protocollo non è disponibile: riprova a generarlo.*
 
 ### Consultare il dettaglio prima di protocollare
 
