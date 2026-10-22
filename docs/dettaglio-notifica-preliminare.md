@@ -24,8 +24,7 @@ Se apri una notifica preliminare da un altro elenco, ad esempio [Pratiche e comu
 
 Se la notifica non esiste o non appartiene al tuo Ente, compare il riquadro **Notifica preliminare non trovata** ("La notifica richiesta non esiste oppure non appartiene a questo Ente.") con il solo pulsante **Ritorna**.
 
-{: .schermata }
-> `assets/images/dettaglio-notifica-preliminare-panoramica.png` — L'intestazione con il badge "MUDE" e la scheda Pratica con le card "Trasmissione a MUDE" e "Protocollazione su MUDE".
+![L'intestazione con i badge di stato e "MUDE" e la scheda Pratica con le card "Dati generali", "Trasmissione a MUDE" e "Protocollazione su MUDE"](../assets/images/dettaglio-notifica-preliminare-panoramica.png)
 
 ## Intestazione
 
@@ -132,7 +131,7 @@ Contiene la card **Ricevute della notifica** con due righe: **Ricevuta di invio*
 
 - Clicca su **Scarica** per scaricare il PDF della ricevuta.
 - Clicca su **Rigenera** per crearla di nuovo. La pagina si ricarica e compare la notifica verde "Ricevuta di invio rigenerata" (o "di protocollazione"). Se la notifica non è ancora protocollata, la rigenerazione della ricevuta di protocollazione viene rifiutata con il messaggio "La notifica non è ancora stata protocollata su MUDE.".
-  
+
 ### Scheda Storico
 
 La card **Tracciabilità** elenca, dalla più recente, ogni operazione registrata sulla notifica, con **Data** e **Operazione** (ad esempio l'invio a MUDE e la protocollazione SPRESAL).
