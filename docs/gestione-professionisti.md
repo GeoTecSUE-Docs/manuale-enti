@@ -17,11 +17,11 @@ Questa sezione spiega come consultare l'elenco dei professionisti che operano co
 
 Clicca sulla voce **Gestione Professionisti** nella barra di menu in alto.
 
-La pagina si intitola **Gestione professionisti** e contiene il riquadro **Professionisti che operano con l'Ente**. Accanto al titolo un badge grigio indica quanti professionisti sono presenti.
-I professionisti che vengono mostrati sono tutti quelli che hanno fatto almeno una volta un accesso al portale GeoTecSUE (anche senza aver mai inviato un'istanza all'Ente)
+La pagina si intitola **Gestione professionisti** e contiene il riquadro **Professionisti che operano con l'Ente**. Accanto al titolo un badge viola indica quanti professionisti sono presenti.
 
-{: .schermata }
-> `assets/images/gestione-professionisti-elenco.png` — La pagina Gestione professionisti con l'elenco e, in alto a destra, i pulsanti Copia e-mail e Copia PEC con i relativi pulsanti di scarico.
+Nell'elenco compaiono tutti i professionisti che hanno effettuato almeno un accesso al portale GeoTecSUE dell'Ente, anche se non hanno mai inviato un'istanza.
+
+![La pagina Gestione professionisti con l'elenco filtrato dalla casella Cerca e, in alto a destra, i pulsanti Copia e-mail e Copia PEC con i relativi pulsanti di scarico](../assets/images/gestione-professionisti-elenco.png)
 
 ## L'elenco dei professionisti
 
@@ -47,11 +47,13 @@ Usa il campo **Cerca** per trovare rapidamente un professionista per cognome, co
 In alto a destra nel riquadro trovi due gruppi di pulsanti, uno per le e-mail e uno per le PEC.
 
 Per copiare gli indirizzi:
+
 1. Clicca su **Copia e-mail** (oppure su **Copia PEC**).
 2. Compare la notifica verde, ad esempio "**42 indirizzi e-mail copiati**", con il suggerimento "Puoi incollarli nel campo Ccn di una mail.".
 3. Apri il tuo programma di posta e incolla gli indirizzi nel campo del destinatario che preferisci.
 
 Gli indirizzi vengono copiati:
+
 - separati da punto e virgola e spazio ("; "), il formato accettato dai programmi di posta;
 - senza doppioni (due indirizzi uguali, anche con maiuscole diverse, vengono copiati una sola volta);
 - saltando i professionisti che non hanno l'indirizzo.
@@ -62,6 +64,7 @@ Gli indirizzi vengono copiati:
 ## Scaricare gli indirizzi in un file
 
 Accanto a ciascun pulsante di copia c'è un pulsante con l'icona di download:
+
 - quello accanto a **Copia e-mail** scarica il file `lista_email.txt`;
 - quello accanto a **Copia PEC** scarica il file `lista_PEC.txt`.
 
