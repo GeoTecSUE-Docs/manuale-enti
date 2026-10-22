@@ -143,7 +143,7 @@ Se il collegamento con il gestionale non riesce, compare la finestra **Attenzion
 3. Compare la notifica **Restrizioni eliminate** e torna il pulsante **Imposta restrizioni**.
 
 {: .warning }
-> Eliminando le restrizioni perdi tutte le scelte fatte per quella gestione (dati dell'immobile e tipi pratica nascosti). Se le reimposti, si riparte con tutto visibile. <!-- DA VERIFICARE: cosa mostra la consultazione per una gestione senza restrizioni impostate -->
+> Eliminando le restrizioni perdi tutte le scelte fatte per quella gestione (dati dell'immobile e tipi pratica nascosti). Se le reimposti, si riparte con tutto visibile.
 
 ## Vecchia gestione
 
