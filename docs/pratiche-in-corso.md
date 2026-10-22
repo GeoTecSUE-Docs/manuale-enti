@@ -24,7 +24,7 @@ Dal menu in alto scegli **Gestione Pratiche › Pratiche In corso**.
 
 La pagina si intitola **Pratiche in corso** e contiene un'unica scheda, **Pratiche in compilazione presso i professionisti (non ancora inviate)**. Accanto al titolo trovi:
 
-- un badge grigio con il **numero di pratiche** trovate con i filtri correnti;
+- un badge viola con il **numero di pratiche** trovate con i filtri correnti;
 - un badge giallo con il numero di **filtri attivi** (es. "1 filtro"), visibile solo quando almeno un filtro è impostato.
 
 {: .schermata }
