@@ -21,7 +21,7 @@ Dal menu in alto scegli **Impostazioni › Mail**. La pagina si intitola **Gesti
 
 Quando su una pratica avviene un evento (ad esempio l'invio da parte del professionista o la protocollazione), GeoTecSUE può inviare un messaggio:
 
-- **All'ente**: una mail all'indirizzo dell'Ente, per avvisare l'ufficio dell'evento (ad esempio una nuova pratica arrivata). Le stesse mail rivolte all'Ente possono essere inviate in copia agli indirizzi aggiuntivi configurati in [Extra Mail](extra-mail.html). <!-- DA VERIFICARE: indirizzo Ente usato (campo "E-mail" della Scheda Ente) e se la copia agli Extra Mail vale per tutti gli eventi "All'ente" o solo per alcuni -->
+- **All'ente**: una mail all'indirizzo dell'Ente, per avvisare l'ufficio dell'evento (ad esempio una nuova pratica arrivata). Le stesse mail rivolte all'Ente possono essere inviate in copia agli indirizzi aggiuntivi configurati in [Extra Mail](extra-mail.html).
 - **Al professionista**: un messaggio al professionista che ha presentato la pratica, per informarlo dell'evento (ad esempio che la pratica è stata protocollata).
 
 Per i messaggi al professionista, il canale dipende dal campo **Tipo notifica** della [Scheda Ente](scheda-ente.html):
@@ -32,10 +32,10 @@ Per i messaggi al professionista, il canale dipende dal campo **Tipo notifica** 
 | **PEC** | Una PEC al suo indirizzo PEC, inviata dalla casella configurata in [Configurazioni PEC](configurazioni-pec.html). |
 | **Entrambe** | Sia la mail sia la PEC. |
 
-Il mittente delle mail normali è l'indirizzo dell'Ente oppure, in base alla configurazione dell'Ente, un indirizzo del servizio GeoTecSUE. <!-- DA VERIFICARE: opzione che fa usare l'indirizzo del fornitore come mittente -->
+Il mittente delle mail normali è l'indirizzo dell'Ente oppure, in base alla configurazione dell'Ente, un indirizzo del servizio GeoTecSUE (*no-reply*).
 
 {: .note }
-> Questa pagina decide solo **se** la mail parte per un certo evento. Il testo dei messaggi è predefinito e non si modifica qui. Le notifiche che il professionista vede nel portale non dipendono da queste impostazioni. <!-- DA VERIFICARE: conferma che le notifiche interne al portale vengono registrate comunque -->
+> Questa pagina decide solo **se** la mail parte per un certo evento. Il testo dei messaggi è predefinito e non si modifica qui. Le notifiche che il professionista vede nel portale non dipendono da queste impostazioni.
 
 ## Le mail sono un servizio di cortesia
 
