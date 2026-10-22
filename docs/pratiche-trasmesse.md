@@ -30,11 +30,11 @@ La pagina si intitola **Pratiche e comunicazioni trasmesse** ed è organizzata i
 |--------|---------------|
 | **Pratiche** | Le pratiche (istanze) trasmesse dai professionisti |
 | **Comunicazioni** | Le comunicazioni collegate a una pratica già trasmessa (es. inizio lavori, fine lavori) |
-| **Richieste di integrazione** | Le pratiche coinvolte in una richiesta di integrazione documentale <!-- DA VERIFICARE: l'elenco è fornito dal server; non è chiaro se mostri le richieste aperte dall'Ente o le integrazioni trasmesse dal professionista --> |
+| **Richieste di integrazione** | Le pratiche coinvolte in una richiesta di integrazione documentale |
 
 Accanto al nome di ogni scheda trovi:
 
-- un badge grigio con il **numero di elementi** trovati;
+- un badge blu con il **numero di elementi** trovati;
 - un badge giallo con il numero di **filtri attivi** (es. "2 filtri"), solo se hai applicato almeno un filtro.
 
 La scheda aperta viene ricordata: dopo un filtro o al ritorno dal dettaglio di una pratica ritrovi la stessa scheda.
@@ -117,9 +117,6 @@ Nel dettaglio della pratica la comunicazione si trova nella scheda **Comunicazio
 ### Colonne della scheda Richieste di integrazione
 
 **# Pratica** (link al dettaglio della pratica di riferimento), **Tipo**, **Comune** (solo per gli Enti con più Comuni), **Data invio**, **Titolare**, **Professionista**, **Stato** e la lente per aprire il dettaglio.
-
-{: .note }
-> Se la pratica di riferimento non è disponibile, la lente è grigia e disattivata (suggerimento: "Pratica di riferimento non disponibile").
 
 ### Colori degli stati
 
