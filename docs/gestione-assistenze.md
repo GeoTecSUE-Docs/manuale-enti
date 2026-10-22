@@ -11,7 +11,10 @@ Fonte: Manuale Enti
 
 # Gestione assistenze
 
-Questa sezione spiega come leggere le richieste di assistenza tecnica che i professionisti inviano all'Ente dal portale e come rispondere.
+Questa sezione spiega come leggere le richieste di assistenza tecnica che i professionisti inviano dal portale e come rispondere.
+
+{: .note }
+> Le richieste di assistenza sono gestite **dall'assistenza SISCOM** di GeoTecSUE, quindi raramente troverai richieste aperte in questa pagina. Se è necessario coinvolgere l'Ente nella richiesta di un professionista, l'assistenza SISCOM vi contatta telefonicamente.
 
 ## Accedere alla pagina
 
@@ -22,13 +25,12 @@ La pagina si intitola **Assistenza tecnica** e contiene il riquadro **Richieste 
 ## Da dove arrivano le richieste
 
 Il professionista invia la richiesta dal proprio portale, dal menu personale **Assistenza tecnica**. Nel modulo indica:
+
 - **Cognome**, **Nome**, **Email** e **Telefono** (precompilati dal suo profilo, ma modificabili);
 - la **Descrizione del problema**;
 - se vuole ricevere la risposta anche via mail (casella **Invia la risposta anche via mail**).
 
 Il professionista legge poi la risposta nel portale, nella sezione **Le mie richieste** della sua pagina di assistenza, e, se lo ha chiesto, anche via mail.
-
-Le assistenze vengono gestite totalmente dall'assistenza SISCOM del GeoTecSUE e quindi raramente troverai delle assistenze aperte qui: se abbiamo necessità di coinvolgervi in una richiesta di un professionista, cerchiamo un contatto telefonico.
 
 ## L'elenco delle richieste
 
@@ -103,7 +105,7 @@ Quando l'errore compare nella finestra di risposta, la finestra si riapre da sol
 
 ## Cosa può chiedere il professionista all'Ente
 
-Alcune richieste che arrivano all'assistenza riguardano decisioni che spettano solo all'Ente. Le più frequenti:
+Anche queste richieste arrivano in prima battuta all'assistenza SISCOM, ma alcune riguardano decisioni che spettano **solo all'Ente**: in questi casi l'assistenza SISCOM non può decidere al posto vostro e vi coinvolge. Le più frequenti:
 
 | Richiesta | Dove intervieni |
 |-----------|-----------------|
@@ -111,4 +113,5 @@ Alcune richieste che arrivano all'assistenza riguardano decisioni che spettano s
 | Voltura della pratica ad altro professionista | [Dettaglio della pratica](dettaglio-pratica.html) |
 | Importare una pratica presentata prima di GeoTecSUE | [Richieste di importazione](richieste-importazione.html) |
 
-Ma comunque in prima battuta vengono sempre gestite dall'assistenza SISCOM.
+{: .warning }
+> In particolare, rendere facoltativo un pagamento obbligatorio è una decisione dell'Ente: l'assistenza SISCOM non può farlo in autonomia (vedi [Gestione PagoPA](gestione-pagopa.html#perche-questa-pagina-e-importante)).
