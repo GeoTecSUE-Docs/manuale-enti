@@ -21,8 +21,7 @@ Dal menu in alto scegli **Gestione Pratiche › Pratiche e comunicazioni trasmes
 
 La pagina si intitola **Pratiche e comunicazioni trasmesse** ed è organizzata in tre schede.
 
-{: .schermata }
-> `assets/images/pratiche-trasmesse-elenco.png` — La pagina con la scheda Pratiche aperta, la card dei filtri e la tabella con i badge colorati di stato.
+![La pagina con la scheda Pratiche aperta, la card dei filtri e la tabella con i badge colorati di stato](../assets/images/pratiche-trasmesse-elenco.png)
 
 ## Le schede
 
@@ -34,7 +33,7 @@ La pagina si intitola **Pratiche e comunicazioni trasmesse** ed è organizzata i
 
 Accanto al nome di ogni scheda trovi:
 
-- un badge blu con il **numero di elementi** trovati;
+- un badge viola con il **numero di elementi** trovati;
 - un badge giallo con il numero di **filtri attivi** (es. "2 filtri"), solo se hai applicato almeno un filtro.
 
 La scheda aperta viene ricordata: dopo un filtro o al ritorno dal dettaglio di una pratica ritrovi la stessa scheda.
@@ -108,7 +107,7 @@ Le tabelle hanno la ricerca libera (**Cerca**), l'ordinamento per colonna e la p
 | **Data invio** | Data e ora di trasmissione |
 | **Professionista** | Professionista che ha trasmesso la comunicazione |
 | **Stato** | Badge colorato di stato |
-| **# Pratica rif.** | Numero di riferimento <!-- DA VERIFICARE: nel codice questa colonna mostra lo stesso valore di "# Comunicazione"; potrebbe non riportare il numero della pratica di riferimento --> |
+| **# Pratica rif.** | Numero di riferimento |
 | **Tipo pratica rif.** | Tipo della pratica di riferimento (anche quando si tratta di una pratica importata) |
 | (lente) | Apre il dettaglio della pratica di riferimento |
 
