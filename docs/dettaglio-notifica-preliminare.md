@@ -70,7 +70,7 @@ Il contenuto è diviso in cinque schede, sempre presenti: **Pratica**, **Soggett
 | **Anno** | L'anno. |
 | **Tipo** | Il tipo di pratica. |
 | **Stato** | Lo stato attuale. |
-| **Descrizione dell'intervento** | Compare solo se presente nella notifica. |
+| **Descrizione dell'intervento** | Descrizione dell'intervento così come inserito dal professionista nella notifica. |
 | **Registrata il**, **Ultima modifica**, **Inviata il** | Data e ora di creazione, ultima modifica e invio da parte del professionista. |
 
 Sotto ci sono i pulsanti **Istanza (PDF)** e **Istanza firmata (P7M)** per scaricare il documento della notifica. Sono disattivati (grigi) se il file non è disponibile.
@@ -132,6 +132,7 @@ Contiene la card **Ricevute della notifica** con due righe: **Ricevuta di invio*
 
 - Clicca su **Scarica** per scaricare il PDF della ricevuta.
 - Clicca su **Rigenera** per crearla di nuovo. La pagina si ricarica e compare la notifica verde "Ricevuta di invio rigenerata" (o "di protocollazione"). Se la notifica non è ancora protocollata, la rigenerazione della ricevuta di protocollazione viene rifiutata con il messaggio "La notifica non è ancora stata protocollata su MUDE.".
+  
 ### Scheda Storico
 
 La card **Tracciabilità** elenca, dalla più recente, ogni operazione registrata sulla notifica, con **Data** e **Operazione** (ad esempio l'invio a MUDE e la protocollazione SPRESAL).
