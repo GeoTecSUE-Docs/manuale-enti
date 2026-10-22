@@ -13,14 +13,30 @@ Fonte: Manuale Enti
 
 Questa sezione spiega come consultare i pagamenti PagoPA delle pratiche che i professionisti stanno ancora compilando e come decidere, pagamento per pagamento, se è **obbligatorio** o **facoltativo**.
 
+## Perché questa pagina è importante
+{: #perche-questa-pagina-e-importante }
+
+{: .warning }
+> **Questa pagina serve soprattutto a sbloccare le pratiche con un pagamento PagoPA obbligatorio già pagato in un altro modo.**
+>
+> Se sulla pratica di un professionista c'è un pagamento PagoPA **obbligatorio**, il professionista **non può trasmettere la pratica** finché quel pagamento non risulta pagato su PagoPA. Se ha già pagato con un'altra modalità (ad esempio con un bonifico), può chiedere all'Ente di **rendere facoltativo** quel pagamento, così da poter trasmettere la pratica.
+>
+> **Solo l'Ente può farlo.** L'assistenza **SISCOM non può risolvere questa situazione**: non può decidere in autonomia se il professionista abbia titolo a rendere facoltativo il pagamento, perché verificare che il pagamento sia stato effettuato spetta all'Ente. Le richieste di questo tipo vanno quindi gestite direttamente dall'ufficio, da questa pagina.
+
+### Cosa fare quando un professionista chiede di sbloccare un pagamento
+
+1. **Verifica il pagamento** effettuato con l'altra modalità (ad esempio chiedendo la ricevuta del bonifico e controllando l'incasso).
+2. Apri questa pagina e trova il pagamento, ad esempio filtrando per **# Pratica** o per **Professionista** (vedi [Filtrare i pagamenti](#filtrare-i-pagamenti)).
+3. Nella colonna **Pagamento** clicca sul pulsante **Obbligatorio** e conferma con **Rendi facoltativo** (vedi [Rendere un pagamento obbligatorio o facoltativo](#rendere-un-pagamento-obbligatorio-o-facoltativo)).
+4. Avvisa il professionista: ora può trasmettere la pratica.
+
 ## Accedere alla pagina
 
 Clicca sulla voce **Gestione PagoPA** nella barra di menu in alto.
 
 La pagina si intitola **Gestione PagoPA** e contiene un unico riquadro: **Pagamenti delle pratiche in lavorazione presso i professionisti**.
 
-{: .schermata }
-> `assets/images/gestione-pagopa-elenco.png` — La pagina Gestione PagoPA con la card dei filtri compilata e l'elenco dei pagamenti, con i pulsanti Obbligatorio/Facoltativo nella colonna Pagamento.
+![La pagina Gestione PagoPA con il riquadro informativo, la card dei filtri compilata e l'elenco dei pagamenti, con i pulsanti Obbligatorio/Facoltativo nella colonna Pagamento](../assets/images/gestione-pagopa-elenco.png)
 
 ## Quali pagamenti vedi
 
@@ -29,6 +45,7 @@ Nella pagina compaiono **solo** i pagamenti delle pratiche che il professionista
 I pagamenti delle pratiche già trasmesse non sono qui: li trovi nel [dettaglio della pratica](dettaglio-pratica.html) (o nel [dettaglio della pratica importata](dettaglio-importata.html)).
 
 Accanto al titolo del riquadro trovi:
+
 - un badge viola con il **numero di pagamenti** trovati;
 - un badge giallo con il numero di **filtri attivi** (es. "1 filtro", "3 filtri"), visibile solo se hai impostato almeno un filtro.
 
@@ -54,6 +71,7 @@ La card dei filtri contiene questi campi:
 Le tendine **Tipo pratica**, **Professionista** e **Servizio PagoPA** mostrano "Tutti" quando sono vuote: puoi scrivere qualche lettera per cercare la voce e svuotarle con la piccola **x**.
 
 Per applicare i filtri:
+
 1. Compila uno o più campi.
 2. Clicca su **Filtra** (oppure premi Invio in un campo di testo).
 
@@ -116,9 +134,10 @@ Nella colonna **Pagamento** ogni riga ha un pulsante che mostra la situazione at
 | Pulsante | Significato | Cosa succede se lo clicchi |
 |----------|-------------|----------------------------|
 | **Obbligatorio** (verde, lucchetto chiuso) | Il professionista deve effettuare il pagamento prima di poter inviare la pratica | Ti viene chiesto se renderlo facoltativo |
-| **Facoltativo** (grigio, lucchetto aperto) | Il professionista può inviare la pratica anche senza pagare | Ti viene chiesto se renderlo obbligatorio |
+| **Facoltativo** (bordo viola, lucchetto aperto) | Il professionista può inviare la pratica anche senza pagare | Ti viene chiesto se renderlo obbligatorio |
 
 Per cambiare l'obbligatorietà:
+
 1. Individua il pagamento nell'elenco.
 2. Clicca sul pulsante nella colonna **Pagamento**.
 3. Si apre la finestra di conferma con il titolo **Rendere obbligatorio il pagamento?** oppure **Rendere facoltativo il pagamento?**. La finestra riporta il servizio, il numero della pratica, l'importo e una spiegazione dell'effetto.
@@ -126,8 +145,7 @@ Per cambiare l'obbligatorietà:
 
 Dopo la conferma l'elenco si ricarica mantenendo i filtri impostati e compare la notifica verde **Pagamento reso obbligatorio** (o **Pagamento reso facoltativo**) con il numero della pratica.
 
-{: .schermata }
-> `assets/images/gestione-pagopa-conferma-obbligo.png` — La finestra "Rendere facoltativo il pagamento?" con servizio, numero di pratica, importo e il pulsante Rendi facoltativo.
+![La finestra "Rendere facoltativo il pagamento?" con servizio, numero di pratica, importo e il pulsante Rendi facoltativo](../assets/images/gestione-pagopa-conferma-obbligo.png)
 
 {: .warning }
 > La modifica ha effetto direttamente sul professionista: un pagamento reso **obbligatorio** blocca l'invio della pratica finché non risulta pagato; un pagamento reso **facoltativo** gli consente di inviare la pratica senza pagare. Il professionista non può cambiare da solo questa impostazione: è l'Ente che decide.
@@ -137,7 +155,10 @@ Dopo la conferma l'elenco si ricarica mantenendo i filtri impostati e compare la
 
 ### Quando usare questa funzione
 
-Usala, per esempio, quando un professionista ti segnala di aver già pagato con un altro canale (es. bonifico) e la pratica risulta bloccata da un pagamento obbligatorio: dopo le tue verifiche puoi rendere quel pagamento facoltativo e consentirgli l'invio.
+{: .warning }
+> Il caso tipico è quello del professionista che **ha già pagato con un'altra modalità** (es. bonifico) e ha la pratica **bloccata** da un pagamento PagoPA obbligatorio: dopo aver verificato il pagamento, rendilo **facoltativo** per consentirgli l'invio.
+>
+> Ricorda che **solo l'Ente può farlo**: l'assistenza SISCOM non può decidere se il professionista abbia titolo a rendere facoltativo il pagamento. Vedi [Perché questa pagina è importante](#perche-questa-pagina-e-importante).
 
 ## Messaggi di errore
 
