@@ -25,8 +25,7 @@ Le pratiche importate si aprono invece in [Dettaglio pratica importata](dettagli
 
 Se la pratica non esiste o non è del tuo Ente compare l'avviso **Pratica non trovata** (*La pratica richiesta non esiste oppure non appartiene a questo Ente.*) con il solo pulsante **Ritorna**.
 
-{: .schermata }
-> `assets/images/dettaglio-pratica-panoramica.png` — L'intestazione della pratica con il badge di stato, il riquadro giallo "Da fare su questa pratica" e la fila delle schede.
+![L'intestazione della pratica con il badge di stato e i pulsanti Ritorna e Archivio della pratica, il riquadro giallo "Da fare su questa pratica", la fila delle schede e la scheda Pratica aperta](../assets/images/dettaglio-pratica-panoramica.png)
 
 ## Intestazione
 
@@ -44,8 +43,8 @@ A destra ci sono i pulsanti:
 |----------|---------|----------------|
 | **Ritorna** | Torna alla pagina da cui hai aperto il dettaglio, con i filtri che avevi impostato | Sempre |
 | **Archivio della pratica** | Scarica un file .zip con i documenti della pratica | Sempre |
-| **Consenti invio libero** | Permette al professionista di trasmettere integrazioni volontarie per questa pratica (nel caso in cui l'Ente non consenta *di default* la trasmissione di integrazioni libere) | Vedi [Invio libero di integrazioni](#invio-libero-di-integrazioni) |
-| **Rimuovi invio libero** | Revoca il permesso dato con **Consenti invio libero** (nel caso in cui l'Ente non consenta *di default* la trasmissione di integrazioni libere) | Vedi [Invio libero di integrazioni](#invio-libero-di-integrazioni) |
+| **Consenti invio libero** | Permette al professionista di trasmettere integrazioni volontarie per questa pratica | Solo se l'invio libero non è consentito per tutte le pratiche: vedi [Invio libero di integrazioni](#invio-libero-di-integrazioni) |
+| **Rimuovi invio libero** | Revoca il permesso dato con **Consenti invio libero** | Come sopra, dopo aver consentito l'invio libero |
 
 ### Archivio della pratica
 
@@ -53,7 +52,8 @@ A destra ci sono i pulsanti:
 2. Attendi la preparazione dell'archivio (compare lo spinner).
 3. Il browser scarica il file `<numero pratica> - <acronimo>.zip`.
 
-Il contenuto dell'archivio è preparato dal server con tutti i documenti disponibili della pratica (si ricorda che i documenti trasmessi dal professionista, 6 mesi dopo la registrazione su Sequoia non sono più disponibili su GeoTecSUE).
+L'archivio contiene tutti i documenti della pratica **ancora disponibili** su GeoTecSUE: i documenti trasmessi dal professionista vengono eliminati 6 mesi dopo la registrazione della pratica su Sequoia (vedi [Scheda Documenti](#scheda-documenti)).
+
 L'archivio è temporaneo: viene eliminato dopo lo scarico. Se la preparazione non riesce compare *Non è stato possibile creare l'archivio della pratica* oppure *L'archivio della pratica non è disponibile: riprova a generarlo.*
 
 ### Invio libero di integrazioni
@@ -75,7 +75,7 @@ Compare quando sulla pratica c'è una richiesta di integrazioni ancora aperta. M
 
 ### Protocollazione della pratica
 
-Compare solo se la pratica è nello stato **Inviata** e per il tuo Ente è attiva la protocollazione manuale (Enti senza protocollo informatico collegato). 
+Compare solo se la pratica è nello stato **Inviata** e per il tuo Ente è attiva la protocollazione manuale (Enti senza protocollo informatico collegato).
 Le pratiche da protocollare si possono gestire anche tutte insieme dalla pagina [Gestione protocollazione](gestione-protocollazione.html).
 
 1. Inserisci il **Numero di protocollo** (solo numero intero positivo).
@@ -99,6 +99,9 @@ Messaggi possibili:
 
 Compare solo se la pratica è nello stato **Inviata**. Serve a restituire al professionista una pratica che non può essere accettata così com'è, prima della protocollazione.
 
+{: .note }
+> Nella maggior parte dei casi la protocollazione è **automatica**: la pratica passa da *Inviata* a *Protocollata* in pochissimo tempo, quindi questa sezione si vede raramente. In ogni caso se ne **sconsiglia l'uso**.
+
 1. Scrivi la **Motivazione** (obbligatoria).
 2. Clicca su **Riporta allo stato precedente**.
 3. Nella finestra **Riportare la pratica allo stato precedente?** rileggi l'anteprima della motivazione.
@@ -111,11 +114,9 @@ Dopo la conferma torni all'elenco da cui eri partito.
 
 Se la motivazione è vuota compare *Inserisci la motivazione: verrà inviata al professionista.*
 
-Nella maggior parte dei casi, la protocollazione delle pratiche è **automatica** pertanto la fase di transizione tra *Inviata* e *Protocollata* è molto rapida, quindi raramente è visibile la sezione di **Riporta la pratica allo stato precedente** (che si sconsiglia anche di utilizzare).
-
 ## Le schede
 
-Sotto il riquadro delle azioni la pratica è divisa in schede. Alcune compaiono solo se hanno un contenuto; accanto al nome alcune riportano un contatore. La scheda che stavi guardando viene ricordata per quella pratica finché il browser resta aperto.
+Sotto l'intestazione (e il riquadro **Da fare su questa pratica**, se presente) la pratica è divisa in schede. Alcune compaiono solo se hanno un contenuto; accanto al nome alcune riportano un contatore. La scheda che stavi guardando viene ricordata per quella pratica finché il browser resta aperto.
 
 | Scheda | Quando compare |
 |--------|----------------|
@@ -164,7 +165,7 @@ La card **Professionista** riporta **Cognome e nome**, **Codice fiscale**, **Nas
 
 Con **Voltura ad altro professionista** puoi intestare la pratica a un altro professionista:
 
-1. Nella casella di ricerca scrivi cognome, nome o codice fiscale e seleziona il professionista. L'elenco contiene i professionisti registrati presso l'Ente, escluso quello attuale. Non è necessario che un professionista abbia inviato o creato un'istanza: è sufficiente che abbia fatto un login al portale.
+1. Nella casella di ricerca scrivi cognome, nome o codice fiscale e seleziona il professionista. L'elenco contiene i professionisti registrati presso l'Ente, escluso quello attuale. Non serve che il professionista abbia già creato o inviato una pratica: basta che abbia effettuato almeno un accesso al portale.
 2. Clicca su **Voltura**.
 3. Nella finestra **Volturare la pratica?** controlla il nome e clicca su **Voltura**.
 
@@ -187,11 +188,13 @@ La tabella elenca gli allegati della pratica:
 | (freccia) | Scarica il file |
 
 Per i documenti scaduti il pulsante di scarico è disattivato; se provi comunque compare *L'allegato non è più disponibile: era scaricabile fino al …*
-Si ricorda che il portale GeoTecSUE è solo un portale *di scambio*: i documenti trasmessi dal professionista, dopo 6 mesi dalla data di registrazione di Sequoia, vengono eliminati.
+
+{: .note }
+> GeoTecSUE è un portale **di scambio**, non un archivio: i documenti trasmessi dal professionista vengono eliminati **6 mesi dopo la registrazione della pratica su Sequoia**.
 
 ### Scheda Ente
 
-Contiene i dati che l'Ente ha registrato sulla pratica. Sono in sola lettura: in questa pagina non si modificano e vengono popolati direttamente da Sequoia.
+Contiene i dati che l'Ente ha registrato sulla pratica. Arrivano direttamente da Sequoia e sono in sola lettura: da questa pagina non si modificano.
 
 - **Protocollo e istruttoria**: **Numero protocollo**, **Data protocollo**; se la pratica è registrata anche **Numero pratica dell'Ente** e **Registrata il**; se è assegnata **Responsabile del procedimento**, **Responsabile del servizio** e **Assegnata il**; se verificata **Verificata il**.
 - **Provvedimento** (solo se c'è un numero di provvedimento): **Numero provvedimento**, **Data provvedimento** e la tabella dei documenti con **Emesso il**, **Documento**, **Letto dal professionista** e il pulsante di scarico.
@@ -207,7 +210,7 @@ Contiene i dati che l'Ente ha registrato sulla pratica. Sono in sola lettura: in
 Elenca, dalla più recente, le comunicazioni trasmesse dal professionista e collegate alla pratica. Ogni voce mostra tipo, numero, data di invio, badge di stato e il numero di allegati. Aprendola trovi:
 
 - **Inviata il** e **Protocollo** (oppure *Non ancora protocollata*);
-- i pulsanti **Comunicazione (PDF)** e **Firmata (P7M)**, disattivati se il file non esiste (ad esempio per un invio libero); 
+- i pulsanti **Comunicazione (PDF)** e **Firmata (P7M)**, disattivati se il file non esiste (ad esempio per un invio libero);
 - la tabella degli allegati (**Inserito il**, **Allegato**, **Disponibile fino al**, scarico).
 
 ### Scheda Ricevute
@@ -234,8 +237,11 @@ Per rigenerarla:
 1. Clicca su **Rigenera**.
 2. La pagina si ricarica con la notifica *Ricevuta … rigenerata (n. …)*.
 
-Se la rigenerazione non riesce compare *Non è stato possibile rigenerare la ricevuta. Riprova tra qualche minuto.* 
-Può essere necessario rigenerare la ricevuta nel caso in cui l'Ente abbia modificato (ad esempio) il numero della pratica oppure il tipo.
+Se la rigenerazione non riesce compare *Non è stato possibile rigenerare la ricevuta. Riprova tra qualche minuto.*
+
+Rigenerare una ricevuta serve, ad esempio, quando l'Ente ha modificato il numero o il tipo della pratica: la ricevuta viene ricreata con i dati aggiornati.
+
+![La scheda Ricevute con le card della pratica e delle comunicazioni collegate, i badge Disponibile e i pulsanti Rigenera e Scarica](../assets/images/dettaglio-pratica-ricevute.png)
 
 ### Scheda Pagamenti
 
@@ -257,16 +263,13 @@ Se uno IUV è in attesa di generazione compare un avviso: attendi qualche minuto
 
 La card **Pagamenti completati** elenca i pagamenti eseguiti con **Descrizione**, **Rata**, **Richiesta IUV**, **Pagato il**, **Importo**, **Codice IUV** e **Stato**.
 
-Per la configurazione e il monitoraggio complessivo vedi [PagoPA](pagopa-configurazione.html) e [Gestione PagoPA](gestione-pagopa.html).
+Per la configurazione e il monitoraggio complessivo vedi [Configurazione PagoPA](pagopa-configurazione.html) e [Gestione PagoPA](gestione-pagopa.html).
 
 ### Scheda Storico
 
 La card **Tracciabilità** elenca tutte le operazioni registrate sulla pratica (**Data**, **Operazione**), dalla più recente, con ricerca e paginazione.
 
-La card **Interoperabilità con Regione Lombardia** compare solo peri Comuni della Regione Lombardia con *interoperabilità* attivata e se la pratica è stata trasmessa a Regione Lombardia. Riporta **Fase di aggiornamento**, **Codice R.L.**, **ID R.L.**, **ID integrazione R.L.**, **Procedimento R.L.** e **Trasmessa il**. Per l'elenco di tutte le trasmissioni vedi [Trasmissioni Regione Lombardia](trasmissioni-regione-lombardia.html).
-
-{: .schermata }
-> `assets/images/dettaglio-pratica-ricevute.png` — La scheda Ricevute con i badge Disponibile, Non generata e Non ancora prevista e i pulsanti Rigenera e Scarica.
+La card **Interoperabilità con Regione Lombardia** compare solo per i Comuni della Regione Lombardia con *interoperabilità* attivata e se la pratica è stata trasmessa a Regione Lombardia. Riporta **Fase di aggiornamento**, **Codice R.L.**, **ID R.L.**, **ID integrazione R.L.**, **Procedimento R.L.** e **Trasmessa il**. Per l'elenco di tutte le trasmissioni vedi [Trasmissioni Regione Lombardia](trasmissioni-regione-lombardia.html).
 
 ## Avvisi e messaggi
 
