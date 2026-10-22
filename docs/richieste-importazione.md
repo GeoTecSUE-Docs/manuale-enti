@@ -49,10 +49,9 @@ Dal menu in alto scegli **Gestione Pratiche › Gestione Richieste Importazione*
 
 La voce compare solo se nella [Scheda Ente](scheda-ente.html) il campo **Collegamento pratiche Sequoia su SUE** è impostato su **Attivo con conferma dell'Ente**.
 
-La pagina si intitola **Richieste di importazione** e contiene la scheda **Pratiche in attesa di importazione**. Accanto al titolo un badge indica quante richieste sono in attesa: è blu se ce n'è almeno una, grigio se non ce ne sono.
+La pagina si intitola **Richieste di importazione** e contiene la scheda **Pratiche in attesa di importazione**. Accanto al titolo un badge indica quante richieste sono in attesa: è rosa se ce n'è almeno una, grigio se non ce ne sono. Sotto il titolo una riga ricorda in breve come funziona l'importazione.
 
-{: .schermata }
-> `assets/images/richieste-importazione-elenco.png` — L'elenco delle richieste di importazione in attesa, con il pulsante "Esamina" in fondo a ogni riga.
+![L'elenco delle richieste di importazione in attesa, con il pulsante "Esamina" in fondo a ogni riga](../assets/images/richieste-importazione-elenco.png)
 
 ## L'elenco delle richieste
 
@@ -87,8 +86,7 @@ Se la pratica era arrivata al gestionale da un altro portale telematico compare 
 
 In fondo alla finestra c'è il campo **Motivo del rifiuto**, da compilare solo se rifiuti, e i pulsanti **Chiudi**, **Rifiuta** e **Consenti importazione**.
 
-{: .schermata }
-> `assets/images/richieste-importazione-esamina.png` — La finestra di esame di una richiesta, con i dati della pratica, il campo "Motivo del rifiuto" e i pulsanti Rifiuta e Consenti importazione.
+![La finestra di esame di una richiesta, con i dati della pratica, il campo "Motivo del rifiuto" e i pulsanti Chiudi, Rifiuta e Consenti importazione](../assets/images/richieste-importazione-esamina.png)
 
 ## Consentire l'importazione
 
