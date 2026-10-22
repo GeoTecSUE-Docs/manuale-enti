@@ -27,8 +27,7 @@ Puoi arrivarci anche da altri elenchi, ad esempio [Pratiche e comunicazioni tras
 
 Se la pratica non esiste o non appartiene al tuo Ente, la pagina mostra il riquadro **Pratica non trovata** ("La pratica richiesta non esiste oppure non appartiene a questo Ente.") con il solo pulsante **Ritorna**.
 
-{: .schermata }
-> `assets/images/dettaglio-importata-panoramica.png` — L'intestazione di una pratica importata con il badge "Importata" e la scheda Pratica aperta sulla card "Dati del gestionale dell'Ente".
+![L'intestazione di una pratica importata con il badge "Importata" e la scheda Pratica aperta con le card "Dati generali" e "Dati del gestionale dell'Ente"](../assets/images/dettaglio-importata-panoramica.png)
 
 ## Intestazione
 
@@ -158,7 +157,7 @@ Puoi intestare la pratica a un altro professionista registrato presso il tuo Ent
 La pagina si ricarica e compare la notifica verde "Pratica volturata a …". Nello **Storico** viene registrata l'operazione "Pratica Volturata da … a …" e il professionista precedente riceve un avviso nel proprio portale.
 
 {: .warning }
-> La voltura toglie la pratica al professionista attuale e la affida a quello scelto. Se la pratica era in stato **Revoca del delegato**, prima della voltura torna allo stato che aveva prima della revoca.
+> La voltura toglie la pratica al professionista attuale e la affida a quello scelto. Se la pratica era in stato **Revoca del delegato**, con la voltura torna allo stato che aveva prima della revoca.
 
 ### Scheda Ente
 
@@ -180,7 +179,7 @@ I documenti con la data **Disponibile fino al** superata mostrano il badge "Scad
 Elenca le comunicazioni che il professionista ha inviato sulla pratica importata dopo l'importazione (ad esempio inizio o fine lavori, integrazioni), dalla più recente. Ogni voce a fisarmonica mostra tipo, numero, data di invio, badge dello stato e numero di allegati. Aprendola trovi:
 
 - **Inviata il** e **Protocollo** (oppure "Non ancora protocollata");
-- i pulsanti **Comunicazione (PDF)** e **Firmata (P7M)**, disattivati se il documento non c'è (non compaiono per gli invii liberi);
+- i pulsanti **Comunicazione (PDF)** e **Firmata (P7M)**, disattivati se il file non esiste (ad esempio per un invio libero);
 - la tabella degli allegati: **Inserito il**, **Allegato** (con il nome del file), **Disponibile fino al**, pulsante di scarico.
 
 Il funzionamento è identico al [dettaglio standard](dettaglio-pratica.html).
@@ -226,7 +225,7 @@ Nella descrizione, "(generato dall'Ente)" indica un pagamento creato dall'Ente e
 | Pulsante **Archivio della pratica** (zip) | ✅ | ❌ |
 | Pulsanti **Consenti invio libero** / **Rimuovi invio libero** | ✅ (se previsti) | ❌ |
 | Card **Da fare su questa pratica** (protocollazione manuale, **Riporta allo stato precedente**) | ✅ | ❌ |
-| Richiesta di integrazioni in attesa | Dentro la card delle azioni | Riquadro a sé, con colonna **Caricato dal professionista** |
+| Richiesta di integrazioni in attesa | Dentro il riquadro **Da fare su questa pratica** | Riquadro a sé, con colonna **Caricato dal professionista** |
 | Scheda **Pratica** | Dati dell'istanza, pulsanti PDF/P7M, **Localizzazione dell'intervento** | **Dati generali** ridotti e **Dati del gestionale dell'Ente** |
 | Scheda **Soggetti** – titolare | **Titolare originale** con recapiti e altri titolari | Solo nominativo e codice fiscale dal gestionale |
 | Scheda **Documenti** | ✅ | ❌ |
