@@ -28,7 +28,7 @@ Il professionista invia la richiesta dal proprio portale, dal menu personale **A
 
 Il professionista legge poi la risposta nel portale, nella sezione **Le mie richieste** della sua pagina di assistenza, e, se lo ha chiesto, anche via mail.
 
-<!-- DA VERIFICARE: il manuale dei professionisti descrive l'assistenza come gestita dal team di GeoTecSUE; non è chiaro dal codice se tutte le richieste arrivino anche all'Ente o solo quelle a esso rivolte. -->
+Le assistenze vengono gestite totalmente dall'assistenza SISCOM del GeoTecSUE e quindi raramente troverai delle assistenze aperte qui: se abbiamo necessità di coinvolgervi in una richiesta di un professionista, cerchiamo un contatto telefonico.
 
 ## L'elenco delle richieste
 
@@ -51,9 +51,6 @@ Se non ci sono richieste in attesa compare il messaggio "Nessuna richiesta di as
 {: .note }
 > A differenza di altri elenchi del back office, questa tabella non ricorda ricerca e ordinamento: ogni volta che apri la pagina riparte dalla richiesta più vecchia.
 
-{: .schermata }
-> `assets/images/gestione-assistenze-elenco.png` — La pagina Assistenza tecnica con alcune richieste in attesa e il pulsante Rispondi su ogni riga.
-
 ## Rispondere a una richiesta
 
 1. Clicca su **Rispondi** nella riga della richiesta.
@@ -73,9 +70,6 @@ Se il campo **Risposta** è vuoto, nella finestra compare in rosso "Scrivi la ri
 
 Se chiudi la finestra e la riapri sulla stessa richiesta, il testo già scritto resta; se apri un'altra richiesta, il campo riparte vuoto.
 
-{: .schermata }
-> `assets/images/gestione-assistenze-risposta.png` — La finestra di risposta con i dati del richiedente, la descrizione del problema e il campo Risposta compilato.
-
 ### Dopo l'invio
 
 La pagina si ricarica, la richiesta esce dall'elenco e compare la notifica verde **Risposta inviata (richiesta #…)** con uno di questi dettagli:
@@ -87,8 +81,6 @@ La pagina si ricarica, la richiesta esce dall'elenco e compare la notifica verde
 | "Attenzione: la mail al professionista non è stata inviata, la risposta è comunque visibile nel portale." | La risposta è stata registrata, ma la mail non è partita (ad esempio perché il professionista non aveva indicato un indirizzo) |
 
 La mail al professionista ha come oggetto **GeotecSUE: Assistenza Tecnica #** seguito dal numero della richiesta.
-
-<!-- DA VERIFICARE: la mail sembra spedita usando l'indirizzo e-mail dell'Ente indicato nella scheda Ente; il testo del messaggio è composto da un modello interno non visibile in questa pagina. -->
 
 {: .warning }
 > Ogni richiesta riceve **una sola risposta** e, una volta inviata, non si può modificare né annullare dalla pagina. Se il professionista ha chiesto la mail, la risposta gli arriva subito anche per posta. Rileggi il testo prima di cliccare su **Invia risposta**.
@@ -118,3 +110,5 @@ Alcune richieste che arrivano all'assistenza riguardano decisioni che spettano s
 | Rendere facoltativo un pagamento obbligatorio che blocca l'invio | [Gestione PagoPA](gestione-pagopa.html) |
 | Voltura della pratica ad altro professionista | [Dettaglio della pratica](dettaglio-pratica.html) |
 | Importare una pratica presentata prima di GeoTecSUE | [Richieste di importazione](richieste-importazione.html) |
+
+Ma comunque in prima battuta vengono sempre gestite dall'assistenza SISCOM.
