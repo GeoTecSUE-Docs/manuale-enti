@@ -44,7 +44,6 @@ Questa appendice raccoglie, in ordine alfabetico, i termini che incontri nel bac
 
 **Diritti di segreteria**
 : Somme dovute all'Ente per l'istruttoria delle pratiche, pagate di norma tramite PagoPA. Le indicazioni sui pagamenti si gestiscono dalla voce di menu **Pagamenti**. Vedi [Pagamenti](../pagamenti.html) e [Configurazione PagoPA](../pagopa-configurazione.html).
-<!-- DA VERIFICARE: la pagina "Pagamenti" gestisce voci informative (titolo, testo, allegati); il legame esplicito con i diritti di segreteria non compare nelle etichette. -->
 
 ## E
 
