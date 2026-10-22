@@ -139,7 +139,7 @@ Gli elenchi (pratiche, allegati, utenti, pagamenti…) sono tabelle con funzioni
 | **Ordinamento** | Clicca sull'intestazione di una colonna per ordinare; clicca di nuovo per invertire l'ordine. Le date si ordinano correttamente per data, non per testo. |
 | **Paginazione** | Sotto la tabella trovi **Inizio**, **Precedente**, i numeri di pagina, **Successivo**, **Fine**. A sinistra il riepilogo, es. *Da 1 a 25 di 130 pratiche*. |
 | **Valori mancanti** | Una cella vuota è mostrata con un trattino **—**. |
-| **Apertura del dettaglio** | Clicca sul numero della pratica (in grassetto) o sul pulsante con la **lente** a destra della riga. |
+| **Apertura del dettaglio** | Clicca sul numero della pratica (in rosa) o sul pulsante con la **lente** a destra della riga. |
 
 Se la ricerca non trova nulla compare *"La ricerca non ha portato alcun risultato."*
 
@@ -200,7 +200,7 @@ Il significato di ogni stato è spiegato in [Stati delle pratiche](appendici/sta
 |-------|---------------|-------------|
 | **Disponibile** (verde) / **In generazione** (giallo) / **Non generata** (rosso) / **Non ancora prevista** (neutro) | Ricevute nei dettagli | Stato della ricevuta. Passa il mouse sul badge per una spiegazione. |
 | **Sì** (verde) / **No** (chiaro) cliccabili | Impostazioni (es. allegati, comunicazioni, consultazione) | Indicano se un'opzione è attiva. Clicca sul badge per invertirla: la modifica viene salvata subito. |
-| Badge grigio con numero o con graffetta | Elenchi e intestazioni | Conteggi (righe trovate, numero di allegati). |
+| Badge con numero o con graffetta (di solito viola) | Elenchi e intestazioni | Conteggi (righe trovate, numero di allegati). |
 | **N filtri** (giallo) | Card dei filtri | Numero di filtri attivi. |
 | **Scaduto il gg/mm/aaaa** (grigio) | Documenti nei dettagli | Il documento non è più scaricabile. |
 
@@ -210,25 +210,27 @@ I pulsanti hanno un'icona e, quasi sempre, un testo. Passando il mouse sopra un 
 
 | Icona | Colore tipico | Azione |
 |-------|---------------|--------|
-| Matita | Blu (bordo) | Modifica l'elemento della riga (apre una finestra di modifica) |
+| Matita | Rosa (bordo) | Modifica l'elemento della riga (apre una finestra di modifica) |
 | Cestino | Rosso (bordo) | Elimina; chiede sempre conferma |
-| Cestino | Grigio, disattivato | Eliminazione non possibile (es. elemento in uso): il suggerimento spiega il motivo |
-| Cerchio barrato | Rosso | Disattiva l'elemento (es. un tipo di pratica o un allegato per una pratica) |
-| Lente | Blu (bordo) | Apri il dettaglio |
-| Più (+) | Blu | **Nuovo …**: aggiunge un elemento (es. **Nuovo allegato**, **Nuovo pagamento**) |
+| Cestino | Chiaro, disattivato | Eliminazione non possibile (es. elemento in uso): il suggerimento spiega il motivo |
+| Cerchio barrato | Rosso (bordo) | Disattiva l'elemento (es. un tipo di pratica o un allegato per una pratica) |
+| Lente | Rosa (bordo) | Apri il dettaglio |
+| Più (+) | Verde | **Nuovo …**: aggiunge un elemento (es. **Nuovo allegato**, **Nuovo pagamento**) |
 | Dischetto | Verde | **Salva** |
-| Freccia circolare all'indietro | Grigio | Annulla le modifiche e ricarica i dati salvati |
-| Imbuto | Blu | **Filtra** |
-| X nel cerchio | Grigio | **Rimuovi filtri** |
-| Freccia a sinistra | Grigio | **Ritorna** all'elenco |
-| Freccia verso il basso | Grigio o blu | Scarica un file |
-| Documento PDF | Rosso o grigio | Scarica/apri un PDF |
-| Freccia verso l'alto | Blu | Carica un file |
-| Occhio | Grigio | Mostra la password o l'anteprima |
-| Graffetta | Grigio | Allegati |
+| Nessuna icona | Viola | **Annulla** / **Chiudi** nelle finestre: chiude senza salvare |
+| Freccia circolare all'indietro | Viola (bordo) | **Annulla modifiche**: ricarica i dati salvati |
+| Freccia circolare | Giallo (bordo) | **Rigenera** (ad esempio una ricevuta) |
+| Imbuto (o lente) | Rosa | **Filtra** |
+| X nel cerchio | Viola (bordo) | **Rimuovi filtri** |
+| Freccia a sinistra | Viola (bordo) | **Ritorna** all'elenco |
+| Freccia verso il basso | Viola o rosa (bordo) | Scarica un file |
+| Documento PDF | Rosa (bordo) | Scarica/apri un PDF |
+| Freccia verso l'alto | Rosa (bordo) | Carica un file |
+| Occhio | Viola (bordo) | Mostra la password o l'anteprima |
+| Graffetta | Rosa (bordo) | Allegati |
 
 {: .note }
-> Rispetto al portale dei professionisti, nel back office il pulsante di modifica (matita) è **blu** e non giallo.
+> Rispetto al portale dei professionisti, nel back office il pulsante di modifica (matita) è **rosa** e non giallo.
 
 ## Editor di testo (Markdown)
 
