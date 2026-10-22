@@ -13,14 +13,14 @@ Fonte: Manuale Enti
 
 Questa sezione spiega come consultare le trasmissioni delle pratiche del tuo Ente verso Regione Lombardia, filtrarle e aprirne il riepilogo o il dettaglio della pratica.
 
-La pagina è di sola consultazione: da qui non si avviano né si ripetono trasmissioni. <!-- DA VERIFICARE: le trasmissioni a Regione Lombardia sono eseguite in automatico dal sistema -->
+La pagina è di sola consultazione: da qui non si avviano né si ripetono trasmissioni: eventuali trasmissioni non andate a buon fine vengono rielaborate dal sistema in modalità automatica. 
 
 ## Accedere alla pagina
 
 Dal menu in alto scegli **Gestione Pratiche › Trasmissioni Regione Lombardia**.
 
 {: .note }
-> La voce di menu compare solo per gli Enti della Regione Lombardia.
+> La voce di menu compare solo per gli Enti della Regione Lombardia che hanno attivato l'*interoperabilità*.
 
 La pagina si intitola **Trasmissioni a Regione Lombardia**.
 
