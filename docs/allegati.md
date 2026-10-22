@@ -93,7 +93,7 @@ Se manca un dato compare la finestra **Attenzione** con il messaggio "Inserire i
 
 ## Eliminare un allegato
 
-Puoi eliminare solo un allegato che non è attivo in nessuna pratica (colonna **Pratiche** a 0). Se l'allegato è usato, il cestino è grigio e disattivato; passando il mouse sopra leggi in quanti tipi di pratica è usato.
+Puoi eliminare solo un allegato che non è attivo in nessuna pratica (colonna **Pratiche** a 0). Se l'allegato è usato, il cestino è chiaro e disattivato; passando il mouse sopra leggi in quanti tipi di pratica è usato.
 
 1. Clicca sul **cestino** rosso nella riga dell'allegato.
 2. Nella finestra **Eliminare l'allegato?** controlla il titolo mostrato.
