@@ -18,8 +18,7 @@ Questa sezione spiega come consultare l'elenco dei professionisti che operano co
 Clicca sulla voce **Gestione Professionisti** nella barra di menu in alto.
 
 La pagina si intitola **Gestione professionisti** e contiene il riquadro **Professionisti che operano con l'Ente**. Accanto al titolo un badge grigio indica quanti professionisti sono presenti.
-
-<!-- DA VERIFICARE: il criterio con cui un professionista entra nell'elenco (ad esempio almeno un accesso al portale dell'Ente) dipende dal servizio che fornisce i dati e non si vede dal codice della pagina. -->
+I professionisti che vengono mostrati sono tutti quelli che hanno fatto almeno una volta un accesso al portale GeoTecSUE (anche senza aver mai inviato un'istanza all'Ente)
 
 {: .schermata }
 > `assets/images/gestione-professionisti-elenco.png` — La pagina Gestione professionisti con l'elenco e, in alto a destra, i pulsanti Copia e-mail e Copia PEC con i relativi pulsanti di scarico.
