@@ -25,9 +25,8 @@ Per il lato professionista vedi, nel manuale dei professionisti, la pagina "Noti
 Dal menu in alto scegli **Gestione Pratiche › Notifiche Preliminari**.
 
 La voce di menu compare solo se la notifica preliminare è abilitata per il tuo Ente. Se non la vedi, la funzione non è attiva.
-<!-- DA VERIFICARE: la visibilità della voce dipende da un controllo lato server sull'Ente; non è chiaro se basti l'attivazione del tipo pratica o se servano notifiche già presenti. -->
 
-La pagina si intitola **Notifiche preliminari** e contiene un'unica scheda, **Notifiche preliminari ricevute da MUDE**. Accanto al titolo trovi il badge grigio con il **numero di notifiche** trovate e, se hai impostato dei filtri, il badge giallo con il numero di **filtri attivi**.
+La pagina si intitola **Notifiche preliminari** e contiene un'unica scheda, **Notifiche preliminari inviate allo SPRESAL tramite MUDE**. Accanto al titolo trovi il badge viola con il **numero di notifiche** trovate e, se hai impostato dei filtri, il badge giallo con il numero di **filtri attivi**.
 
 {: .schermata }
 > `assets/images/notifiche-preliminari-elenco.png` — La pagina Notifiche preliminari con i filtri e l'elenco delle notifiche, con le colonne Istanza MUDE e Stato.
@@ -80,7 +79,6 @@ La tabella è ordinata all'inizio per **Inviata il**, dalla più recente. Ricerc
 |---|---|---|
 | **Inviata SPRESALWEB (via MUDE)** | Arancione | La notifica è stata trasmessa a MUDE ed è in attesa di protocollazione da parte dello SPRESAL. |
 | **Protocollata SPRESALWEB** | Verde | Lo SPRESAL ha protocollato la notifica. È lo stato finale. |
-<!-- DA VERIFICARE: le descrizioni degli stati arrivano dalla banca dati; i nomi sono ripresi dal manuale professionisti e dai commenti del codice. -->
 
 Per gli altri stati vedi [Stati delle pratiche](appendici/stati-pratica.html).
 
