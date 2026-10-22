@@ -17,7 +17,7 @@ Questa appendice spiega gli stati che una pratica può assumere su GeoTecSUE vis
 
 - **Professionista**: compila, firma e trasmette dal proprio portale; trasmette integrazioni e richieste di archiviazione.
 - **Sistema**: esegue in automatico alcuni passaggi, come la protocollazione automatica o gli stati delle notifiche preliminari.
-- **Ente**: lavora la pratica. Dal back office puoi protocollare manualmente (se attivo) e riportare una pratica allo stato precedente; gli altri stati di istruttoria (registrazione, richiesta integrazioni, provvedimento, archiviazione, diniego…) sono aggiornati dalle procedure dell'Ente collegate a GeoTecSUE e qui si consultano. <!-- DA VERIFICARE: gli stati di istruttoria arrivano dal gestionale dell'Ente collegato (la pagina Mail parla di registrazione "su Sequoia"); non si impostano da questo back office -->
+- **Ente**: lavora la pratica. Dal back office puoi protocollare manualmente (se attivo) e riportare una pratica allo stato precedente; gli altri stati di istruttoria (registrazione, richiesta integrazioni, provvedimento, archiviazione, diniego…) sono aggiornati dalle procedure dell'Ente collegate a GeoTecSUE e qui si consultano.
 
 ## Stati prima dell'invio
 
@@ -43,7 +43,7 @@ Sono gli stati che trovi nel filtro **Stato pratica** di [Pratiche e comunicazio
 | **Invio Integrazioni** | Il professionista ha trasmesso le integrazioni | Professionista | Giallo | Protocollare l'integrazione, se la protocollazione manuale è attiva: la pratica torna **Registrata** (o **Esecutiva** se ha già un provvedimento) |
 | **Richiesta Archiviazione** | Il professionista ha chiesto di archiviare la pratica | Professionista | Giallo | Consultare la richiesta |
 | **Esecutiva** | Provvedimento favorevole rilasciato | Ente | Verde | Consultare il provvedimento nella scheda **Ente**; la pratica resta operativa per comunicazioni e integrazioni |
-| **Verificata** (non usato) | Pratica controllata dall'Ente (es. SCIA, CILA) | Ente | Verde | Non viene trasmesso questo stato al professionista ma rimane un concetto inetrno all'Ente (solo su Sequoia) |
+| **Verificata** (non usato) | Pratica controllata dall'Ente (es. SCIA, CILA) | Ente | Verde | Non viene trasmesso questo stato al professionista ma rimane un concetto interno all'Ente (solo su Sequoia) |
 
 ## Stati finali
 
@@ -74,4 +74,4 @@ Su una pratica trasmessa, qualunque sia lo stato, dal [Dettaglio della pratica](
 - consentire o revocare l'invio libero di integrazioni, se l'Ente non lo ha attivato per tutte le pratiche.
 
 {: .note }
-> Il professionista vede gli stessi stati nel proprio portale. Per lo stato **Verificata** il manuale dei professionisti indica che non viene mostrato al professionista, che continua a vedere **Registrata** o **Esecutiva** (è un concetto interno all'Ente)
+> Il professionista vede gli stessi stati nel proprio portale. Per lo stato **Verificata** il manuale dei professionisti indica che non viene mostrato al professionista, che continua a vedere **Registrata** o **Esecutiva** (è un concetto interno all'Ente).
