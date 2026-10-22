@@ -26,11 +26,10 @@ La voce di menu compare solo se per il tuo Ente è attiva l'importazione delle p
 
 La pagina si intitola **Pratiche importate** e contiene un'unica scheda, **Pratiche importate dal gestionale dell'Ente**. Accanto al titolo della scheda trovi:
 
-- un badge blu con il **numero di pratiche** trovate con i filtri correnti;
+- un badge viola con il **numero di pratiche** trovate con i filtri correnti;
 - un badge giallo con il numero di **filtri attivi** (es. "2 filtri"), visibile solo quando almeno un filtro è impostato.
 
-{: .schermata }
-> `assets/images/pratiche-importate-elenco.png` — La pagina Pratiche importate con la card dei filtri compilata e l'elenco delle pratiche sotto.
+![La pagina Pratiche importate con la card dei filtri compilata, i badge del conteggio e dei filtri attivi e l'elenco delle pratiche sotto](../assets/images/pratiche-importate-elenco.png)
 
 ## Filtrare l'elenco
 
