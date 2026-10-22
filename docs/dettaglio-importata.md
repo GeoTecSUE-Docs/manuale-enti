@@ -41,8 +41,6 @@ In alto trovi:
 - il badge **Importata**, che distingue a colpo d'occhio questa pagina dal dettaglio standard;
 - a destra il pulsante **Ritorna**.
 
-Se la pratica è tornata nello stato Registrata dopo una richiesta di archiviazione, lo stato viene mostrato come **Richiesta Archiviazione**, come nel dettaglio standard.
-
 ### Ritorna
 
 **Ritorna** ti riporta all'elenco [Pratiche importate](pratiche-importate.html) con i filtri che avevi impostato. Se sei arrivato al dettaglio dalla pagina [Gestione protocollazione](gestione-protocollazione.html), ti riporta invece lì.
