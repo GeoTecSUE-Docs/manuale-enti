@@ -26,7 +26,6 @@ L'importazione delle pratiche pregresse si configura nella [Scheda Ente](scheda-
 | **Attivo con conferma dell'Ente** | Il professionista invia una richiesta, che resta in attesa finché l'Ente non la esamina da questa pagina. |
 
 Questa pagina, e la relativa voce di menu, serve solo con il valore **Attivo con conferma dell'Ente**.
-<!-- DA VERIFICARE: il comportamento dei valori "Attivo" e "Attivo con conferma dell'Ente" lato professionista è descritto dal manuale professionisti; nel back office si vede solo che la voce di menu compare con "Attivo con conferma dell'Ente". -->
 
 ### I passaggi
 
