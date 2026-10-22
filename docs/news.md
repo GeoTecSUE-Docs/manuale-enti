@@ -29,7 +29,7 @@ Si apre la pagina **Gestione News** con l'elenco delle news dell'Ente.
 
 ## Elenco delle news
 
-L'elenco mostra 10 news per pagina; per scorrere le pagine usa i numeri e le frecce **<<** e **>>** sotto la tabella. Questo elenco non ha la casella **Cerca** e non si ordina cliccando sulle colonne.
+L'elenco è ordinato all'inizio per **Inserimento**, dalla news più recente. La tabella ha la casella **Cerca**, la scelta delle righe per pagina (**Visualizza …**), l'ordinamento cliccando sulle intestazioni delle colonne e la paginazione (**Inizio**, **Precedente**, numeri di pagina, **Successivo**, **Fine**), come descritto in [Interfaccia e convenzioni](interfaccia-e-convenzioni.html#tabelle).
 
 Se l'Ente non ha ancora inserito news, al posto della tabella compare il messaggio **Nessuna news presente**.
 
@@ -41,7 +41,7 @@ Se l'Ente non ha ancora inserito news, al posto della tabella compare il messagg
 | **Fine validità** | Data di fine validità, se impostata |
 | **Priorità** | Badge **Sì** (giallo) o **No** (grigio) cliccabile |
 | **Attiva** | Badge **Sì** (verde) o **No** (grigio) cliccabile |
-| **Azioni** | Matita (modifica) e cestino (elimina) |
+| *(pulsanti)* | Matita (modifica) e cestino (elimina) |
 
 ### Attivare o disattivare una news
 
