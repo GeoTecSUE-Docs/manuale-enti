@@ -27,8 +27,7 @@ La pagina si intitola **Pratiche in corso** e contiene un'unica scheda, **Pratic
 - un badge viola con il **numero di pratiche** trovate con i filtri correnti;
 - un badge giallo con il numero di **filtri attivi** (es. "1 filtro"), visibile solo quando almeno un filtro è impostato.
 
-{: .schermata }
-> `assets/images/pratiche-in-corso-elenco.png` — La pagina Pratiche in corso con i filtri e l'elenco delle pratiche in compilazione, inclusa la colonna Allegati.
+![La pagina Pratiche in corso con un filtro attivo e l'elenco delle pratiche in compilazione, inclusa la colonna Allegati](../assets/images/pratiche-in-corso-elenco.png)
 
 ## Filtrare l'elenco
 
@@ -59,7 +58,7 @@ La tabella è ordinata all'inizio per **# Pratica** in ordine decrescente. Ricer
 | **Tipo** | Il tipo di pratica. |
 | **Titolare** | Il titolare indicato finora dal professionista, in maiuscolo. |
 | **Professionista** | Il professionista che sta compilando la pratica, in maiuscolo. |
-| **Allegati** | Quanti allegati il professionista ha già caricato (badge con la graffetta), oppure un trattino se nessuno. |
+| **Allegati** | Quanti allegati il professionista ha già caricato (badge viola con la graffetta), oppure un trattino se nessuno. |
 
 Le righe non sono cliccabili: non esiste un dettaglio delle pratiche in corso.
 
