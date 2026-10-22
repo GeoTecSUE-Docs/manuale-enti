@@ -22,8 +22,7 @@ Dal menu in alto scegli **Gestione Pratiche › Gestione Protocollazione**.
 
 La pagina si intitola **Gestione protocollazione**.
 
-{: .schermata }
-> `assets/images/gestione-protocollazione-elenco.png` — Il riquadro azzurro "Protocollazione" aperto su un'istanza, con i campi numero e data di protocollo, e sotto l'elenco "Istanze da protocollare" con la riga selezionata evidenziata.
+![Il riquadro azzurro "Protocollazione" aperto su un'istanza, con i campi numero e data di protocollo, e sotto l'elenco "Istanze da protocollare" con la riga selezionata evidenziata](../assets/images/gestione-protocollazione-elenco.png)
 
 ## Elenco delle istanze da protocollare
 
