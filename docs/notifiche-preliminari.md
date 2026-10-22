@@ -28,8 +28,7 @@ La voce di menu compare solo se la notifica preliminare è abilitata per il tuo 
 
 La pagina si intitola **Notifiche preliminari** e contiene un'unica scheda, **Notifiche preliminari inviate allo SPRESAL tramite MUDE**. Accanto al titolo trovi il badge viola con il **numero di notifiche** trovate e, se hai impostato dei filtri, il badge giallo con il numero di **filtri attivi**.
 
-{: .schermata }
-> `assets/images/notifiche-preliminari-elenco.png` — La pagina Notifiche preliminari con i filtri e l'elenco delle notifiche, con le colonne Istanza MUDE e Stato.
+![La pagina Notifiche preliminari con i filtri e l'elenco delle notifiche, con le colonne Istanza MUDE e Stato](../assets/images/notifiche-preliminari-elenco.png)
 
 ## Filtrare l'elenco
 
