@@ -6,6 +6,26 @@ permalink: /changelog/
 
 # Changelog - Manuale Enti GeoTecSUE
 
+## [1.0] - 22/10/2026
+- Prima versione completa del manuale per gli Enti (non più bozza)
+
+### Aggiunte
+- Schermate in tutte le pagine del manuale
+- Scheda Ente: avviso sull'aggiornamento del sistema con gli allegati base, che cancella le modifiche manuali ad allegati e modulistica
+- Modulistica: avviso che i modelli dell'istanza non sono presenti, perché l'istanza si compila esclusivamente online
+- Configurazione PagoPA e Allegati in pratica: le modifiche valgono solo per le pratiche create dopo la modifica
+- Configurazione PagoPA: rimando a Gestione PagoPA per rendere facoltativo il pagamento di una singola pratica
+- Gestione PagoPA: sezione "Perché questa pagina è importante" sullo sblocco dei pagamenti già effettuati con altra modalità, che spetta solo all'Ente
+- Servizi App IO: avviso a non modificare oggetto e testo dei messaggi
+- Mail: sezione "Le mail sono un servizio di cortesia"
+- Consultazione: la vecchia gestione è in fase di dismissione
+- Gestione assistenze: le richieste sono gestite dall'assistenza SISCOM
+
+### Modifiche
+- Pagamenti: titolo semplificato (senza "diritti di segreteria")
+- Interfaccia e convenzioni: colori di pulsanti e badge allineati al back office
+- Revisione dei testi e correzione di refusi in tutte le pagine
+
 ## [0.1] - 19/10/2026
 - Prima bozza del manuale per gli Enti
 
