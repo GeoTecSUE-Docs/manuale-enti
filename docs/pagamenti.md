@@ -32,7 +32,7 @@ Si apre la pagina **Gestione Pagamenti** con l'elenco delle schede dell'Ente.
 
 ## Elenco dei pagamenti
 
-L'elenco mostra 10 schede per pagina; per scorrere le pagine usa i numeri e le frecce **<<** e **>>** sotto la tabella. Questo elenco non ha la casella **Cerca** e non si ordina cliccando sulle colonne.
+L'elenco è ordinato all'inizio per **Inserimento**, dalla scheda più recente. La tabella ha la casella **Cerca**, la scelta delle righe per pagina (**Visualizza …**), l'ordinamento cliccando sulle intestazioni delle colonne e la paginazione (**Inizio**, **Precedente**, numeri di pagina, **Successivo**, **Fine**), come descritto in [Interfaccia e convenzioni](interfaccia-e-convenzioni.html#tabelle).
 
 Se non ci sono schede, al posto della tabella compare il messaggio **Nessun pagamento presente**.
 
@@ -43,7 +43,7 @@ Se non ci sono schede, al posto della tabella compare il messaggio **Nessun paga
 | **Testo** | Inizio del testo, senza formattazione. Passa con il mouse sopra il testo per leggerne una parte più lunga |
 | **Priorità** | Badge **Sì** (giallo) o **No** (grigio) cliccabile |
 | **Attiva** | Badge **Sì** (verde) o **No** (grigio) cliccabile |
-| **Azioni** | Matita (modifica) e cestino (elimina) |
+| *(pulsanti)* | Matita (modifica) e cestino (elimina) |
 
 ### Attivare o disattivare una scheda
 
