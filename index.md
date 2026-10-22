@@ -14,8 +14,8 @@ Per il lato professionista è disponibile il [Manuale utente GeoTecSUE](https://
 
 ## Informazioni sul manuale
 
-**Versione corrente:** 0.1 (bozza)
-**Ultimo aggiornamento:** 19/10/2026
+**Versione corrente:** 1.0
+**Ultimo aggiornamento:** 22/10/2026
 [Cronologia completa delle modifiche](changelog/)
 
 ---
@@ -25,6 +25,7 @@ Per il lato professionista è disponibile il [Manuale utente GeoTecSUE](https://
 Il manuale segue il menu del back office: ogni pagina descrive una voce di menu, dall'alto verso il basso.
 
 Puoi:
+
 - partire da [Accesso al back office](docs/accesso.html) e [Interfaccia e convenzioni](docs/interfaccia-e-convenzioni.html) per le nozioni comuni a tutte le pagine
 - andare direttamente alla voce di menu che ti interessa
 - usare la **ricerca** in alto per trovare un termine (vedi anche il [Glossario](docs/appendici/glossario.html))
