@@ -238,7 +238,7 @@ La card **Versione e manuale** riporta:
 - **Versione**: versione del sistema GeoTecSUE e data di rilascio;
 - **Versione Sequoia**: versione del collegamento con il gestionale Sequoia e data.
 
-Se è disponibile un manuale per l'Ente compare il pulsante **Manuale dell'ente**: cliccalo per scaricare il file *Manuale ente.pdf*.
+Il pulsante **Manuale dell'ente** ti porta alla prima pagina di questo manuale.
 
 ## Errori
 
