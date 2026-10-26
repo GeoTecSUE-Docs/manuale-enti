@@ -2,8 +2,8 @@
 title: Interfaccia e convenzioni
 nav_order: 20
 parent: Introduzione
-description: Descrive la struttura delle pagine del back office dell'Ente, il menu, e gli elementi ricorrenti come spinner, notifiche, finestre, tabelle, filtri, badge di stato, pulsanti ed editor di testo.
-keywords: [interfaccia, menu, convenzioni, tabelle, filtri, badge, stati, icone, pulsanti, notifiche, editor markdown, spinner]
+description: Descrive la struttura delle pagine del back office dell'Ente, il menu, e gli elementi ricorrenti come spinner, notifiche, finestre, tabelle, filtri, badge di stato, pulsanti, guida in linea ed editor di testo.
+keywords: [interfaccia, menu, convenzioni, tabelle, filtri, badge, stati, icone, pulsanti, notifiche, editor markdown, spinner, guida in linea, punto interrogativo, Clementina]
 IDRegione: 99
 IDTipoPratica: 9999
 Fonte: Manuale Enti
@@ -11,7 +11,7 @@ Fonte: Manuale Enti
 
 # Interfaccia e convenzioni
 
-Questa sezione spiega com'è fatta una pagina del back office e descrive gli elementi che ritrovi in quasi tutte le pagine: menu, spinner, notifiche, finestre, tabelle, filtri, badge di stato, pulsanti ed editor di testo. Le altre pagine del manuale rimandano qui invece di ripetere queste spiegazioni.
+Questa sezione spiega com'è fatta una pagina del back office e descrive gli elementi che ritrovi in quasi tutte le pagine: menu, spinner, notifiche, finestre, tabelle, filtri, badge di stato, pulsanti, guida in linea ed editor di testo. Le altre pagine del manuale rimandano qui invece di ripetere queste spiegazioni.
 
 ## Struttura della pagina
 
@@ -23,7 +23,7 @@ Ogni pagina del back office ha tre parti:
 | **Contenuto** | Il titolo della pagina e le card (riquadri con intestazione) con dati, tabelle e pulsanti. |
 | **Piè di pagina** | L'anno, la scritta *GeoTecSue – Tutti i diritti riservati* e, a destra, **Versione** e **Data Rilascio** del back office. |
 
-In basso a destra trovi un pulsante con la **freccia in su**: cliccalo per tornare subito all'inizio della pagina.
+In basso a destra trovi un pulsante con la **freccia in su**: cliccalo per tornare subito all'inizio della pagina. Accanto c'è il pulsante **Chiedi a Clementina**, che apre la chat con l'assistente del back office (vedi [Assistente Clementina](assistente-clementina.html)).
 
 Su schermi stretti (tablet, finestra ridotta) le voci del menu si raccolgono sotto il pulsante con le **tre linee** in alto a destra: cliccalo per aprire il menu.
 
@@ -231,6 +231,21 @@ I pulsanti hanno un'icona e, quasi sempre, un testo. Passando il mouse sopra un 
 
 {: .note }
 > Rispetto al portale dei professionisti, nel back office il pulsante di modifica (matita) è **rosa** e non giallo.
+
+## Guida in linea
+{: #guida-in-linea }
+
+Accanto al titolo di molte pagine, card e finestre trovi un'icona con il **punto interrogativo**. Cliccandola si apre a destra il pannello **Guida** con la sola sezione di questo manuale che riguarda quel punto, senza lasciare la pagina in cui stai lavorando.
+
+| Comando | Effetto |
+|---------|---------|
+| **Apri nel manuale completo** (in fondo al pannello) | Apre la pagina intera del manuale in una nuova scheda del browser. |
+| **X**, tasto **Esc** o clic fuori dal pannello | Chiude il pannello. Se l'avevi aperto da una finestra, si chiude solo il pannello e la finestra resta aperta. |
+| **Ctrl+clic** (o clic con la rotellina) sull'icona | Apre direttamente la sezione del manuale in una nuova scheda. |
+
+Se la sezione non si può mostrare nel pannello (ad esempio perché il manuale non è raggiungibile), compare il messaggio *Non è stato possibile mostrare qui la guida di questa sezione.*: usa il pulsante **Apri nel manuale completo**.
+
+Nello stesso pannello si aprono anche i collegamenti al manuale proposti da [Clementina](assistente-clementina.html) sotto le risposte.
 
 ## Editor di testo (Markdown)
 
