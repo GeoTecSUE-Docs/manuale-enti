@@ -14,8 +14,8 @@ Per il lato professionista è disponibile il [Manuale utente GeoTecSUE](https://
 
 ## Informazioni sul manuale
 
-**Versione corrente:** 1.0
-**Ultimo aggiornamento:** 22/10/2026
+**Versione corrente:** 1.1
+**Ultimo aggiornamento:** 26/10/2026
 [Cronologia completa delle modifiche](changelog/)
 
 ---
@@ -77,6 +77,7 @@ Puoi:
 ### Appendici
 - [Stati delle pratiche](docs/appendici/stati-pratica.html)
 - [Glossario](docs/appendici/glossario.html)
+- [Tipologie di pratica](docs/appendici/tipologie-pratica.html)
 
 ---
 
