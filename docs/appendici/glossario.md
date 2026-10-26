@@ -3,7 +3,7 @@ title: Glossario
 nav_order: 2
 parent: Appendici
 description: Definizioni dei termini usati nel back office degli Enti e nel manuale, con i collegamenti alle pagine in cui ciascun termine è trattato
-keywords: [glossario, termini, definizioni, pratica, istanza, sanatoria, IUV, PagoPA, protocollazione, voltura, pratica importata, chiave della pratica, SUE]
+keywords: [glossario, termini, definizioni, pratica, istanza, sanatoria, Clementina, guida in linea, IUV, PagoPA, protocollazione, voltura, pratica importata, chiave della pratica, SUE]
 IDRegione: 99
 IDTipoPratica: 9999
 Fonte: Manuale Enti
@@ -34,6 +34,9 @@ Questa appendice raccoglie, in ordine alfabetico, i termini che incontri nel bac
 **Chiave della pratica**
 : Codice univoco assegnato automaticamente a ogni istanza alla creazione e mai modificato. Il manuale dei professionisti la descrive come un codice di 19 cifre; nel back office identifica la pratica negli elenchi e nei filtri **# Pratica**. Vedi [Pratiche trasmesse](../pratiche-trasmesse.html).
 
+**Clementina**
+: L'assistente basato sull'intelligenza artificiale del back office: risponde alle domande su come si usa il back office partendo da questo manuale e dalle impostazioni del tuo Ente. Si apre con il pulsante **Chiedi a Clementina** in basso a destra. Vedi [Assistente Clementina](../assistente-clementina.html).
+
 **Codice IUV**
 : Identificativo Univoco di Versamento: il codice che identifica un singolo pagamento sul circuito PagoPA. Il professionista lo genera dal portale e lo usa per pagare. Vedi [Gestione PagoPA](../gestione-pagopa.html).
 
@@ -49,6 +52,11 @@ Questa appendice raccoglie, in ordine alfabetico, i termini che incontri nel bac
 
 **Ente**
 : Il Comune o l'Unione di comuni che riceve le pratiche tramite GeoTecSUE. Nel back office vedi e gestisci solo i dati e le pratiche del tuo Ente. Vedi [Scheda Ente](../scheda-ente.html).
+
+## G
+
+**Guida in linea**
+: Il pannello che si apre a destra cliccando l'icona con il punto interrogativo accanto ai titoli: mostra la sezione del manuale che riguarda quel punto, senza lasciare la pagina. Vedi [Interfaccia e convenzioni](../interfaccia-e-convenzioni.html#guida-in-linea).
 
 ## I
 
