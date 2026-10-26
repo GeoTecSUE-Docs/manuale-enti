@@ -19,6 +19,7 @@ permalink: /changelog/
 ### Modifiche
 - News e Pagamenti: descrizione aggiornata della nuova tabella (ricerca, ordinamento, righe per pagina, paginazione) e nuova schermata
 - Home page: aggiunte all'indice la pagina Assistente Clementina e l'appendice Tipologie di pratica
+- Tipologie di pratica: la CILA Tolleranze Esecutive (CILATE) è indicata anche come **CILA Salva Casa** (D.L. 69/2024), con il collegamento allo stato legittimo; nella CILA ordinaria e nella CILATE, avviso a non confonderle e rimando alle Pratiche disattive per attivarla
 
 ## [1.0] - 22/10/2026
 - Prima versione completa del manuale per gli Enti (non più bozza)
