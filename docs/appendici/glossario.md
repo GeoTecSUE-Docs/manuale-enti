@@ -3,7 +3,7 @@ title: Glossario
 nav_order: 2
 parent: Appendici
 description: Definizioni dei termini usati nel back office degli Enti e nel manuale, con i collegamenti alle pagine in cui ciascun termine è trattato
-keywords: [glossario, termini, definizioni, pratica, istanza, IUV, PagoPA, protocollazione, voltura, pratica importata, chiave della pratica, SUE]
+keywords: [glossario, termini, definizioni, pratica, istanza, sanatoria, IUV, PagoPA, protocollazione, voltura, pratica importata, chiave della pratica, SUE]
 IDRegione: 99
 IDTipoPratica: 9999
 Fonte: Manuale Enti
@@ -118,6 +118,9 @@ Questa appendice raccoglie, in ordine alfabetico, i termini che incontri nel bac
 : Domanda con cui un professionista chiede di portare in GeoTecSUE una pratica presentata altrove. L'Ente la consente o la rifiuta; in entrambi i casi il professionista riceve una comunicazione. Vedi [Richieste di importazione](../richieste-importazione.html).
 
 ## S
+
+**Sanatoria**
+: Regolarizzazione di un intervento già eseguito o in corso di esecuzione (ad esempio in assenza di titolo o in difformità). **Non è una tipologia di pratica a sé**: si presenta all'interno della pratica edilizia corrispondente (Permesso di Costruire, SCIA o CILA) compilando la sezione **Sanatoria** del modello. Vedi [Tipologie di pratica](tipologie-pratica.html#sanatoria) e, per i pagamenti, [Configurazione PagoPA](../pagopa-configurazione.html).
 
 **Servizio PagoPA**
 : Una voce di pagamento configurata dall'Ente (es. un tipo di diritto o di oneri), collegata ai tipi di pratica per cui è dovuta. Vedi [Configurazione PagoPA](../pagopa-configurazione.html).
