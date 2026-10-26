@@ -29,8 +29,7 @@ Clementina risponde alle domande su **come si usa il back office**: dove si trov
 
 Il pulsante **Chiedi a Clementina**, con la sua immagine, si trova in basso a destra in ogni pagina. Su schermi piccoli compare solo l'immagine e la chat si apre a tutto schermo.
 
-{: .schermata }
-> `assets/images/clementina-benvenuto.png` — Il pannello di Clementina aperto con il messaggio di benvenuto e le domande suggerite.
+![Il pannello di Clementina aperto con il messaggio di benvenuto e le domande suggerite](../assets/images/clementina-benvenuto.png)
 
 | Comando | Effetto |
 |---------|---------|
@@ -65,8 +64,7 @@ Quando la conversazione è vuota, il messaggio di benvenuto propone alcune **dom
 
 Le risposte sono scritte come istruzioni operative, spesso con passaggi numerati. Sotto il testo possono comparire due tipi di collegamenti.
 
-{: .schermata }
-> `assets/images/clementina-risposta.png` — Una risposta di Clementina con l'elenco "Approfondisci nel manuale" e il pulsante "Vai a".
+![Una risposta di Clementina con l'elenco «Approfondisci nel manuale» e il pulsante «Vai a»](../assets/images/clementina-risposta.png)
 
 | Collegamento | A cosa serve |
 |--------------|--------------|
