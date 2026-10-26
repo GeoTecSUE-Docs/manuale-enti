@@ -37,6 +37,7 @@ Puoi:
 ### Introduzione
 - [Accesso al back office](docs/accesso.html)
 - [Interfaccia e convenzioni](docs/interfaccia-e-convenzioni.html)
+- [Assistente Clementina](docs/assistente-clementina.html)
 - [Scheda Ente](docs/scheda-ente.html)
 
 ### Impostazioni dell'Ente
