@@ -3,7 +3,7 @@ title: Tipologie di pratica
 nav_order: 3
 parent: Appendici
 description: Elenco delle tipologie di pratica gestite da GeoTecSUE, con sigla, altri nomi e sinonimi con cui vengono chiamate, regioni in cui sono disponibili e una breve descrizione.
-keywords: [tipologie di pratica, tipi pratica, sinonimi, sigle, acronimi, CILA, CILATE, CILA tolleranze esecutive, CILA stato legittimo, CILAS, CILA Superbonus, SCIA, SCIA alternativa, super SCIA, Permesso di Costruire, PdC, CIL, attività edilizia libera, agibilità, SCA, denuncia sismica, autorizzazione paesaggistica, vincolo idrogeologico, notifica preliminare, PAS, inizio lavori, fine lavori, proroga]
+keywords: [tipologie di pratica, tipi pratica, sinonimi, sanatoria, pratica in sanatoria, SCIA in sanatoria, CILA in sanatoria, permesso di costruire in sanatoria, sigle, acronimi, CILA, CILATE, CILA tolleranze esecutive, CILA stato legittimo, CILAS, CILA Superbonus, SCIA, SCIA alternativa, super SCIA, Permesso di Costruire, PdC, CIL, attività edilizia libera, agibilità, SCA, denuncia sismica, autorizzazione paesaggistica, vincolo idrogeologico, notifica preliminare, PAS, inizio lavori, fine lavori, proroga]
 IDRegione: 99
 IDTipoPratica: 9999
 Fonte: Manuale Enti
@@ -19,6 +19,26 @@ Serve soprattutto a riconoscere la stessa pratica quando viene indicata con nomi
 > Quali tipologie sono disponibili per il tuo Ente dipende dalla Regione e da quelle attivate nella pagina [Tipi pratiche](../tipi-pratiche.html). La sigla mostrata nel back office (colonna **Acronimo**) può differire leggermente da quella riportata qui (es. "CILA" o "C.I.L.A."). Le pratiche segnate come **Comunicazione** si presentano a partire da una pratica già esistente (vedi [Comunicazioni](../comunicazioni.html)).
 
 Le regioni sono indicate così: **Nazionale** (modello valido per tutte le regioni), **Piemonte**, **Liguria**, **Lombardia**, **Veneto**.
+
+## La sanatoria non è una tipologia di pratica
+{: #sanatoria }
+
+{: .warning }
+> **Non esiste una tipologia di pratica "Sanatoria".** La sanatoria si presenta **all'interno** della pratica edilizia corrispondente, compilando l'apposita sezione **Sanatoria** del modello. La sezione è presente solo in **Permesso di Costruire**, **SCIA** e **CILA**.
+>
+> Quindi "SCIA in sanatoria", "PdC in sanatoria", "permesso in sanatoria" o "CILA in sanatoria" indicano la normale pratica (SCIA, PdC, CILA…) con la sezione **Sanatoria** compilata.
+
+Come funziona la sezione **Sanatoria**:
+
+- è **facoltativa**: il professionista la attiva solo se la pratica riguarda un intervento già eseguito o in corso di esecuzione (ad esempio in assenza di titolo o in difformità);
+- una volta attivata, il professionista sceglie il tipo di sanatoria e i riferimenti normativi (ad esempio artt. 36, 36-bis o 37 del D.P.R. 380/2001) e compila i dati richiesti;
+- con la sanatoria attiva, tra i tecnici della pratica è richiesto il **Rilevatore** invece del Progettista;
+- le voci della sezione cambiano a seconda della tipologia di pratica e della regione.
+
+Per i pagamenti, nella [Configurazione PagoPA](../pagopa-configurazione.html) un servizio può essere reso **obbligatorio solo per le pratiche in sanatoria** (opzione **Obbligatorio se in sanatoria**): vale per le pratiche in cui è stata compilata la sezione Sanatoria.
+
+{: .note }
+> Fanno eccezione la **Denuncia Sismica Postuma** e l'**Accertamento di Compatibilità Paesaggistica**, che sono tipologie a sé perché riguardano rispettivamente gli aspetti strutturali e paesaggistici di opere già eseguite, non il titolo edilizio. Non vanno confusi neppure i **titoli precedenti rilasciati in sanatoria** (ad esempio un condono o un vecchio permesso in sanatoria) che il professionista cita nella sezione sullo stato legittimo dell'immobile: sono riferimenti a pratiche passate, non una sanatoria in corso.
 
 ## Titoli edilizi e comunicazioni di inizio lavori
 
@@ -64,12 +84,13 @@ Le regioni sono indicate così: **Nazionale** (modello valido per tutte le regio
 - **Altri nomi:** SCIA in alternativa al permesso di costruire, super SCIA, ex super DIA
 - **Regioni:** Nazionale, Piemonte, Liguria, Lombardia
 - **Cos'è:** SCIA presentata in alternativa al permesso di costruire (art. 23 D.P.R. 380/2001).
+- **Nota:** non ha la sezione Sanatoria (vedi [La sanatoria non è una tipologia di pratica](#sanatoria)).
 
 ### Permesso di Costruire (PdC)
 
-- **Altri nomi:** P.d.C., permesso edilizio, ex concessione edilizia, permesso di costruire in sanatoria
+- **Altri nomi:** P.d.C., permesso edilizio, ex concessione edilizia
 - **Regioni:** Nazionale, Piemonte, Liguria, Lombardia
-- **Cos'è:** istanza di permesso di costruire (art. 10 D.P.R. 380/2001), anche in sanatoria (artt. 36 e 36-bis).
+- **Cos'è:** istanza di permesso di costruire (art. 10 D.P.R. 380/2001). Il permesso **in sanatoria** non è una tipologia separata: è un PdC con la sezione Sanatoria compilata (vedi [La sanatoria non è una tipologia di pratica](#sanatoria)).
 
 ### Regolarizzazione Opere Interne (ROI)
 
@@ -112,6 +133,7 @@ Le regioni sono indicate così: **Nazionale** (modello valido per tutte le regio
 ### Accertamento di Compatibilità Paesaggistica (ACP)
 
 - **Altri nomi:** compatibilità paesaggistica, sanatoria paesaggistica, accertamento art. 167
+- **Nota:** riguarda solo l'aspetto paesaggistico; la sanatoria edilizia si presenta con la sezione Sanatoria della pratica edilizia.
 - **Regioni:** Nazionale, Piemonte, Liguria, Lombardia
 - **Cos'è:** accertamento della compatibilità paesaggistica di interventi già eseguiti (artt. 167 e 181 D.Lgs. 42/2004).
 
