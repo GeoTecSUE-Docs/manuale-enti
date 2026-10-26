@@ -6,6 +6,17 @@ permalink: /changelog/
 
 # Changelog - Manuale Enti GeoTecSUE
 
+## [1.1] - 26/10/2026
+
+### Aggiunte
+- Appendici: nuova pagina **Tipologie di pratica**, con sigla, altri nomi e sinonimi (es. "CILA stato legittimo" = CILA Tolleranze Esecutive), regioni e breve descrizione di ogni tipologia
+- Tipologie di pratica: sezione "La sanatoria non è una tipologia di pratica" (la sanatoria si presenta con la sezione Sanatoria di Permesso di Costruire, SCIA e CILA)
+- Glossario: nuova voce **Sanatoria**
+
+### Modifiche
+- News e Pagamenti: descrizione aggiornata della nuova tabella (ricerca, ordinamento, righe per pagina, paginazione) e nuova schermata
+- Home page: aggiunta l'appendice Tipologie di pratica all'indice
+
 ## [1.0] - 22/10/2026
 - Prima versione completa del manuale per gli Enti (non più bozza)
 
