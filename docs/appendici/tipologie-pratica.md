@@ -3,7 +3,7 @@ title: Tipologie di pratica
 nav_order: 3
 parent: Appendici
 description: Elenco delle tipologie di pratica gestite da GeoTecSUE, con sigla, altri nomi e sinonimi con cui vengono chiamate, regioni in cui sono disponibili e una breve descrizione.
-keywords: [tipologie di pratica, tipi pratica, sinonimi, sanatoria, pratica in sanatoria, SCIA in sanatoria, CILA in sanatoria, permesso di costruire in sanatoria, sigle, acronimi, CILA, CILATE, CILA tolleranze esecutive, CILA stato legittimo, CILAS, CILA Superbonus, SCIA, SCIA alternativa, super SCIA, Permesso di Costruire, PdC, CIL, attività edilizia libera, agibilità, SCA, denuncia sismica, autorizzazione paesaggistica, vincolo idrogeologico, notifica preliminare, PAS, inizio lavori, fine lavori, proroga]
+keywords: [tipologie di pratica, tipi pratica, sinonimi, sanatoria, pratica in sanatoria, SCIA in sanatoria, CILA in sanatoria, permesso di costruire in sanatoria, sigle, acronimi, CILA, CILATE, CILA tolleranze esecutive, CILA stato legittimo, CILA Salva Casa, decreto Salva Casa, D.L. 69/2024, CILAS, CILA Superbonus, SCIA, SCIA alternativa, super SCIA, Permesso di Costruire, PdC, CIL, attività edilizia libera, agibilità, SCA, denuncia sismica, autorizzazione paesaggistica, vincolo idrogeologico, notifica preliminare, PAS, inizio lavori, fine lavori, proroga]
 IDRegione: 99
 IDTipoPratica: 9999
 Fonte: Manuale Enti
@@ -13,7 +13,7 @@ Fonte: Manuale Enti
 
 Questa appendice elenca le tipologie di pratica che i professionisti possono presentare tramite GeoTecSUE. Per ognuna riporta la **sigla**, gli **altri nomi** con cui viene comunemente chiamata, le **regioni** in cui è disponibile e una breve descrizione.
 
-Serve soprattutto a riconoscere la stessa pratica quando viene indicata con nomi diversi: ad esempio **"CILA stato legittimo"** e **"CILA tolleranze esecutive"** sono la stessa pratica (CILATE).
+Serve soprattutto a riconoscere la stessa pratica quando viene indicata con nomi diversi: ad esempio **"CILA stato legittimo"**, **"CILA Salva Casa"** e **"CILA tolleranze esecutive"** sono la stessa pratica (CILATE).
 
 {: .note }
 > Quali tipologie sono disponibili per il tuo Ente dipende dalla Regione e da quelle attivate nella pagina [Tipi pratiche](../tipi-pratiche.html). La sigla mostrata nel back office (colonna **Acronimo**) può differire leggermente da quella riportata qui (es. "CILA" o "C.I.L.A."). Le pratiche segnate come **Comunicazione** si presentano a partire da una pratica già esistente (vedi [Comunicazioni](../comunicazioni.html)).
@@ -60,12 +60,15 @@ Per i pagamenti, nella [Configurazione PagoPA](../pagopa-configurazione.html) un
 - **Altri nomi:** C.I.L.A., CILA ordinaria
 - **Regioni:** Nazionale, Piemonte, Liguria, Lombardia
 - **Cos'è:** comunicazione di inizio lavori asseverata da un tecnico (art. 6-bis D.P.R. 380/2001).
+- **Da non confondere con:** la [CILA Tolleranze Esecutive](#cila-tolleranze-esecutive-cilate) (CILATE, detta anche "CILA stato legittimo" o "CILA Salva Casa") e la [CILA Superbonus](#cila-superbonus-cilas) (CILAS), che sono tipologie distinte e vanno attivate a parte.
 
 ### CILA Tolleranze Esecutive (CILATE)
 
-- **Altri nomi:** **CILA stato legittimo**, CILA TE, CILA tolleranze, CILA tolleranze costruttive, CILA art. 34-bis
+- **Altri nomi:** **CILA stato legittimo**, **CILA Salva Casa**, CILA del decreto Salva Casa, CILA D.L. 69/2024, CILA TE, CILA tolleranze, CILA tolleranze costruttive, CILA art. 34-bis
 - **Regioni:** Piemonte
 - **Cos'è:** comunicazione di inizio lavori asseverata per le tolleranze esecutive ai sensi dell'art. 6-bis commi 1, 2 e 3 della L.R. 19/1999, della D.G.R. n. 2-4519 del 14/01/2022 e dell'art. 34-bis del D.P.R. 380/2001.
+- **Perché "Salva Casa":** il D.L. 69/2024 (decreto "Salva Casa", convertito dalla L. 105/2024) ha ampliato le tolleranze esecutive dell'art. 34-bis, che concorrono all'attestazione dello **stato legittimo** dell'immobile (art. 9-bis D.P.R. 380/2001). Per questo la pratica è spesso chiamata "CILA Salva Casa" o "CILA stato legittimo".
+- **Da non confondere con:** la [CILA](#comunicazione-di-inizio-lavori-asseverata-cila) ordinaria. Se nel tuo Ente la CILATE non è tra le **Pratiche attive**, cercala tra le **Pratiche disattive** della pagina [Tipi pratiche](../tipi-pratiche.html) e attivala da lì.
 
 ### CILA Superbonus (CILAS)
 
