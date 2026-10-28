@@ -2,8 +2,8 @@
 title: Consultazione
 nav_order: 130
 parent: "Impostazioni dell'Ente"
-description: Spiega come attivare la consultazione web delle pratiche dell'Ente e come decidere quali dati e quali tipi o stati di pratica sono visibili.
-keywords: [consultazione, consultazione web, link consultazione, restrizioni, Sequoia, tipi pratica, toponimi, numero civico, mappali, visibilità, stati pratica]
+description: Spiega le due consultazioni delle pratiche dell'Ente (dentro GeoTecSUE e Consultazione web pubblica con link da pubblicare ovunque), come attivarle e come decidere quali dati e quali tipi o stati di pratica sono visibili.
+keywords: [consultazione, consultazione web, link consultazione, pagina pubblica, sito istituzionale, consultazione interna, utenti in consultazione, restrizioni, Sequoia, tipi pratica, toponimi, numero civico, mappali, visibilità, stati pratica]
 IDRegione: 99
 IDTipoPratica: 9999
 Fonte: Manuale Enti
@@ -11,20 +11,36 @@ Fonte: Manuale Enti
 
 # Consultazione
 
-Questa sezione spiega come configurare la consultazione delle pratiche dell'Ente: attivare la pagina di consultazione web, ottenerne il link e stabilire quali informazioni vi compaiono.
+Questa sezione spiega come configurare la consultazione delle pratiche dell'Ente: quali consultazioni esistono, come attivarle, come ottenere il link pubblico e come stabilire quali informazioni vi compaiono.
 
 La pagina si presenta in due modi diversi, a seconda della configurazione dell'Ente:
 
-| Modalità | Quando compare | Cosa permette |
-|----------|----------------|---------------|
-| **Nuova gestione** | Nella [Scheda Ente](scheda-ente.html) è attivo **Attiva consultazione Online** | Attivare la consultazione web, copiarne il link e impostare le restrizioni per ciascuna gestione Sequoia (dati dell'immobile e tipi pratica visibili). Mostra **tutte** le pratiche presenti nel gestionale Sequoia. |
-| **Vecchia gestione** (in dismissione) | **Attiva consultazione Online** non è attivo | Scegliere, per ciascun tipo di pratica, quali stati della pratica sono visibili nella consultazione. Mostra **solo** le pratiche presentate tramite GeoTecSUE. |
+| Modalità | Quando compare | Quali pratiche mostra |
+|----------|----------------|-----------------------|
+| **Nuova gestione** | Nella [Scheda Ente](scheda-ente.html) è attivo **Attiva consultazione Online** | **Tutte** le pratiche presenti nel gestionale Sequoia, lette direttamente da Sequoia. |
+| **Vecchia gestione** (in dismissione) | **Attiva consultazione Online** non è attivo | **Solo** le pratiche presentate tramite GeoTecSUE. |
 
 {: .warning }
 > La **vecchia gestione è in fase di dismissione**, perché non copre tutte le pratiche del gestionale Sequoia ma solo quelle presentate tramite il portale GeoTecSUE. Se il tuo Ente la usa ancora, passa alla nuova gestione attivando **Attiva consultazione Online** nella [Scheda Ente](scheda-ente.html#interruttori).
 
 {: .note }
 > Nella Scheda Ente l'opzione **Attiva consultazione Online** è selezionabile solo se per l'Ente è configurata almeno una gestione Sequoia (il gestionale delle pratiche collegato a GeoTecSUE). Se non la vedi attivabile, rivolgiti all'assistenza.
+
+## Le due consultazioni della nuova gestione
+
+Con la nuova gestione le pratiche dell'Ente, prese da Sequoia, si possono consultare in **due modi diversi**, che l'Ente può usare insieme:
+
+| | **Consultazione in GeoTecSUE** | **Consultazione web** |
+|---|---|---|
+| **Cos'è** | Una pagina di consultazione **all'interno del portale GeoTecSUE**. | Una **pagina web a sé stante**, separata dal portale, con un proprio indirizzo (link). |
+| **Chi la usa** | I professionisti registrati al portale e gli [utenti in consultazione](utenti.html) creati dall'Ente, con le proprie credenziali. | **Chiunque** abbia il link: cittadini, professionisti, altri uffici. Non serve essere registrati a GeoTecSUE. |
+| **Dove si trova** | Dentro GeoTecSUE, dopo l'accesso. | Ovunque l'Ente pubblichi il link: ad esempio sul **sito istituzionale**, in una mail o in una comunicazione. |
+| **Come si attiva** | Con **Attiva consultazione Online** nella [Scheda Ente](scheda-ente.html#interruttori). | Compilando e salvando la scheda [Consultazione web](#consultazione-web) di questa pagina, che genera il link. |
+
+In entrambe valgono le stesse regole su cosa mostrare, impostate nella scheda [Cosa mostrare nella consultazione](#cosa-mostrare-nella-consultazione): se nascondi un dato o un tipo di pratica, non compare né nella consultazione in GeoTecSUE né nella Consultazione web.
+
+{: .note }
+> La **Consultazione web** è utile come primo passo per chi cerca informazioni su una pratica edilizia, prima di un'eventuale richiesta di accesso agli atti: chiunque può verificare in autonomia l'esistenza e i dati principali di una pratica, senza contattare l'ufficio.
 
 ## Accedere alla pagina
 
@@ -38,7 +54,7 @@ La nuova gestione è composta da due schede: **Consultazione web** e **Cosa most
 
 ### Consultazione web
 
-Questa scheda contiene i dati dell'Ente usati dalla pagina pubblica di consultazione. Accanto al titolo un badge indica lo stato:
+Questa scheda serve a creare la **Consultazione web**, la pagina pubblica a sé stante descritta [sopra](#le-due-consultazioni-della-nuova-gestione): contiene i dati dell'Ente usati da quella pagina e, una volta attivata, il link da pubblicare. Accanto al titolo un badge indica lo stato:
 
 | Badge | Significato |
 |-------|-------------|
@@ -52,7 +68,7 @@ Quando la consultazione è attiva, in cima alla scheda compare il campo **Link a
 - **Copia** (icona appunti): copia il link negli appunti; l'icona diventa verde per un istante a conferma.
 - **Apri** (icona freccia): apre il link in una nuova scheda del browser.
 
-Il link termina con il **Codice ente**. Puoi pubblicarlo, ad esempio, sul sito istituzionale: chi lo apre può consultare le pratiche, come primo passo prima di un'eventuale richiesta di accesso agli atti.
+Il link termina con il **Codice ente** e funziona ovunque venga usato: puoi pubblicarlo sul sito istituzionale dell'Ente, inserirlo in una pagina informativa o inviarlo per mail. Chiunque lo apra può consultare le pratiche, senza registrarsi a GeoTecSUE, nei limiti impostati in [Cosa mostrare nella consultazione](#cosa-mostrare-nella-consultazione).
 
 #### Campi
 
@@ -99,7 +115,7 @@ Il pulsante **Importa dati dell'ente**, in alto a destra nella scheda, compila a
 
 ### Cosa mostrare nella consultazione
 
-In questa scheda definisci le **restrizioni** della consultazione, cioè cosa viene nascosto, separatamente per ogni gestione Sequoia dell'Ente.
+In questa scheda definisci le **restrizioni** della consultazione, cioè cosa viene nascosto, separatamente per ogni gestione Sequoia dell'Ente. Le restrizioni valgono **per entrambe** le consultazioni: quella all'interno di GeoTecSUE e la Consultazione web pubblica.
 
 1. Nel campo **Gestione Sequoia** scegli la gestione da configurare.
    - Se l'Ente non ha gestioni, compare il messaggio *"Nessuna gestione Sequoia configurata per l'ente."*
@@ -168,5 +184,5 @@ Ripeti l'operazione per ogni tipo di pratica che vuoi configurare.
 
 ## Pagine collegate
 
-- [Gestione utenti](utenti.html): utenti abilitati alla consultazione.
+- [Gestione utenti](utenti.html): utenti in consultazione, che accedono alla consultazione all'interno di GeoTecSUE.
 - [Scheda Ente](scheda-ente.html): opzione **Attiva consultazione Online**.
