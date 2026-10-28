@@ -6,6 +6,15 @@ permalink: /changelog/
 
 # Changelog - Manuale Enti GeoTecSUE
 
+## [1.2] - 28/10/2026
+
+### Aggiunte
+- Notifiche preliminari: nuova sezione **Attivare la notifica preliminare**, con la mail da inviare a CSI Piemonte (destinatari, oggetto, contenuto ed esempio di testo) e i passaggi fino all'attivazione della pratica
+
+### Modifiche
+- Tipi pratiche: per il motivo "Occorre prima attivare la trasmissione al MUDE" rimando alla procedura di attivazione
+- Tipologie di pratica: nella Notifica Preliminare rimando alla procedura di attivazione
+
 ## [1.1] - 26/10/2026
 
 ### Aggiunte
