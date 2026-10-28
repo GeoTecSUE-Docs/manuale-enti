@@ -6,6 +6,16 @@ permalink: /changelog/
 
 # Changelog - Manuale Enti GeoTecSUE
 
+## [1.3] - 28/10/2026
+
+### Aggiunte
+- Consultazione: nuova sezione **Le due consultazioni della nuova gestione**, che distingue la **consultazione all'interno di GeoTecSUE** (professionisti registrati e utenti in consultazione) dalla **Consultazione web**, la pagina pubblica a sé stante con un link da pubblicare ovunque (ad esempio sul sito istituzionale) per consentire a chiunque di consultare le pratiche
+- Richieste di importazione: nota sulla tendina **Collegamento pratiche Sequoia su SUE** non modificabile, con il rimando all'assistenza SISCOM (per gli Enti già su Sequoia **Nuvola** il collegamento web deve essere presente)
+
+### Modifiche
+- Consultazione: le restrizioni di **Cosa mostrare nella consultazione** valgono per entrambe le consultazioni; descrizione della scheda Consultazione web e del link aggiornata
+- Scheda Ente: **Attiva consultazione Online** attiva entrambe le consultazioni della nuova gestione; la tendina **Collegamento pratiche Sequoia su SUE** è modificabile solo se è configurato il collegamento web con Sequoia (come **Attiva consultazione Online**), altrimenti va contattata l'assistenza SISCOM
+
 ## [1.2] - 28/10/2026
 
 ### Aggiunte
