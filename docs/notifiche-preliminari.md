@@ -3,7 +3,7 @@ title: Notifiche preliminari
 nav_order: 60
 parent: Gestione pratiche
 description: Spiega come consultare l'elenco delle notifiche preliminari di avvio cantiere trasmesse tramite GeoTecSUE e MUDE Piemonte, filtrarle e aprirne il dettaglio.
-keywords: [notifiche preliminari, notifica preliminare, Piemonte, MUDE, SPRESAL, cantieri, numero istanza MUDE, protocollo, filtri, elenco]
+keywords: [attivazione notifica preliminare, CSI Piemonte, credenziali MUDE, notifiche preliminari, notifica preliminare, Piemonte, MUDE, SPRESAL, cantieri, numero istanza MUDE, protocollo, filtri, elenco]
 IDRegione: 99
 IDTipoPratica: 9999
 Fonte: Manuale Enti
@@ -19,6 +19,54 @@ Per il lato professionista vedi, nel manuale dei professionisti, la pagina "Noti
 
 {: .note }
 > Il numero di protocollo che vedi per una notifica preliminare è quello dello SPRESAL, assegnato tramite MUDE, non il protocollo del tuo Ente.
+
+## Attivare la notifica preliminare
+
+La trasmissione della notifica preliminare **non si attiva dal back office**: va prima autorizzata da **CSI Piemonte**, che gestisce MUDE Piemonte. Finché non è autorizzata, nella pagina [Tipi pratiche](tipi-pratiche.html#pratiche-non-attivabili) la Notifica Preliminare compare tra le pratiche disattive con il badge **Non attivabile** (*"Occorre prima attivare la trasmissione al MUDE."*).
+
+### 1. Inviare la richiesta a CSI Piemonte
+
+Il **responsabile del settore** dell'Ente invia una mail con questi dati:
+
+- **A:** assistenza.mudepiemonte@csi.it
+- **Cc:** sequoia@siscom.eu
+- **Oggetto:** *Richiesta di invio della Notifica Preliminare alle AASSLL del Piemonte attraverso front end di sistemi di terze parti*
+
+Nel testo della mail devono essere indicati:
+
+- la **volontà di partire in produzione**;
+- la **società con cui attivare il servizio**: SISCOM;
+- il **referente del sistema informativo dell'Ente**, con nome e cognome, indirizzo e-mail e codice fiscale.
+
+Esempio di testo, da completare con i dati dell'Ente:
+
+```text
+Oggetto: Richiesta di invio della Notifica Preliminare alle AASSLL del Piemonte attraverso front end di sistemi di terze parti
+
+Con la presente il Comune di ......................... comunica la volontà di partire in produzione
+con l'invio della Notifica Preliminare alle AASSLL del Piemonte attraverso il front end di sistemi
+di terze parti.
+
+Società con cui attivare il servizio: SISCOM S.p.A.
+
+Referente del sistema informativo dell'Ente:
+- Nome e cognome: .........................
+- E-mail: .........................
+- Codice fiscale: .........................
+
+Il Responsabile del Settore
+.........................
+```
+
+### 2. I passaggi successivi
+
+1. **CSI Piemonte** avvia la procedura per la richiesta delle credenziali.
+2. **CSI Piemonte** vi contatta per definire la data di avvio.
+3. **SISCOM** configura GeoTecSUE con le credenziali fornite da CSI Piemonte e conferma la data di avvio in produzione.
+
+### 3. Attivare la pratica
+
+Da quel momento la notifica preliminare è **attivabile**: nella pagina [Tipi pratiche](tipi-pratiche.html#attivare-una-pratica), card **Pratiche disattive**, clicca su **Attiva** nella riga della Notifica Preliminare. Da allora i professionisti possono presentarla e nel menu compare la voce **Gestione Pratiche › Notifiche Preliminari**.
 
 ## Accedere alla pagina
 
