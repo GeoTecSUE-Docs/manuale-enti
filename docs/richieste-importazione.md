@@ -27,6 +27,11 @@ L'importazione delle pratiche pregresse si configura nella [Scheda Ente](scheda-
 
 Questa pagina, e la relativa voce di menu, serve solo con il valore **Attivo con conferma dell'Ente**.
 
+La tendina si può cambiare solo se per l'Ente è configurato il collegamento web con Sequoia (la stessa condizione dell'interruttore **Attiva consultazione Online**); altrimenti è grigia e mostra il valore salvato.
+
+{: .note }
+> Se la tendina è grigia, rivolgiti all'assistenza SISCOM. Per un Ente che utilizza già Sequoia sul sistema **Nuvola** il collegamento web deve essere presente e la tendina deve essere modificabile: se non lo è, si tratta di una configurazione che SISCOM deve completare, non di una funzione esclusa per il tuo Ente.
+
 ### I passaggi
 
 1. **Il professionista chiede l'importazione.** Dal proprio portale, nel menu **Le mie istanze › Gestione Istanze non presenti su GeoTecSUE**, il professionista vede le pratiche del gestionale dell'Ente in cui risulta come professionista principale (la ricerca avviene sul suo codice fiscale), sceglie quella che gli interessa e clicca su **Importa**. Con la conferma dell'Ente attiva, l'operazione diventa una richiesta in attesa.
