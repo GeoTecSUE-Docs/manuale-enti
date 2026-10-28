@@ -74,7 +74,7 @@ Il badge **Non attivabile** (con il lucchetto) indica che manca un prerequisito.
 | Motivo | Cosa fare |
 |--------|-----------|
 | **Occorre prima impostare la zona UNESCO dell'ente.** | Imposta la zona UNESCO nella [Scheda Ente](scheda-ente.html) |
-| **Occorre prima attivare la trasmissione al MUDE.** | Attiva la trasmissione al MUDE per l'Ente (da concordare con l'assistenza **SISCOM**) |
+| **Occorre prima attivare la trasmissione al MUDE.** | Riguarda la Notifica Preliminare (Piemonte): segui la procedura in [Attivare la notifica preliminare](notifiche-preliminari.html#attivare-la-notifica-preliminare) |
 
 ### Attivare una pratica
 
