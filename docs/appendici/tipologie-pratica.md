@@ -320,6 +320,7 @@ Sono comunicazioni che il professionista presenta su una pratica già trasmessa.
 - **Altri nomi:** notifica preliminare cantiere, notifica art. 99
 - **Regioni:** Piemonte
 - **Cos'è:** notifica preliminare di avvio cantiere (art. 99 D.Lgs. 81/2008), trasmessa tramite MUDE allo SPRESAL. L'Ente la consulta soltanto (vedi [Notifiche preliminari](../notifiche-preliminari.html)).
+- **Attivazione:** richiede prima l'autorizzazione di CSI Piemonte (vedi [Attivare la notifica preliminare](../notifiche-preliminari.html#attivare-la-notifica-preliminare)).
 
 ## Pagine collegate
 
