@@ -264,6 +264,7 @@ Sono comunicazioni che il professionista presenta su una pratica già trasmessa.
 - **Altri nomi:** variazione tecnici, variazione imprese, cambio direttore lavori o impresa
 - **Regioni:** Piemonte
 - **Cos'è:** comunicazione della variazione dei tecnici e/o delle imprese della pratica.
+- **Non serve per:** la voltura del titolare (cambio dell'intestatario, ad esempio dopo una compravendita), che non ha una pratica dedicata: vedi [Voltura del titolare](../dettaglio-pratica.html#voltura-del-titolare).
 - **Da non confondere con:** la voltura della pratica ad altro professionista, che fa l'Ente dal [Dettaglio della pratica](../dettaglio-pratica.html#professionista-e-voltura).
 
 ### Certificato di Collaudo Finale (CC)
