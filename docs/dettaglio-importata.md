@@ -139,7 +139,7 @@ Mostra il titolare come risulta dal gestionale:
 
 A differenza del dettaglio standard non ci sono nascita, residenza, e-mail, recapiti della ditta né l'elenco degli altri titolari.
 
-Se la pratica ha subito volture del titolare, compare la tabella **Titolari dopo voltura** (**Cognome e nome**, **Codice fiscale**, **Richiesta**, **Conferma**, **Referente PagoPA**). Cliccando sul badge **Sì**/**No** della colonna **Referente PagoPA** scegli a quale titolare sono intestati i pagamenti PagoPA: il funzionamento è lo stesso del [dettaglio standard](dettaglio-pratica.html). Il referente è uno solo: rendendo referente un titolare, gli altri smettono di esserlo.
+Se la pratica ha subito volture del titolare, compare la tabella **Titolari dopo voltura** (**Cognome e nome**, **Codice fiscale**, **Richiesta**, **Conferma**, **Referente PagoPA**). Cliccando sul badge **Sì**/**No** della colonna **Referente PagoPA** scegli a quale titolare sono intestati i pagamenti PagoPA: il funzionamento è lo stesso del [dettaglio standard](dettaglio-pratica.html). Anche qui la voltura del titolare non si esegue dal back office: viene registrata su Sequoia e trasmessa a GeoTecSUE (vedi [Voltura del titolare](dettaglio-pratica.html#voltura-del-titolare)). Il referente è uno solo: rendendo referente un titolare, gli altri smettono di esserlo.
 
 **Professionista**
 
