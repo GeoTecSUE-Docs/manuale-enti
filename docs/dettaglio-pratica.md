@@ -3,7 +3,7 @@ title: Dettaglio della pratica
 nav_order: 20
 parent: Gestione pratiche
 description: Descrive la pagina di dettaglio di una pratica trasmessa, con le schede informative e le azioni dell'Ente come protocollazione manuale, riporto allo stato precedente, voltura, ricevute e pagamenti PagoPA.
-keywords: [dettaglio pratica, protocollazione, riporta allo stato precedente, voltura, ricevute, rigenera ricevuta, PagoPA, archivio zip, tracciabilità, invio libero, Regione Lombardia]
+keywords: [dettaglio pratica, protocollazione, riporta allo stato precedente, voltura, voltura del titolare, cambio intestatario, ricevute, rigenera ricevuta, PagoPA, archivio zip, tracciabilità, invio libero, Regione Lombardia]
 IDRegione: 99
 IDTipoPratica: 9999
 Fonte: Manuale Enti
@@ -149,6 +149,18 @@ La card **Titolare originale** riporta **Cognome e nome**, **Codice fiscale**, *
 - il riquadro **Ditta / Società / Ente rappresentato** (Denominazione, Partita IVA / C.F., Sede, E-mail, PEC);
 - la tabella **Altri titolari** (Cognome, Nome, Codice fiscale, Data di nascita);
 - la tabella **Titolari dopo voltura** (Cognome e nome, Codice fiscale, Richiesta, Conferma, **Referente PagoPA**).
+
+#### Voltura del titolare
+
+La voltura del titolare (subentro di un nuovo titolare nella pratica, ad esempio dopo una compravendita) **non si presenta con una pratica o una comunicazione dedicata** di GeoTecSUE e **non si esegue da questa pagina**:
+
+1. La richiesta arriva all'Ente con un'integrazione volontaria trasmessa dal professionista dal portale (se l'invio libero è consentito, vedi [Invio libero di integrazioni](#invio-libero-di-integrazioni)), oppure via mail o in forma cartacea.
+2. Il tecnico comunale modifica il titolare sul gestionale **Sequoia**.
+3. Da Sequoia il tecnico comunale trasmette la variazione a GeoTecSUE: il nuovo titolare compare nella tabella **Titolari dopo voltura**.
+
+A questo punto puoi indicare il referente dei pagamenti PagoPA (vedi sotto).
+
+> **Da non confondere con:** la **Voltura ad altro professionista**, che cambia il professionista e si esegue da questa pagina (vedi [Professionista e voltura](#professionista-e-voltura)), e la comunicazione **Voltura Professionisti / Imprese**, che riguarda solo la variazione dei tecnici e delle imprese e non il titolare (vedi [Tipologie di pratica](appendici/tipologie-pratica.html)).
 
 #### Referente dei pagamenti PagoPA
 
