@@ -6,6 +6,16 @@ permalink: /changelog/
 
 # Changelog - Manuale Enti GeoTecSUE
 
+## [1.4] - 30/10/2026
+
+### Aggiunte
+- Dettaglio della pratica: nuova sezione **Voltura del titolare** nella scheda Soggetti. La voltura del titolare non ha una pratica dedicata: viene richiesta con un'integrazione volontaria dal portale, via mail o in forma cartacea; il tecnico comunale modifica il titolare su Sequoia e da Sequoia trasmette la variazione a GeoTecSUE (tabella **Titolari dopo voltura**)
+
+### Modifiche
+- Dettaglio pratica importata: rimando alla voltura del titolare
+- Glossario: voce **Voltura** completata con la voltura del titolare
+- Tipologie di pratica: la **Voltura Professionisti / Imprese** non serve per la voltura del titolare
+
 ## [1.3] - 28/10/2026
 
 ### Aggiunte
