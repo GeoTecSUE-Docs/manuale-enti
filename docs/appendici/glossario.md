@@ -158,4 +158,4 @@ Questa appendice raccoglie, in ordine alfabetico, i termini che incontri nel bac
 ## V
 
 **Voltura**
-: Subentro di un nuovo soggetto in una pratica già presentata: del titolare (es. dopo una compravendita) o del professionista. La voltura ad altro professionista si esegue dall'Ente, nel dettaglio della pratica. Vedi [Dettaglio della pratica](../dettaglio-pratica.html).
+: Subentro di un nuovo soggetto in una pratica già presentata: del titolare (es. dopo una compravendita) o del professionista. La voltura ad altro professionista si esegue dall'Ente, nel dettaglio della pratica. La voltura del titolare non ha una pratica dedicata: viene richiesta con un'integrazione volontaria, via mail o in forma cartacea, il tecnico comunale modifica il titolare su Sequoia e da Sequoia trasmette la variazione a GeoTecSUE. Non si fa con la comunicazione Voltura Professionisti / Imprese, che riguarda solo tecnici e imprese. Vedi [Dettaglio della pratica](../dettaglio-pratica.html#voltura-del-titolare).
