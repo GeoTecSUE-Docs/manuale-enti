@@ -14,8 +14,8 @@ Per il lato professionista è disponibile il [Manuale utente GeoTecSUE](https://
 
 ## Informazioni sul manuale
 
-**Versione corrente:** 1.3
-**Ultimo aggiornamento:** 28/10/2026
+**Versione corrente:** 1.4
+**Ultimo aggiornamento:** 30/10/2026
 [Cronologia completa delle modifiche](changelog/)
 
 ---
