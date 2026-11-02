@@ -3,7 +3,7 @@ title: Dettaglio della notifica preliminare
 nav_order: 70
 parent: Gestione pratiche
 description: Spiega come consultare il dettaglio di una notifica preliminare trasmessa a MUDE Piemonte, scaricarne istanza, allegati, archivio e ricevute, e leggerne la tracciabilità.
-keywords: [dettaglio notifica preliminare, MUDE, SPRESAL, numero istanza MUDE, protocollazione, ricevute, archivio zip, allegati, tracciabilità, Piemonte]
+keywords: [dettaglio notifica preliminare, MUDE, SPRESAL, numero istanza MUDE, protocollazione, ricevute, archivio zip, allegati, tracciabilità, Piemonte, Sequoia]
 IDRegione: 99
 IDTipoPratica: 9999
 Fonte: Manuale Enti
@@ -13,7 +13,7 @@ Fonte: Manuale Enti
 
 Questa sezione spiega come consultare il dettaglio di una **notifica preliminare**, la comunicazione di avvio cantiere che il professionista trasmette tramite GeoTecSUE a MUDE Piemonte e allo SPRESAL (vedi [Notifiche preliminari](notifiche-preliminari.html)).
 
-Il dettaglio è una versione semplificata del [Dettaglio della pratica](dettaglio-pratica.html): la notifica non è gestita dall'Ente, quindi non ci sono protocollazione, istruttoria, richieste di integrazione, comunicazioni, pagamenti né voltura. Puoi consultare i dati, scaricare i documenti e le ricevute e, se serve, rigenerare una ricevuta.
+Il dettaglio è una versione semplificata del [Dettaglio della pratica](dettaglio-pratica.html): la notifica non è gestita dall'Ente, quindi non ci sono protocollazione, istruttoria, richieste di integrazione, comunicazioni, pagamenti né voltura, e la notifica **non viene trasmessa a Sequoia** (vedi [Notifica preliminare e Sequoia](notifiche-preliminari.html#notifica-preliminare-e-sequoia)). Puoi consultare i dati, scaricare i documenti e le ricevute e, se serve, rigenerare una ricevuta.
 
 ## Accedere alla pagina
 
