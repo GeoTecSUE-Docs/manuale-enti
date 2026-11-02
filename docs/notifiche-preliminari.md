@@ -3,7 +3,7 @@ title: Notifiche preliminari
 nav_order: 60
 parent: Gestione pratiche
 description: Spiega come consultare l'elenco delle notifiche preliminari di avvio cantiere trasmesse tramite GeoTecSUE e MUDE Piemonte, filtrarle e aprirne il dettaglio.
-keywords: [attivazione notifica preliminare, CSI Piemonte, credenziali MUDE, notifiche preliminari, notifica preliminare, Piemonte, MUDE, SPRESAL, cantieri, numero istanza MUDE, protocollo, filtri, elenco]
+keywords: [attivazione notifica preliminare, Sequoia, scaricare su Sequoia, notifica preliminare non trasmessa a Sequoia, CSI Piemonte, credenziali MUDE, notifiche preliminari, notifica preliminare, Piemonte, MUDE, SPRESAL, cantieri, numero istanza MUDE, protocollo, filtri, elenco]
 IDRegione: 99
 IDTipoPratica: 9999
 Fonte: Manuale Enti
@@ -19,6 +19,14 @@ Per il lato professionista vedi, nel manuale dei professionisti, la pagina "Noti
 
 {: .note }
 > Il numero di protocollo che vedi per una notifica preliminare è quello dello SPRESAL, assegnato tramite MUDE, non il protocollo del tuo Ente.
+
+## Notifica preliminare e Sequoia
+
+La notifica preliminare **non viene trasmessa a Sequoia** e non si scarica né si importa in Sequoia: GeoTecSUE la invia direttamente allo **SPRESAL** tramite MUDE. Su Sequoia quindi non la trovi e non c'è niente da attivare per fargliela arrivare.
+
+Non c'entra il **Collegamento pratiche Sequoia su SUE** della [Scheda Ente](scheda-ente.html): quella impostazione riguarda solo l'importazione su GeoTecSUE delle pratiche pregresse da parte dei professionisti, non le notifiche preliminari.
+
+Se ti serve una copia dei documenti della notifica, scaricala dal [Dettaglio della notifica preliminare](dettaglio-notifica-preliminare.html#archivio-della-pratica) con il pulsante **Archivio della pratica** (file .zip).
 
 ## Attivare la notifica preliminare
 
