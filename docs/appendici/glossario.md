@@ -77,7 +77,7 @@ Questa appendice raccoglie, in ordine alfabetico, i termini che incontri nel bac
 ## N
 
 **Notifica preliminare**
-: Comunicazione di avvio di un cantiere prevista dall'art. 99 del D.Lgs. 81/2008, gestita in GeoTecSUE per gli Enti piemontesi e trasmessa agli enti di controllo (SPRESAL). Vedi [Notifiche preliminari](../notifiche-preliminari.html) e [Dettaglio della notifica preliminare](../dettaglio-notifica-preliminare.html).
+: Comunicazione di avvio di un cantiere prevista dall'art. 99 del D.Lgs. 81/2008, gestita in GeoTecSUE per gli Enti piemontesi e trasmessa tramite MUDE agli enti di controllo (SPRESAL); non viene trasmessa a Sequoia. Vedi [Notifiche preliminari](../notifiche-preliminari.html) e [Dettaglio della notifica preliminare](../dettaglio-notifica-preliminare.html).
 
 ## P
 
