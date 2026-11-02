@@ -6,6 +6,12 @@ permalink: /changelog/
 
 # Changelog - Manuale Enti GeoTecSUE
 
+## [1.5] - 02/11/2026
+
+### Modifiche
+- Notifiche preliminari: nuova sezione **Notifica preliminare e Sequoia**: la notifica preliminare non viene trasmessa a Sequoia (va allo SPRESAL tramite MUDE) e non c'entra con il **Collegamento pratiche Sequoia su SUE**; per averne copia si usa **Archivio della pratica**
+- Dettaglio della notifica preliminare, Tipologie di pratica, Glossario: la notifica preliminare non viene trasmessa a Sequoia
+
 ## [1.4] - 30/10/2026
 
 ### Aggiunte
